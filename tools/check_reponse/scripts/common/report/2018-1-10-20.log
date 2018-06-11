@@ -1,0 +1,27 @@
+2018-01-10 20:01:40 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 9
+2018-01-10 20:01:40 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> 1
+2018-01-10 20:01:40 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MNormalAlphaModelRTestRanker_old_1.0.0;11;772;0;0;0;0
+	fact   is : <type 'unicode'> 0
+2018-01-10 20:01:40 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'unicode'> 50
+	fact   is : <type 'unicode'> 0
+2018-01-10 20:01:40 [DEBUG] [file_utils.py:135] imageSize:
+	expect is : <type 'unicode'> 1200x627
+	fact   is : <type 'unicode'> 0
+2018-01-10 20:01:40 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2018-01-10 20:04:55 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 0
+2018-01-10 20:04:55 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> MNormalAlphaModelRTestRanker_old_1.0.0;11;772;0;0;0;0
+2018-01-10 20:04:55 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> ad_server

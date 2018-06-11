@@ -1,0 +1,231 @@
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.rating:
+	expect is : <type 'int'> 3
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.ad_source_id:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.click_url:
+	expect is : <type 'unicode'> http://tracking.lenzmx.com/click?mb_pl=android&mb_nt=cb441&mb_campid=qr_bosscasino_my&mb_creative_id=&mb_ad_type=&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tGkD9H7Htf7V2iUNBiFi2HrxtiavBD%2BM2DnQrG7xrDnxQfnRTiUfUfkH3DnvMinSIfnhAi%2BMPiaV9igMeiADMfbMTfnJIinvbiUVBGaDB6aV%2Ff%2BM2WU5IDkx6hF5BJr5B6aJIZjwIWncIidMe6a3MfnlB6aiPidMeWUSIYbSQYrcML%2BMB6dMw6jjB6dMPiaV9igeIi%2BMM6acIidMM6aSI6dMB6aSIigMM6acI6aSI6dMM6aSIkBR2WUV0WoR2WUV0Wajsi52IiN%3D%3D&mb_subid=90582&mb_devid=ccf785f98e92d84b&mb_gaid=ee94a9ba-c079-4786-8867-2ab109ed5610
+	fact   is : <type 'unicode'> 
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.title:
+	expect is : <type 'unicode'>
+	fact   is : <type 'unicode'>
+2018-03-07 15:00:11 [ERROR] [file_utils.py:129] 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.playable_ads_without_video:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.gif_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.stats_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.video_end_type:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.retarget_offer:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.adv_imp:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.desc:
+	expect is : <type 'unicode'>
+	fact   is : <type 'unicode'>
+2018-03-07 15:00:11 [ERROR] [file_utils.py:129] 'ascii' codec can't encode characters in position 0-3: ordinal not in range(128)
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.notice_url:
+	expect is : <type 'unicode'> http://test-net.rayjump.com/click?k=5a9f8dfa4e52423c5fda002a&p=fHx8fHx8fG5hdGl2ZXxWSURFT3x8YW5kcm9pZHw2LjAuMXxtYWxfOC40LjB8bmV4dXMyMDV4fDU0MHg5NjB8MXx8ZW58d2lmaXx8fHxNTm9ybWFsQWxwaGFNb2RlbFJUZXN0UmFua2VyX29sZF8xLjAuMDsxMTs3NzI7NjswOzY7MDt8NWE5ZjhkZmE0ZTUyNDIzYzVmZGEwMDEwfHx8fHx8fHwzOS4xMDkuMTI0LjkzfDM1MzYyNjA3ODU1NjcwfDAyMDAwMDAwMDAwMHxjY2Y3ODVmOThlOTJkODRifHx8fHxlZTk0YTliYS1jMDc5LTQ3ODYtODg2Ny0yYWIxMDllZDU2MTB8fHxnb29nbGV8MTkyLjE2OC4xLjIyOHw1YTlmOGRmYTRlNTI0MjNjNWYxZDlmZmZ8NWE5ZjhkZmE0ZTUyNDIzYzVmMWRhMDAwfHx8fHwxfHwwLDB8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8MHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tGkD9H7Htf7V2iUNBiFi2HrxtiavBD%2BM2DnQrG7xrDnxQfnRTiUfUfkH3DnvMinSIfnhAi%2BMPiaV9igMeiADMfbMTfnJIinvbiUVBGaDB6aV%2Ff%2BM2WU5IDkx6hF5BJr5B6aJIZjwIWncIidMe6a3MfnlB6aiPidMeWUSIYbSQYrcML%2BMB6dMw6jjB6dMPiaV9igeIi%2BMM6acIidMM6aSI6dMB6aSIigMM6acI6aSI6dMM6aSIkBR2WUV0WoR2WUV0Wajsi52IiN%3D%3D&r=&al=&csp=i%2BMeGUjMfAR2iUlFiUEe6acIGnie6aj1GUzIiUSIiN%3D%3D&notice=1
+	fact   is : <type 'unicode'> 
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.c_ct:
+	expect is : <type 'int'> 86400
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.image_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'unicode'> http://cdn-adn.rayjump.com/cdn-adn/dmp/17/04/01/20/14/58df99aa1a194.JPEG
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.ttc_ct2:
+	expect is : <type 'int'> 1800
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.app_size:
+	expect is : <type 'unicode'> 66
+	fact   is : <type 'unicode'> 
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.sub_category_name:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.endcard_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.rv:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {u'template_url': u'', u'paused_url': u'', u'video_template': 0, u'orientation': 0}
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.ad_url_list:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.md5_file:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.ttc_type:
+	expect is : <type 'int'> 3
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.nv_t2:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.imp_ua:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.impression_url:
+	expect is : <type 'unicode'> http://test-net.rayjump.com/impression?k=5a9f8dfa4e52423c5fda0010&p=fHx8fHx8fG5hdGl2ZXxWSURFT3x8YW5kcm9pZHw2LjAuMXxtYWxfOC40LjB8bmV4dXMyMDV4fDU0MHg5NjB8MXx8ZW58d2lmaXx8fHxNTm9ybWFsQWxwaGFNb2RlbFJUZXN0UmFua2VyX29sZF8xLjAuMDsxMTs3NzI7NjswOzY7MDt8NWE5ZjhkZmE0ZTUyNDIzYzVmZGEwMDEwfHx8fHx8fHwzOS4xMDkuMTI0LjkzfDM1MzYyNjA3ODU1NjcwfDAyMDAwMDAwMDAwMHxjY2Y3ODVmOThlOTJkODRifHx8fHxlZTk0YTliYS1jMDc5LTQ3ODYtODg2Ny0yYWIxMDllZDU2MTB8fHxnb29nbGV8MTkyLjE2OC4xLjIyOHw1YTlmOGRmYTRlNTI0MjNjNWYxZDlmZmZ8NWE5ZjhkZmE0ZTUyNDIzYzVmMWRhMDAwfHx8fHwxfHwwLDB8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8MHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tGkD9H7Htf7V2iUNBiFi2HrxtiavBD%2BM2DnQrG7xrDnxQfnRTiUfUfkH3DnvMinSIfnhAi%2BMPiaV9igMeiADMfbMTfnJIinvbiUVBGaDB6aV%2Ff%2BM2WU5IDkx6hF5BJr5B6aJIZjwIWncIidMe6a3MfnlB6aiPidMeWUSIYbSQYrcML%2BMB6dMw6jjB6dMPiaV9igeIi%2BMM6acIidMM6aSI6dMB6aSIigMM6acI6aSI6dMM6aSIkBR2WUV0WoR2WUV0Wajsi52IiN%3D%3D&x=0&r=&al=&csp=i%2BMeGUjMfAR2iUlFiUEe6acIGnie6aj1GUzIiUSIiN%3D%3D
+	fact   is : <type 'unicode'> 
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.c_ua:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.storekit:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.price:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'float'> 5.5
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.ctatext:
+	expect is : <type 'unicode'> Install
+	fact   is : <type 'unicode'> Learn More
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.landing_type:
+	expect is : <type 'int'> 3
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.ttc_ct:
+	expect is : <type 'int'> 604800
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.ads.107252862.number_rating:
+	expect is : <type 'int'> 11391
+	fact   is : <type 'int'> 48836
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.only_impression_url:
+	expect is : <type 'unicode'> http://test-net.rayjump.com/onlyImpression?k=5a9f8dfa4e52423c5fda0010&p=NTczMXw5MDU4MnwxMzYwN3x8fHxvcGVuYXBpfG5hdGl2ZXwxMjh4MTI4fDd8YW5kcm9pZHw2LjAuMXxtYWxfOC40LjB8bmV4dXMyMDV4fDU0MHg5NjB8MXxIS3xlbnx3aWZpfHxhZF9zZXJ2ZXJ8MTA3MjUyODYyfE1Ob3JtYWxBbHBoYU1vZGVsUlRlc3RSYW5rZXJfb2xkXzEuMC4wOzExOzc3Mjs2OzA7NjswO3w1YTlmOGRmYTRlNTI0MjNjNWZkYTAwMTB8NWE5ZjhkZmE0ZTUyNDIzYzVmZGEwMDEwfDF8QXx8TW96aWxsYSUyNTJGNS4wJTI1MjAlMjUyOExpbnV4JTI1M0IlMjUyMEFuZHJvaWQlMjUyMDYuMC4xJTI1M0IlMjUyME5leHVzJTI1MjA1WCUyNTIwQnVpbGQlMjUyRk1UQzE5VCUyNTNCJTI1MjB3diUyNTI5JTI1MjBBcHBsZVdlYktpdCUyNTJGNTM3LjM2JTI1MjAlMjUyOEtIVE1MJTI1MkMlMjUyMGxpa2UlMjUyMEdlY2tvJTI1MjklMjUyMFZlcnNpb24lMjUyRjQuMCUyNTIwQ2hyb21lJTI1MkY2MC4wLjMxMTIuMTE2JTI1MjBNb2JpbGUlMjUyMFNhZmFyaSUyNTJGNTM3LjM2fHw1YTlmOGRmYTRlNTI0MjNjNWZkYTAwMTB8MzkuMTA5LjEyNC45M3wzNTM2MjYwNzg1NTY3MHwwMjAwMDAwMDAwMDB8Y2NmNzg1Zjk4ZTkyZDg0Ynx8fHx8ZWU5NGE5YmEtYzA3OS00Nzg2LTg4NjctMmFiMTA5ZWQ1NjEwfHwxLjB8Z29vZ2xlfDE5Mi4xNjguMS4yMjh8NWE5ZjhkZmE0ZTUyNDIzYzVmMWQ5ZmZmfDVhOWY4ZGZhNGU1MjQyM2M1ZjFkYTAwMHx8MzkwfDF8OTA1ODJ8MXwyfDAsMHx8fFtbMTA3MjUyODYyLDQ1NywwLDAsMSwxXV18fHx8fHxjb20ubW9idmlzdGEuc2RrLmRlbW98fDF8MHwwfDB8fHx8fHx8fHwwfHx8fHx8fDB8fHwwfHx8fHx8fHx8cHl0aG9uLXJlcXVlc3RzJTJGMi4xMy4w&csp=i%2BMM6acIGnie6aj1iaEM6aRM6aj%3D
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.session_id:
+	expect is : <type 'unicode'> 5a9f8dfa4e52423c5f1d9fff
+	fact   is : <type 'unicode'> 5a9f8dfa4e524277979a2faf
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.template:
+	expect is : <type 'int'> 2
+	fact   is : <type 'int'> 0
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.unit_size:
+	expect is : <type 'unicode'> 540x960
+	fact   is : <type 'unicode'> 
+2018-03-07 15:00:11 [DEBUG] [file_utils.py:135] data.parent_session_id:
+	expect is : <type 'unicode'> 5a9f8dfa4e52423c5f1da000
+	fact   is : <type 'unicode'> 5a9f8dfa4e524277979a2fb0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.rating:
+	expect is : <type 'int'> 4
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.ad_source_id:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.click_url:
+	expect is : <type 'unicode'> http://tracking.lenzmx.com/click?mb_pl=android&mb_nt=cb441&mb_campid=qr_bosscasino_my&mb_creative_id=&mb_ad_type=7&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tGkD9Hrjef7V2iUNBfnjPG7DefnRPD%2BM2DnQrG7HtinxQfnRTiUVeGntrinVBG7cIfnhAi%2BMPiaV9igMeiADMfbMTfnJIinvbiUVBGaDB6aV%2Ff%2BM2WU5IDkx6hF5BJr5B6aJIZjwIWncIidMe6a3MfnlB6aiPidMeWUSIYbSQYrcML%2BMB6dMw6jjB6dMPiaV9igeIi%2BMM6acIidMM6aSI6dMB6aRMiavAfAj9fAfIigMM6acI6aSI6dMM6aSIkBR2WUV0WoR2WUV0Wajsi52IiN%3D%3D&mb_subid=90582&mb_devid=ccf785f98e92d84b&mb_gaid=ee94a9ba-c079-4786-8867-2ab109ed5610
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.video_length:
+	expect is : <type 'int'> 15
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.video_size:
+	expect is : <type 'int'> 1663040
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.video_resolution:
+	expect is : <type 'unicode'> 570x320
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.gif_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.stats_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.video_end_type:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.retarget_offer:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.adv_imp:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.desc:
+	expect is : <type 'unicode'>
+	fact   is : <type 'unicode'>
+2018-03-07 15:07:14 [ERROR] [file_utils.py:129] 'ascii' codec can't encode characters in position 4-5: ordinal not in range(128)
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.notice_url:
+	expect is : <type 'unicode'> http://test-net.rayjump.com/click?k=5a9f8fa14e52425198f1529a&p=fHx8fHx8fG5hdGl2ZXxWSURFT3x8YW5kcm9pZHw2LjAuMXxtYWxfOC40LjB8bmV4dXMyMDV4fDU0MHg5NjB8MXx8ZW58d2lmaXx8fHxNTm9ybWFsQWxwaGFNb2RlbFJUZXN0UmFua2VyX25ld18xLjAuMDsxMTs3NzI7NjswOzY7MDt8NWE5ZjhmYTE0ZTUyNDI1MTk4ZjE1MjhhfHx8fHx8fHwzOS4xMDkuMTI0LjkzfDM1MzYyNjA3ODU1NjcwfDAyMDAwMDAwMDAwMHxjY2Y3ODVmOThlOTJkODRifHx8fHxlZTk0YTliYS1jMDc5LTQ3ODYtODg2Ny0yYWIxMDllZDU2MTB8fHxnb29nbGV8MTkyLjE2OC4xLjIyOHw1YTlmOGZhMTRlNTI0MjUxOTgwZjE1MjZ8NWE5ZjhmYTE0ZTUyNDI1MTk4MGYxNTI3fHx8fHwxfHwwLDB8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8MHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tGkD9Hrjef7V2iUNBfnjPG7DefnRPD%2BM2DnQrG7HtinxQfnRTiUVeGntrinVBG7cIfnhAi%2BMPiaV9igMeiADMfbMTfnJIinvbiUVBGaDB6aV%2Ff%2BM2WU5IDkx6hF5BJr5B6aJIZjwIWncIidMe6a3MfnlB6aiPidMeWUSIYbSQYrcML%2BMB6dMw6jjB6dMPiaV9igeIi%2BMM6acIidMM6aSI6dMB6aRMiavAfAj9fAfIigMM6acI6aSI6dMM6aSIkBR2WUV0WoR2WUV0Wajsi52IiN%3D%3D&r=eyJnaWQiOiJjM2VlNDEzNDY2YTk3M2Y5MzkyN2U2ZjhmNmQyYzhkNyIsInRwaWQiOjQwNCwiY3JhdCI6NywiYWR2X2NyaWQiOjAsImljYyI6MSwiZ2xpc3QiOiI0MDQsMjA0NDc0ODExMSwwLDB8NDA1LDIwNDQ3NDgxMTIsMCwwfDEwNiwyMDQ0NzQ4MTEzLDAsMHw0MDEsMjA0NDc0ODEwOCwwLDB8NDAyLDIwNDQ3NDgxMDksMCwwfDQwMywyMDQ0NzQ4MTEwLDAsMHwyMDEsMjAwMDM3MTg3MywwLDU3MHgzMjAiLCJwaSI6NS41LCJwbyI6NS41fQ%3D%3D&al=&csp=i%2BMeGUjMfAR2iUlFiUEe6acIGnie6aj1GUfIiUSIiN%3D%3D&notice=1
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.c_ct:
+	expect is : <type 'int'> 86400
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.ttc_ct2:
+	expect is : <type 'int'> 1800
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.watch_mile:
+	expect is : <type 'int'> 15
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.app_size:
+	expect is : <type 'unicode'> 66
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.video_url:
+	expect is : <type 'unicode'> LdxThaEXWFf3Y02tH79/hrcPLg5whoPUYFTXDFx/Wkc3Y0IefBIMf0IefZIefZIAi0I2GnNBiAlMiUzQDAjPWr2Mfv==
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.sub_category_name:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.endcard_url:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.rv:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {u'template_url': u'', u'paused_url': u'', u'video_template': 0, u'orientation': 0}
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.ad_url_list:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.md5_file:
+	expect is : <type 'unicode'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.ttc_type:
+	expect is : <type 'int'> 3
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.nv_t2:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.imp_ua:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.impression_url:
+	expect is : <type 'unicode'> http://test-net.rayjump.com/impression?k=5a9f8fa14e52425198f1528a&p=fHx8fHx8fG5hdGl2ZXxWSURFT3x8YW5kcm9pZHw2LjAuMXxtYWxfOC40LjB8bmV4dXMyMDV4fDU0MHg5NjB8MXx8ZW58d2lmaXx8fHxNTm9ybWFsQWxwaGFNb2RlbFJUZXN0UmFua2VyX25ld18xLjAuMDsxMTs3NzI7NjswOzY7MDt8NWE5ZjhmYTE0ZTUyNDI1MTk4ZjE1MjhhfHx8fHx8fHwzOS4xMDkuMTI0LjkzfDM1MzYyNjA3ODU1NjcwfDAyMDAwMDAwMDAwMHxjY2Y3ODVmOThlOTJkODRifHx8fHxlZTk0YTliYS1jMDc5LTQ3ODYtODg2Ny0yYWIxMDllZDU2MTB8fHxnb29nbGV8MTkyLjE2OC4xLjIyOHw1YTlmOGZhMTRlNTI0MjUxOTgwZjE1MjZ8NWE5ZjhmYTE0ZTUyNDI1MTk4MGYxNTI3fHx8fHwxfHwwLDB8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8MHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tGkD9Hrjef7V2iUNBfnjPG7DefnRPD%2BM2DnQrG7HtinxQfnRTiUVeGntrinVBG7cIfnhAi%2BMPiaV9igMeiADMfbMTfnJIinvbiUVBGaDB6aV%2Ff%2BM2WU5IDkx6hF5BJr5B6aJIZjwIWncIidMe6a3MfnlB6aiPidMeWUSIYbSQYrcML%2BMB6dMw6jjB6dMPiaV9igeIi%2BMM6acIidMM6aSI6dMB6aRMiavAfAj9fAfIigMM6acI6aSI6dMM6aSIkBR2WUV0WoR2WUV0Wajsi52IiN%3D%3D&x=0&r=eyJnaWQiOiJjM2VlNDEzNDY2YTk3M2Y5MzkyN2U2ZjhmNmQyYzhkNyIsInRwaWQiOjQwNCwiY3JhdCI6NywiYWR2X2NyaWQiOjAsImljYyI6MSwiZ2xpc3QiOiI0MDQsMjA0NDc0ODExMSwwLDB8NDA1LDIwNDQ3NDgxMTIsMCwwfDEwNiwyMDQ0NzQ4MTEzLDAsMHw0MDEsMjA0NDc0ODEwOCwwLDB8NDAyLDIwNDQ3NDgxMDksMCwwfDQwMywyMDQ0NzQ4MTEwLDAsMHwyMDEsMjAwMDM3MTg3MywwLDU3MHgzMjAiLCJwaSI6NS41LCJwbyI6NS41fQ%3D%3D&al=&csp=i%2BMeGUjMfAR2iUlFiUEe6acIGnie6aj1GUfIiUSIiN%3D%3D
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.c_ua:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.storekit:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.price:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'float'> 5.5
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.landing_type:
+	expect is : <type 'int'> 3
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.ttc_ct:
+	expect is : <type 'int'> 604800
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.number_rating:
+	expect is : <type 'int'> 44277
+	fact   is : <type 'int'> 32207
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.ads.107252862.playable_ads_without_video:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.only_impression_url:
+	expect is : <type 'unicode'> http://test-net.rayjump.com/onlyImpression?k=5a9f8fa14e52425198f1528a&p=NTczMXw5MDU4MnwxMzYwN3x8fHxvcGVuYXBpfG5hdGl2ZXwxMjh4MTI4fDd8YW5kcm9pZHw2LjAuMXxtYWxfOC40LjB8bmV4dXMyMDV4fDU0MHg5NjB8MXxIS3xlbnx3aWZpfHxhZF9zZXJ2ZXJ8MTA3MjUyODYyfE1Ob3JtYWxBbHBoYU1vZGVsUlRlc3RSYW5rZXJfbmV3XzEuMC4wOzExOzc3Mjs2OzA7NjswO3w1YTlmOGZhMTRlNTI0MjUxOThmMTUyOGF8NWE5ZjhmYTE0ZTUyNDI1MTk4ZjE1MjhhfDF8QXx8TW96aWxsYSUyNTJGNS4wJTI1MjAlMjUyOExpbnV4JTI1M0IlMjUyMEFuZHJvaWQlMjUyMDYuMC4xJTI1M0IlMjUyME5leHVzJTI1MjA1WCUyNTIwQnVpbGQlMjUyRk1UQzE5VCUyNTNCJTI1MjB3diUyNTI5JTI1MjBBcHBsZVdlYktpdCUyNTJGNTM3LjM2JTI1MjAlMjUyOEtIVE1MJTI1MkMlMjUyMGxpa2UlMjUyMEdlY2tvJTI1MjklMjUyMFZlcnNpb24lMjUyRjQuMCUyNTIwQ2hyb21lJTI1MkY2MC4wLjMxMTIuMTE2JTI1MjBNb2JpbGUlMjUyMFNhZmFyaSUyNTJGNTM3LjM2fHw1YTlmOGZhMTRlNTI0MjUxOThmMTUyOGF8MzkuMTA5LjEyNC45M3wzNTM2MjYwNzg1NTY3MHwwMjAwMDAwMDAwMDB8Y2NmNzg1Zjk4ZTkyZDg0Ynx8fHx8ZWU5NGE5YmEtYzA3OS00Nzg2LTg4NjctMmFiMTA5ZWQ1NjEwfHwxLjB8Z29vZ2xlfDE5Mi4xNjguMS4yMjh8NWE5ZjhmYTE0ZTUyNDI1MTk4MGYxNTI2fDVhOWY4ZmExNGU1MjQyNTE5ODBmMTUyN3x8MzkwfDF8OTA1ODJ8MXwyfDAsMHx8fFtbMTA3MjUyODYyLDQ1NywwLDAsMSwxXV18fHx8fHxjb20ubW9idmlzdGEuc2RrLmRlbW98fDF8MHwwfDB8fHx8fHx8fHwwfHx8fHx8fDB8fHwwfHx8fHx8fHx8cHl0aG9uLXJlcXVlc3RzJTJGMi4xMy4w&csp=i%2BMM6acIGnie6aj1iaEM6aRM6aj%3D
+	fact   is : <type 'NoneType'> None
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.session_id:
+	expect is : <type 'unicode'> 5a9f8fa14e524251980f1526
+	fact   is : <type 'unicode'> 5a9f8fa24e524277979a2fb9
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.template:
+	expect is : <type 'int'> 2
+	fact   is : <type 'int'> 0
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.unit_size:
+	expect is : <type 'unicode'> 540x960
+	fact   is : <type 'unicode'> 
+2018-03-07 15:07:14 [DEBUG] [file_utils.py:135] data.parent_session_id:
+	expect is : <type 'unicode'> 5a9f8fa14e524251980f1527
+	fact   is : <type 'unicode'> 5a9f8fa24e524277979a2fba

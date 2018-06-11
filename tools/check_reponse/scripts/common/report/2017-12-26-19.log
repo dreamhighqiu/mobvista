@@ -1,0 +1,48 @@
+2017-12-26 19:33:45 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 1
+2017-12-26 19:33:45 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;691
+	fact   is : <type 'str'> MsysSplitGoodRanker_old_1.6.1.0;10;691
+2017-12-26 19:33:45 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> ad_server
+2017-12-26 19:34:03 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 19:34:03 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_old_1.6.1.0;10;691
+	fact   is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;691
+2017-12-26 19:34:03 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-26 19:34:51 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'str'> 1:0:0
+	fact   is : <type 'str'> 0
+2017-12-26 19:34:51 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> Array
+2017-12-26 19:34:51 [DEBUG] [file_utils.py:135] true_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 19:34:51 [DEBUG] [file_utils.py:135] request_num:
+	expect is : <type 'str'> 30
+	fact   is : <type 'str'> 0
+2017-12-26 19:36:33 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'str'> 1:0:0
+	fact   is : <type 'str'> 0
+2017-12-26 19:36:33 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> Array
+2017-12-26 19:36:33 [DEBUG] [file_utils.py:135] true_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 19:36:33 [DEBUG] [file_utils.py:135] request_num:
+	expect is : <type 'str'> 30
+	fact   is : <type 'str'> 0
+2017-12-26 19:37:55 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'str'> 1:0:2
+	fact   is : <type 'str'> 1:0:0
+2017-12-26 19:38:50 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'str'> 1:0:2
+	fact   is : <type 'str'> 1:0:0

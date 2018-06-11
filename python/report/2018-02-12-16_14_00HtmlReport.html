@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>app接口报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+.img{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+    border: 2px solid #777;
+}
+
+.screenshots {
+    z-index: 100;
+	position:absolute;
+	left: 23%;
+	top: 20%;
+	display: none;
+}
+.close_shots {
+	position:absolute;
+	top:0; left:98%;
+	z-index:99;
+	width:20px;
+}
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+
+.piechart{
+    position:absolute;  ;
+    top:20px;
+    left:300px;
+    width: 200px;
+    float: left;
+    display:  inline;
+}
+
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+function drawCircle(pass, fail, error){
+    var color = ["#6c6","#c60","#c00"];
+    var data = [pass,fail,error];
+    var text_arr = ["pass", "fail", "error"];
+
+    var canvas = document.getElementById("circle");
+    var ctx = canvas.getContext("2d");
+    var startPoint=0;
+    var width = 20, height = 10;
+    var posX = 112 * 2 + 20, posY = 30;
+    var textX = posX + width + 5, textY = posY + 10;
+    for(var i=0;i<data.length;i++){
+        ctx.fillStyle = color[i];
+        ctx.beginPath();
+        ctx.moveTo(112,84);
+        ctx.arc(112,84,84,startPoint,startPoint+Math.PI*2*(data[i]/(data[0]+data[1]+data[2])),false);
+        ctx.fill();
+        startPoint += Math.PI*2*(data[i]/(data[0]+data[1]+data[2]));
+        ctx.fillStyle = color[i];
+        ctx.fillRect(posX, posY + 20 * i, width, height);
+        ctx.moveTo(posX, posY + 20 * i);
+        ctx.font = 'bold 14px';
+        ctx.fillStyle = color[i];
+        var percent = text_arr[i] + ":"+data[i];
+        ctx.fillText(percent, textX, textY + 20 * i);
+
+    }
+}
+
+function show_shots(obj) {
+	obj.nextElementSibling.style.display="block";
+
+}
+
+function close_shots(obj) {
+	obj.parentElement.style.display="none";
+}
+
+</script>
+<div class="piechart">
+    <div>
+        <canvas id="circle" width="350" height="168" </canvas>
+    </div>
+</div>
+<div class='heading'>
+<h1>app接口报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2018-02-12 16:14:00</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:11.415000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>10 <span class="tj failCase">Failure</span>1 <span class="tj errorCase">Error</span>4</p>
+
+<p class='description'>综述</p>
+</div>
+
+
+
+<p id='show_detail_line'>显示
+<a href='javascript:showCase(0)'>概要</a>
+<a href='javascript:showCase(1)'>失败</a>
+<a href='javascript:showCase(2)'>所有</a>
+</p>
+
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试组/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>视图</td>
+    <td>错误截图</td>
+</tr>
+
+<tr class='failClass'>
+    <td>base.test_method.TestMethod</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td ><div class='testcase'>test_02</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status failCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        失败</a></span>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "D:\project\python\base\test_method.py", line 44, in test_02
+    self.assertEqual(res['errorCode'],1001,"测试失败")
+AssertionError: æµè¯å¤±è´¥
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td ><div class='testcase'>test_03</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a></span>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: {'uid': '5249191', 'cid': '0', 'timestamp': '1507034803124', 'errorCode': 1001, 'token': '7d6f14f21ec96d755de41e6c076758dd', 'secrect': '078474b41dd37ddd5efeb04aa591ec12', 'uuid': '5ae7d1a22c82fb89c78f603420870ad7'}
+这是第一个case
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='passClass'>
+    <td>case.test_comment.Comment</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td ><div class='testcase'>test_GetProductCommentsWithTag</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        通过</a></span>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+106
+哈哈哈哈哈哈
+京津冀斤斤计较
+隐隐约约有意义
+头疼头疼头疼头疼头疼
+快快快快快快
+啦啦啦啦啦啦啦
+哈哈哈哈哈
+本快点快点快点买面膜
+风格化快快乐乐了天天有
+饭后男男女女就会斤斤计较
+华厦大酒店觉得麻烦看到妈妈父母开口
+平方根健康减肥法的法国红酒
+是否就要自己做过了一个好朋友都没有理由再说你怎么可以那么
+uhh会滚滚滚嘎嘎嘎音乐会还好还好哈哈哈哈烟灰缸
+刚回家吧不过 v方黄金昆明白癜风方刚回家iOS585
+全部
+0
+好评
+106
+有图
+20
+精华评价
+43
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='passClass'>
+    <td>case.test_homepage.HomePage</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',2)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td ><div class='testcase'>test_mergeConfig</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        通过</a></span>
+
+    <div id='div_pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.1: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+旅游卡开启
+开启支付后分享活动功能
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt3.2' class='hiddenRow'>
+    <td ><div class='testcase'>test_qualitySimple</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.2')" >
+        通过</a></span>
+
+    <div id='div_pt3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt3.2: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+6
+周边游酒景个数等于80个
+------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+117616
+20314
+【立减5元】lws加购酒景
+衡阳
+获取酒景中不包含测试
+------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+117617
+20315
+lws不支持加购酒景
+广州
+获取酒景中不包含测试
+------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+117618
+20316
+lws只有一个分组酒景
+广州
+获取酒景中不包含测试
+------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+117006
+20071
+越美冰雪大世界-移动端
+郑郑
+获取酒景中不包含测试
+------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+116940
+20025
+【立减99.99元】5201乐纯提供移动端标题!!!!
+广州
+获取酒景中不包含测试
+------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+117025
+20088
+移动端标题抢购专用
+深圳
+获取酒景中不包含测试
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='errorClass'>
+    <td>case.test_order.Order</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td>3</td>
+    <td><a href="javascript:showClassDetail('c4',3)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='ft4.1' class='none'>
+    <td ><div class='testcase'>test_GetUserOrders_1_0</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+        错误</a></span>
+
+    <div id='div_ft4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft4.1: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Traceback (most recent call last):
+  File "E:\pythonpathnew\lib\site-packages\ddt.py", line 139, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\project\python\case\test_order.py", line 32, in test_GetUserOrders
+    print u"订单数----&gt;&gt;&gt;&gt;%s"%(res["data"]["total"])
+KeyError: 'data'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='ft4.2' class='none'>
+    <td ><div class='testcase'>test_GetUserOrders_2_8</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.2')" >
+        错误</a></span>
+
+    <div id='div_ft4.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft4.2: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Traceback (most recent call last):
+  File "E:\pythonpathnew\lib\site-packages\ddt.py", line 139, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\project\python\case\test_order.py", line 32, in test_GetUserOrders
+    print u"订单数----&gt;&gt;&gt;&gt;%s"%(res["data"]["total"])
+KeyError: 'data'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='ft4.3' class='none'>
+    <td ><div class='testcase'>test_GetUserOrders_3_9</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.3')" >
+        错误</a></span>
+
+    <div id='div_ft4.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft4.3: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Traceback (most recent call last):
+  File "E:\pythonpathnew\lib\site-packages\ddt.py", line 139, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\project\python\case\test_order.py", line 32, in test_GetUserOrders
+    print u"订单数----&gt;&gt;&gt;&gt;%s"%(res["data"]["total"])
+KeyError: 'data'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='passClass'>
+    <td>case.test_product.Product</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',1)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td ><div class='testcase'>test_GetCommonPackagesByLinkIdV424</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        通过</a></span>
+
+    <div id='div_pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.1: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+-----------&gt;&gt;&gt;&gt;&gt;u'获取分组名称'
+单元素
+----------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;u'获取分组内的套餐名称'
+单票A
+117616
+库存不为0
+99
+&lt;type 'list'&gt;
+-----------&gt;&gt;&gt;&gt;&gt;u'获取分组名称'
+多元素
+----------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;u'获取分组内的套餐名称'
+三选一
+117616
+库存不为0
+99
+&lt;type 'NoneType'&gt;
+-----------&gt;&gt;&gt;&gt;&gt;u'获取分组名称'
+混合
+----------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;u'获取分组内的套餐名称'
+-----------&gt;&gt;&gt;&gt;&gt;u'获取分组名称'
+
+----------&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;u'获取分组内的套餐名称'
+普通预售A
+117616
+库存不为0
+100
+&lt;type 'NoneType'&gt;
+团购预售A
+117616
+库存不为0
+100
+&lt;type 'NoneType'&gt;
+免预约非日历A
+117616
+库存不为0
+99
+&lt;type 'NoneType'&gt;
+不支持加购--三选一
+117616
+库存不为0
+99
+&lt;type 'NoneType'&gt;
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='passClass'>
+    <td>case.test_search.Search</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',5)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td ><div class='testcase'>test_search_1___1____5_9_1____android__</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        通过</a></span>
+
+    <div id='div_pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.1: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117592
+20292
+lws门票
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117593
+20293
+lws餐饮
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+湖南
+衡阳
+117616
+20314
+lws加购酒景
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+河南
+郑州
+117006
+20071
+ljcsname
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+北京
+北京
+117514
+20271
+越美冰雪大世界
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+乌鲁木齐
+117587
+20288
+套餐M选N
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+阿勒泰
+117594
+20294
+lws酒店
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt6.2' class='hiddenRow'>
+    <td ><div class='testcase'>test_search_2___7____5_9_0____ios__</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.2')" >
+        通过</a></span>
+
+    <div id='div_pt6.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.2: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+河南
+郑州
+117006
+20071
+ljcsname
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+湖南
+衡阳
+117616
+20314
+lws加购酒景
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+北京
+北京
+117514
+20271
+越美冰雪大世界
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+乌鲁木齐
+117587
+20288
+套餐M选N
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117592
+20292
+lws门票
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117593
+20293
+lws餐饮
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+阿勒泰
+117594
+20294
+lws酒店
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt6.3' class='hiddenRow'>
+    <td ><div class='testcase'>test_search_3___6____5_8_5____android__</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.3')" >
+        通过</a></span>
+
+    <div id='div_pt6.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.3: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117592
+20292
+lws门票
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117593
+20293
+lws餐饮
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+湖南
+衡阳
+117616
+20314
+lws加购酒景
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+河南
+郑州
+117006
+20071
+ljcsname
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+北京
+北京
+117514
+20271
+越美冰雪大世界
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+乌鲁木齐
+117587
+20288
+套餐M选N
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+阿勒泰
+117594
+20294
+lws酒店
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt6.4' class='hiddenRow'>
+    <td ><div class='testcase'>test_search_4___4____5_8_1____ios__</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.4')" >
+        通过</a></span>
+
+    <div id='div_pt6.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.4: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+北京
+北京
+117514
+20271
+越美冰雪大世界
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+乌鲁木齐
+117587
+20288
+套餐M选N
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+河南
+郑州
+117006
+20071
+ljcsname
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117592
+20292
+lws门票
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117593
+20293
+lws餐饮
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+阿勒泰
+117594
+20294
+lws酒店
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+湖南
+衡阳
+117616
+20314
+lws加购酒景
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt6.5' class='hiddenRow'>
+    <td ><div class='testcase'>test_search_5___3____5_9_2____ios__</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.5')" >
+        通过</a></span>
+
+    <div id='div_pt6.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.5: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117592
+20292
+lws门票
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+广东
+广州
+117593
+20293
+lws餐饮
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+阿勒泰
+117594
+20294
+lws酒店
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+湖南
+衡阳
+117616
+20314
+lws加购酒景
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+河南
+郑州
+117006
+20071
+ljcsname
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+新疆
+乌鲁木齐
+117587
+20288
+套餐M选N
+------&gt;&gt;&gt;&gt;&gt;&gt;获取省份以及省份下的城市
+北京
+北京
+117514
+20271
+越美冰雪大世界
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='errorClass'>
+    <td>case.test_userinfo.Userinfo</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c7',1)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='ft7.1' class='none'>
+    <td ><div class='testcase'>test_UserProfile</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft7.1')" >
+        错误</a></span>
+
+    <div id='div_ft7.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft7.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft7.1: E:\pythonpathnew\lib\site-packages\urllib3-1.22-py2.7.egg\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+Traceback (most recent call last):
+  File "D:\project\python\case\test_userinfo.py", line 31, in test_UserProfile
+    print res["data"]["prePayCardTotalAmount"]
+KeyError: 'data'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='total_row'>
+    <td>统计</td>
+    <td>15</td>
+    <td>10</td>
+    <td>1</td>
+    <td>4</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+<script>
+    drawCircle(10, 1, 4)
+</script>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

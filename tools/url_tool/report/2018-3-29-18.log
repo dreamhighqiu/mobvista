@@ -1,0 +1,1488 @@
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:06:40 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] adType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> interstitial_sdk
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] requestType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_trueNvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] appId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_finalsubid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_b2t:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_stats:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] osVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5.0
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_systemUseragent:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra20:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_ifLowerImp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] platform:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> android
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] unitId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_attr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_packageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_stats2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 23db8601-97ef-4846-ac3f-8a86f340e2e3
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra6:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] imei:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_abtest2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] imageSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1200x627
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_finalPackageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] sdkVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> mal_8.9.0
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] scenario:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] p:
+	expect is : <type 'str'> fHx8fHx8fGludGVyc3RpdGlhbF9zZGt8MTIwMHg2Mjd8fGFuZHJvaWR8NS4wfG1hbF84LjkuMHxuZXh1cyA1fDEwODB4MTkyMHwxfHxlbnx3aWZpfHx8fE1Ob3JtYWxBbHBoYU1vZGVsUmFua2VyX29sZF8xLjAuMDsxMTs5MzY7MjU7MDsyNTsxOzFfeGdib29zdF9kaXNjcmV0ZS0zX2ZyMl9iYXNlfDVhYmNiYTgzYzZjMWUyM2VjYmQxYWU5ZHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fGUzYTAyODBiODljNDI4MjF8fHx8fDIzZGI4NjAxLTk3ZWYtNDg0Ni1hYzNmLThhODZmMzQwZTJlM3x8fGdvb2dsZXx8NWFiY2JhODNjNmMxZTIzZWNiZDFhZTllfDVhYmNiYTgzYzZjMWUyM2VjYmQxYWU5Znx8fHx8MXx8LHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] publisherId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_threesInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_advInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> e3a0280b89c42821
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] reduce:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_algo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] advertiserId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_ctype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_thirdCid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_creativeSizeFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> google
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;25;0;25;1;1_xgboost_discrete-3_fr2_base
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abcba80c6c1e23e416df436
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_channel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra8:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra9:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_nativex:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_flowTagId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_creativeCdnFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_nativeVideo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abcba80c6c1e23e4106df42
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra13:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra16:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0,0
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra14:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> wifi
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra18:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra19:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_reject:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_source:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> nexus 5
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] language:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> en
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] appVersionName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] mac:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abcba80c6c1e23e4106df41
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] screenSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1080x1920
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] idfa:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 18:06:40 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> adnet_adserver
+	fact   is : <type 'str'> ad_server
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 3
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcba83c6c1e23ecb1aea29
+	fact   is : <type 'str'> 5abcba80c6c1e23e416df456
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcba83c6c1e23ecbd1ae9d
+	fact   is : <type 'str'> 5abcba80c6c1e23e416df436
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 4.50
+	fact   is : <type 'str'> 4.5
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 1
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> ["4.50","4.50","1","1"]
+	fact   is : <type 'str'> ["4.5","4.5",1,1]
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 4.50
+	fact   is : <type 'str'> 4.5
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> 20
+	fact   is : <type 'str'> A2
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:06:40 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 18:06:40 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 18:06:40 [INFO] [file_utils.py:152] one side data is illegal, 
+	expect: <type 'str'>	eyJnaWQiOiJmNmU5ZGU4MDZmZWZlODhjNTY2NDA0ZGVmMDcwMzU3NCIsInRwaWQiOjkwMSwiY3JhdCI6MCwiYWR2X2NyaWQiOjAsImljYyI6MSwiZ2xpc3QiOiI0MDIsMjI5Nzg0MTc0OCwwLHw0MDMsMjI5Nzg0MTc0OSwwLHw0MDQsMjI5Nzg0MTc1MCwwLHw0MDUsMjI5Nzg0MTc1MiwwLHw0MDYsMjI5Nzg0MTc1NCwwLHwxMDYsMjI5Nzg0NTU3Myw3OTA3NjMsMTIwMHg2Mjd8NDAxLDIyOTc4NDE3NDcsMCwiLCJwaSI6NC41LCJwbyI6NC41fQ%3D%3D
+	fact:<type 'str'>	eyJnaWQiOiJmNmU5ZGU4MDZmZWZlODhjNTY2NDA0ZGVmMDcwMzU3NCIsInRwaWQiOjkwMSwiY3JhdCI6MCwiYWR2X2NyaWQiOjAsImljYyI6MSwiZ2xpc3QiOiIxMDYsMjI5Nzg0NTU3Myw3OTA3NjMsMHw0MDEsMjI5Nzg0MTc0NywwLDB8NDAyLDIyOTc4NDE3NDgsMCwwfDQwMywyMjk3ODQxNzQ5LDAsMHw0MDQsMjI5Nzg0MTc1MCwwLDB8NDA1LDIyOTc4NDE3NTIsMCwwfDQwNiwyMjk3ODQxNzU0LDAsMCIsInBpIjo0LjUsInBvIjo0LjV9
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5ab4d4bb4e52423c7cb4071a
+	fact   is : <type 'str'> 5ab4d4654e52427283d930fb
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] priceFloor:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] timestamp:
+	expect is : <type 'int'> 1521800379
+	fact   is : <type 'int'> 1521800293
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] frameNum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] nativeInfoList:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> [{'adTemplate': 'MULTI_ELEMENT', 'requireNum': 0}]
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] rankerInfo:
+	expect is : <type 'str'> {"power_rate":"80","charging":0,"total_memory":"63937.039062","residual_memory":"51297.835938","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":80,"charging":0,"total_memory":"63937.039062","residual_memory":"51297.835938","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"0"}
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'str'> iphone82c1
+	fact   is : <type 'str'> iphone8%2c1
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] osVersionCode:
+	expect is : <type 'int'> 110102
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5ab4d4bb4e52423c7c6b4070
+	fact   is : <type 'str'> 5ab4d4654e52427283d930fd
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5ab4d4bb4e52423c7c6b406f
+	fact   is : <type 'str'> 5ab4d4654e52427283d930fc
+2018-03-29 18:24:21 [INFO] [file_utils.py:152] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-29 18:24:28 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-29 18:24:28 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-29 18:24:28 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-29 18:24:29 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 5663
+2018-03-29 18:24:29 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-29 18:24:29 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:24:52 [DEBUG] [file_utils.py:154] --------------p---------------
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] adType:
+	expect is : <type 'str'> native
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] requestType:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_trueNvt2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] appId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_finalsubid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_b2t:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_stats:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] osVersion:
+	expect is : <type 'str'> 5.0
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_systemUseragent:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra20:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_ifLowerImp:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] platform:
+	expect is : <type 'str'> android
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] unitId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_attr:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_packageName:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_stats2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'str'> 23db8601-97ef-4846-ac3f-8a86f340e2e3
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra6:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] imei:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_abtest2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] imageSize:
+	expect is : <type 'str'> VIDEO
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_finalPackageName:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] sdkVersion:
+	expect is : <type 'str'> mal_8.9.0
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] scenario:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] p:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> fHx8fHx8fG5hdGl2ZXxWSURFT3x8YW5kcm9pZHw1LjB8bWFsXzguOS4wfG5leHVzIDV8MTA4MHgxOTIwfDF8fGVufHdpZml8fHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfbmV3XzEuMC4wOzExOzkzNjs1MzswOzUzOzI7MV94Z2Jvb3N0X2Rpc2NyZXRlLTNfZnIyX2Jhc2V8NWFiY2JiZTFjNmMxZTIzZWNiZDFhZWNkfHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8ZTNhMDI4MGI4OWM0MjgyMXx8fHx8MjNkYjg2MDEtOTdlZi00ODQ2LWFjM2YtOGE4NmYzNDBlMmUzfHx8Z29vZ2xlfHw1YWJjYmJlMWM2YzFlMjNlY2JkMWFlY2V8NWFiY2JiZTFjNmMxZTIzZWNiZDFhZWNmfHx8fHwxfHwsfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] publisherId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_threesInstallTime:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_advInstallTime:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'str'> e3a0280b89c42821
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] reduce:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_algo:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] advertiserId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_ctype:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_thirdCid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_creativeSizeFlag:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'str'> google
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;1;1_xgboost_discrete
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcbbfec6c1e23e47bd3a37
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_channel:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra8:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra9:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_nativex:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_flowTagId:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_priceOut:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_creativeCdnFlag:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_nativeVideo:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcbbfec6c1e23e477bd3a2
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra13:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra16:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra14:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'str'> wifi
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra18:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra19:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'str'> 6
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_reject:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_source:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'str'> nexus 5
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] language:
+	expect is : <type 'str'> en
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] appVersionName:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_priceIn:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] mac:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcbbfec6c1e23e477bd3a1
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] screenSize:
+	expect is : <type 'str'> 1080x1920
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] idfa:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-29 18:24:52 [DEBUG] [file_utils.py:154] --------------mp--------------
+2018-03-29 18:24:52 [DEBUG] [file_utils.py:154] --------------q---------------
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> adnet_adserver
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 3
+	fact   is : <type 'str'> 4
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'str'> 208186055
+	fact   is : <type 'str'> 177223158
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcbbfec6c1e23e47bd3a57
+	fact   is : <type 'str'> 5abcbbe2c6c1e23ecb1aed26
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcbbfec6c1e23e47bd3a37
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecd
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 1.50
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> ["4","4",1,1]
+	fact   is : <type 'str'> ["1.50","1.50","1","1"]
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 2317535758
+	fact   is : <type 'str'> 2244624521
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 1.50
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> A2
+	fact   is : <type 'str'> 20
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 390
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'str'> 5
+	fact   is : <type 'str'> 0
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:24:52 [DEBUG] [file_utils.py:154] -------------csp--------------
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] MW_adBackendData:
+	expect is : <type 'str'> 1:208186055:1
+	fact   is : <type 'str'> 1:177223158:1
+2018-03-29 18:24:52 [DEBUG] [file_utils.py:154] --------------r---------------
+2018-03-29 18:24:52 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> eyJnaWQiOiI1NDFhZDJmOWJkMDI5YzYxNGU4Y2M2ZWY0MjhjZTZjZiIsInRwaWQiOjQwNCwiY3JhdCI6NywiYWR2X2NyaWQiOiI4MDQwMTgiLCJpY2MiOjEsImdsaXN0IjoiNDA1LDIzMTYxMDI3MTMsMCwwfDQwNiwyMzE2MTAyNzE0LDAsMHwyMDEsMjMxNjEwMzI3Myw4MDQwMTgsMTkyMHgxMDgwfDQwMSwyMzE2MTAyNzA3LDAsMHw0MDIsMjMxNjEwMjcwOCwwLDB8NDAzLDIzMTYxMDI3MTAsMCwwfDQwNCwyMzE2MTAyNzEyLDAsMHwxMDYsMjMxNzUzNTc1OCw4MDQ0MDUsMCIsInBpIjo0LCJwbyI6NH0%3D
+	fact   is : <type 'str'> eyJnaWQiOiI3NDljMjAyZjVhNGRlMjQ1YjhmZjg3NGFkMmViNjI3YiIsInRwaWQiOjQwNCwiY3JhdCI6MywiYWR2X2NyaWQiOjc1NzM0MiwiaWNjIjoxLCJnbGlzdCI6IjEwNiwyMjUxMzQxMDg5LDc1NzM0MiwxMjAweDYyN3w0MDMsMjI0NDYyNDUyNCwwLHw0MDQsMjEzNzE0NTc3NSwwLHw0MDYsMjI0MjkwODAyNCwwLHwyMDEsMjI0NDYyNDUyMSwwLHw0MDEsMjEzNzE0NTc2OSwwLHw0MDIsMjEzNzE0NTc3MSwwLHw0MDUsMjEzNzE0NTc3NywwLCIsInBpIjoxLjUsInBvIjoxLjV9
+2018-03-29 18:25:24 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:25:24 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] {
+    "p": "fHx8fHx8fG5hdGl2ZXxWSURFT3x8YW5kcm9pZHw1LjB8bWFsXzguOS4wfG5leHVzIDV8MTA4MHgxOTIwfDF8fGVufHdpZml8fHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfbmV3XzEuMC4wOzExOzkzNjs1MzswOzUzOzI7MV94Z2Jvb3N0X2Rpc2NyZXRlLTNfZnIyX2Jhc2V8NWFiY2JiZTFjNmMxZTIzZWNiZDFhZWNkfHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8ZTNhMDI4MGI4OWM0MjgyMXx8fHx8MjNkYjg2MDEtOTdlZi00ODQ2LWFjM2YtOGE4NmYzNDBlMmUzfHx8Z29vZ2xlfHw1YWJjYmJlMWM2YzFlMjNlY2JkMWFlY2V8NWFiY2JiZTFjNmMxZTIzZWNiZDFhZWNmfHx8fHwxfHwsfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D"
+}
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] None
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] {
+    "ext_adstacking": "", 
+    "domain": "sg01.rayjump.com", 
+    "countryCode": "KR", 
+    "extra": "adnet_adserver", 
+    "requestType": "7", 
+    "ext_endcard": "4", 
+    "ext_finalsubid": "31331", 
+    "advertiserId": "903", 
+    "ext_b2t": "", 
+    "ext_cdnType": "", 
+    "ext_ctype": "1", 
+    "creativeId": "2244624521", 
+    "ext_rv_template": "0", 
+    "ext_installFrom": "0", 
+    "priceOut": "1.50", 
+    "end": "-", 
+    "ext_dspRealAppid": "0", 
+    "ext_attr": "0", 
+    "campaignId": "177223158", 
+    "version": "2.0", 
+    "requestId": "5abcbbe2c6c1e23ecb1aed26", 
+    "ext_channel": "", 
+    "unitId": "30625", 
+    "extra8": "-1", 
+    "ext_playable": "0", 
+    "ext_nativex": "2", 
+    "ext_flowTagId": "127", 
+    "extra5": "5abcbbe1c6c1e23ecbd1aecd", 
+    "priceIn": "1.50", 
+    "ext_source": "540", 
+    "ext_nativeVideo": "0", 
+    "extra7": "20", 
+    "extra12": "390", 
+    "extra13": "1", 
+    "extra10": "0", 
+    "extra16": "2", 
+    "extra14": "31331", 
+    "appId": "31331", 
+    "ext_abtest1": "", 
+    "ext_abtest2": "0", 
+    "extra19": "", 
+    "ext_finalPackageName": "gogolook.callgogolook2", 
+    "ext_bp": "[\"1.50\",\"1.50\",\"1\",\"1\"]", 
+    "scenario": "openapi", 
+    "publisherId": "9550", 
+    "ext_btclass": "0", 
+    "ext_deleteDevid": "0", 
+    "ext_rushNoPre": "", 
+    "appVersionName": "1.0"
+}
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] {
+    "MW_adBackendData": "1:177223158:1", 
+    "MW_tnum": "1", 
+    "MW_randValue": "7081", 
+    "MW_flowTagId": "127", 
+    "MW_adBackend": "1", 
+    "MW_backendConfig": "1:mobvista_key_1:3", 
+    "MW_adnum": "20"
+}
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 18:25:24 [DEBUG] [file_utils.py:154] {
+    "r": "eyJnaWQiOiI3NDljMjAyZjVhNGRlMjQ1YjhmZjg3NGFkMmViNjI3YiIsInRwaWQiOjQwNCwiY3JhdCI6MywiYWR2X2NyaWQiOjc1NzM0MiwiaWNjIjoxLCJnbGlzdCI6IjEwNiwyMjUxMzQxMDg5LDc1NzM0MiwxMjAweDYyN3w0MDMsMjI0NDYyNDUyNCwwLHw0MDQsMjEzNzE0NTc3NSwwLHw0MDYsMjI0MjkwODAyNCwwLHwyMDEsMjI0NDYyNDUyMSwwLHw0MDEsMjEzNzE0NTc2OSwwLHw0MDIsMjEzNzE0NTc3MSwwLHw0MDUsMjEzNzE0NTc3NywwLCIsInBpIjoxLjUsInBvIjoxLjV9"
+}
+2018-03-29 18:27:57 [INFO] [file_utils.py:152] test: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:27:57 [DEBUG] [file_utils.py:154] {
+    "r": "eyJnaWQiOiI3NDljMjAyZjVhNGRlMjQ1YjhmZjg3NGFkMmViNjI3YiIsInRwaWQiOjQwNCwiY3JhdCI6MywiYWR2X2NyaWQiOjc1NzM0MiwiaWNjIjoxLCJnbGlzdCI6IjEwNiwyMjUxMzQxMDg5LDc1NzM0MiwxMjAweDYyN3w0MDMsMjI0NDYyNDUyNCwwLHw0MDQsMjEzNzE0NTc3NSwwLHw0MDYsMjI0MjkwODAyNCwwLHwyMDEsMjI0NDYyNDUyMSwwLHw0MDEsMjEzNzE0NTc2OSwwLHw0MDIsMjEzNzE0NTc3MSwwLHw0MDUsMjEzNzE0NTc3NywwLCIsInBpIjoxLjUsInBvIjoxLjV9"
+}
+2018-03-29 18:28:20 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] {
+    "ext_adstacking": "", 
+    "requestType": "", 
+    "ext_trueNvt2": "", 
+    "campaignId": "", 
+    "ext_b2t": "", 
+    "ext_stats": "", 
+    "ext_dspRealAppid": "", 
+    "extra20": "", 
+    "ext_ifLowerImp": "", 
+    "platform": "android", 
+    "requestId": "", 
+    "unitId": "", 
+    "extra5": "", 
+    "ext_packageName": "", 
+    "extra6": "", 
+    "imei": "", 
+    "ext_bp": "", 
+    "serverId": "", 
+    "ext_threesInstallTime": "", 
+    "ext_advInstallTime": "", 
+    "ext_endcard": "", 
+    "ext_systemUseragent": "", 
+    "mobileCode": "", 
+    "devId": "e3a0280b89c42821", 
+    "reduce": "", 
+    "ext_algo": "", 
+    "creativeId": "", 
+    "deviceBrand": "google", 
+    "remoteIp": "39.109.124.93", 
+    "ext_creativeCdnFlag": "", 
+    "ext_nativeVideo": "", 
+    "extra12": "", 
+    "extra13": "", 
+    "extra10": "", 
+    "extra11": "", 
+    "extra16": "", 
+    "extra17": "0,0", 
+    "extra14": "", 
+    "extra15": "1", 
+    "networkType": "wifi", 
+    "extra18": "", 
+    "extra19": "", 
+    "ext_source": "", 
+    "language": "en", 
+    "publisherId": "", 
+    "ext_priceIn": "", 
+    "screenSize": "1080x1920", 
+    "idfa": "", 
+    "extra": "", 
+    "ext_finalsubid": "", 
+    "ext_installFrom": "", 
+    "priceOut": "", 
+    "ext_stats2": "", 
+    "googleAdvertisingId": "23db8601-97ef-4846-ac3f-8a86f340e2e3", 
+    "ext_abtest1": "", 
+    "ext_abtest2": "", 
+    "ext_finalPackageName": "", 
+    "sdkVersion": "mal_8.9.0", 
+    "ext_btclass": "", 
+    "ext_priceOut": "", 
+    "appVersionName": "", 
+    "orientation": "1", 
+    "countryCode": "", 
+    "ip": "39.109.124.93", 
+    "advertiserId": "", 
+    "ext_deleteDevid": "", 
+    "ext_ctype": "", 
+    "ext_thirdCid": "", 
+    "ext_creativeSizeFlag": "", 
+    "ext_rv_template": "", 
+    "priceIn": "", 
+    "deviceModel": "nexus 5", 
+    "extra2": "", 
+    "extra3": "MNormalAlphaModelRanker_new_1.0.0;11;936;53;0;53;1;1_xgboost_discrete-3_fr2_base", 
+    "extra4": "5abcbfbbc6c1e23e48638d37", 
+    "ext_attr": "", 
+    "ext_channel": "", 
+    "extra7": "", 
+    "extra8": "", 
+    "extra9": "", 
+    "ext_playable": "", 
+    "ext_nativex": "", 
+    "ext_flowTagId": "", 
+    "mac": "", 
+    "parentSessionId": "5abcbfbbc6c1e23e487638d2", 
+    "appId": "", 
+    "osVersion": "5.0", 
+    "ext_nvt2": "6", 
+    "ext_reject": "", 
+    "imageSize": "VIDEO", 
+    "scenario": "", 
+    "ext_cdnType": "", 
+    "sessionId": "5abcbfbbc6c1e23e487638d1", 
+    "ext_rushNoPre": "", 
+    "adType": "native"
+}
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] None
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] {
+    "ext_adstacking": "0", 
+    "domain": "sg01.rayjump.com", 
+    "countryCode": "KR", 
+    "extra": "ad_server", 
+    "requestType": "7", 
+    "ext_endcard": "3", 
+    "ext_finalsubid": "31331", 
+    "advertiserId": "903", 
+    "ext_b2t": "", 
+    "ext_cdnType": "0", 
+    "ext_ctype": "1", 
+    "creativeId": "2317535758", 
+    "ext_rv_template": "", 
+    "ext_installFrom": "", 
+    "priceOut": "4", 
+    "end": "-", 
+    "ext_dspRealAppid": "", 
+    "ext_attr": "0", 
+    "campaignId": "208186055", 
+    "version": "2.0", 
+    "requestId": "5abcbfbbc6c1e23e48638d57", 
+    "ext_channel": "", 
+    "unitId": "30625", 
+    "extra8": "-1", 
+    "ext_playable": "", 
+    "ext_nativex": "2", 
+    "ext_flowTagId": "127", 
+    "extra5": "5abcbfbbc6c1e23e48638d37", 
+    "priceIn": "4", 
+    "ext_source": "540", 
+    "ext_nativeVideo": "0", 
+    "extra7": "A2", 
+    "extra12": "0", 
+    "extra13": "1", 
+    "extra10": "5", 
+    "extra16": "2", 
+    "extra14": "31331", 
+    "appId": "31331", 
+    "ext_abtest1": "1", 
+    "ext_abtest2": "0", 
+    "extra19": "", 
+    "ext_finalPackageName": "gogolook.callgogolook2", 
+    "ext_bp": "[\"4\",\"4\",1,1]", 
+    "scenario": "openapi", 
+    "publisherId": "9550", 
+    "ext_btclass": "", 
+    "ext_deleteDevid": "", 
+    "ext_rushNoPre": "0", 
+    "appVersionName": "1.0"
+}
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] {
+    "MW_adBackendData": "1:208186055:1", 
+    "MW_tnum": "1", 
+    "MW_randValue": "7081", 
+    "MW_flowTagId": "127", 
+    "MW_adBackend": "1", 
+    "MW_backendConfig": "1:mobvista_key_1:3", 
+    "MW_adnum": "20"
+}
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 18:28:20 [DEBUG] [file_utils.py:154] {
+    "r": "eyJnaWQiOiI1NDFhZDJmOWJkMDI5YzYxNGU4Y2M2ZWY0MjhjZTZjZiIsInRwaWQiOjQwNCwiY3JhdCI6NywiYWR2X2NyaWQiOiI4MDQwMTgiLCJpY2MiOjEsImdsaXN0IjoiNDA0LDIzMTYxMDI3MTIsMCwwfDQwNSwyMzE2MTAyNzEzLDAsMHw0MDYsMjMxNjEwMjcxNCwwLDB8MjAxLDIzMTYxMDMyNzMsODA0MDE4LDE5MjB4MTA4MHw0MDEsMjMxNjEwMjcwNywwLDB8NDAyLDIzMTYxMDI3MDgsMCwwfDQwMywyMzE2MTAyNzEwLDAsMHwxMDYsMjMxNzUzNTc1OCw4MDQ0MDUsMCIsInBpIjo0LCJwbyI6NH0%3D"
+}
+2018-03-29 18:28:33 [INFO] [file_utils.py:152] test: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:28:33 [DEBUG] [file_utils.py:154] {
+    "r": "eyJnaWQiOiI1NDFhZDJmOWJkMDI5YzYxNGU4Y2M2ZWY0MjhjZTZjZiIsInRwaWQiOjQwNCwiY3JhdCI6NywiYWR2X2NyaWQiOiI4MDQwMTgiLCJpY2MiOjEsImdsaXN0IjoiNDA0LDIzMTYxMDI3MTIsMCwwfDQwNSwyMzE2MTAyNzEzLDAsMHw0MDYsMjMxNjEwMjcxNCwwLDB8MjAxLDIzMTYxMDMyNzMsODA0MDE4LDE5MjB4MTA4MHw0MDEsMjMxNjEwMjcwNywwLDB8NDAyLDIzMTYxMDI3MDgsMCwwfDQwMywyMzE2MTAyNzEwLDAsMHwxMDYsMjMxNzUzNTc1OCw4MDQ0MDUsMCIsInBpIjo0LCJwbyI6NH0%3D"
+}
+2018-03-29 18:39:17 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] {
+    "ext_adstacking": "", 
+    "requestType": "", 
+    "ext_trueNvt2": "", 
+    "campaignId": "", 
+    "ext_b2t": "", 
+    "ext_stats": "", 
+    "ext_dspRealAppid": "", 
+    "extra20": "", 
+    "ext_ifLowerImp": "", 
+    "platform": "android", 
+    "requestId": "", 
+    "unitId": "", 
+    "extra5": "", 
+    "ext_packageName": "", 
+    "extra6": "", 
+    "imei": "", 
+    "ext_bp": "", 
+    "serverId": "", 
+    "ext_threesInstallTime": "", 
+    "ext_advInstallTime": "", 
+    "ext_endcard": "", 
+    "ext_systemUseragent": "", 
+    "mobileCode": "", 
+    "devId": "e3a0280b89c42821", 
+    "reduce": "", 
+    "ext_algo": "", 
+    "creativeId": "", 
+    "deviceBrand": "google", 
+    "remoteIp": "39.109.124.93", 
+    "ext_creativeCdnFlag": "", 
+    "ext_nativeVideo": "", 
+    "extra12": "", 
+    "extra13": "", 
+    "extra10": "", 
+    "extra11": "", 
+    "extra16": "", 
+    "extra17": "0,0", 
+    "extra14": "", 
+    "extra15": "1", 
+    "networkType": "wifi", 
+    "extra18": "", 
+    "extra19": "", 
+    "ext_source": "", 
+    "language": "en", 
+    "publisherId": "", 
+    "ext_priceIn": "", 
+    "screenSize": "1080x1920", 
+    "idfa": "", 
+    "extra": "", 
+    "ext_finalsubid": "", 
+    "ext_installFrom": "", 
+    "priceOut": "", 
+    "ext_stats2": "", 
+    "googleAdvertisingId": "23db8601-97ef-4846-ac3f-8a86f340e2e3", 
+    "ext_abtest1": "", 
+    "ext_abtest2": "", 
+    "ext_finalPackageName": "", 
+    "sdkVersion": "mal_8.9.0", 
+    "ext_btclass": "", 
+    "ext_priceOut": "", 
+    "appVersionName": "", 
+    "orientation": "1", 
+    "countryCode": "", 
+    "ip": "39.109.124.93", 
+    "advertiserId": "", 
+    "ext_deleteDevid": "", 
+    "ext_ctype": "", 
+    "ext_thirdCid": "", 
+    "ext_creativeSizeFlag": "", 
+    "ext_rv_template": "", 
+    "priceIn": "", 
+    "deviceModel": "nexus 5", 
+    "extra2": "", 
+    "extra3": "MNormalAlphaModelRanker_new_1.0.0;11;936;53;0;53;1;1_xgboost_discrete-3_fr2_base", 
+    "extra4": "5abcbfbbc6c1e23e48638d37", 
+    "ext_attr": "", 
+    "ext_channel": "", 
+    "extra7": "", 
+    "extra8": "", 
+    "extra9": "", 
+    "ext_playable": "", 
+    "ext_nativex": "", 
+    "ext_flowTagId": "", 
+    "mac": "", 
+    "parentSessionId": "5abcbfbbc6c1e23e487638d2", 
+    "appId": "", 
+    "osVersion": "5.0", 
+    "ext_nvt2": "6", 
+    "ext_reject": "", 
+    "imageSize": "VIDEO", 
+    "scenario": "", 
+    "ext_cdnType": "", 
+    "sessionId": "5abcbfbbc6c1e23e487638d1", 
+    "ext_rushNoPre": "", 
+    "adType": "native"
+}
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] None
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] {
+    "ext_adstacking": "0", 
+    "domain": "sg01.rayjump.com", 
+    "countryCode": "KR", 
+    "extra": "ad_server", 
+    "requestType": "7", 
+    "ext_endcard": "3", 
+    "ext_finalsubid": "31331", 
+    "advertiserId": "903", 
+    "ext_b2t": "", 
+    "ext_cdnType": "0", 
+    "ext_ctype": "1", 
+    "creativeId": "2317535758", 
+    "ext_rv_template": "", 
+    "ext_installFrom": "", 
+    "priceOut": "4", 
+    "end": "-", 
+    "ext_dspRealAppid": "", 
+    "ext_attr": "0", 
+    "campaignId": "208186055", 
+    "version": "2.0", 
+    "requestId": "5abcbfbbc6c1e23e48638d57", 
+    "ext_channel": "", 
+    "unitId": "30625", 
+    "extra8": "-1", 
+    "ext_playable": "", 
+    "ext_nativex": "2", 
+    "ext_flowTagId": "127", 
+    "extra5": "5abcbfbbc6c1e23e48638d37", 
+    "priceIn": "4", 
+    "ext_source": "540", 
+    "ext_nativeVideo": "0", 
+    "extra7": "A2", 
+    "extra12": "0", 
+    "extra13": "1", 
+    "extra10": "5", 
+    "extra16": "2", 
+    "extra14": "31331", 
+    "appId": "31331", 
+    "ext_abtest1": "1", 
+    "ext_abtest2": "0", 
+    "extra19": "", 
+    "ext_finalPackageName": "gogolook.callgogolook2", 
+    "ext_bp": "[\"4\",\"4\",1,1]", 
+    "scenario": "openapi", 
+    "publisherId": "9550", 
+    "ext_btclass": "", 
+    "ext_deleteDevid": "", 
+    "ext_rushNoPre": "0", 
+    "appVersionName": "1.0"
+}
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] {
+    "MW_adBackendData": "1:208186055:1", 
+    "MW_tnum": "1", 
+    "MW_randValue": "7081", 
+    "MW_flowTagId": "127", 
+    "MW_adBackend": "1", 
+    "MW_backendConfig": "1:mobvista_key_1:3", 
+    "MW_adnum": "20"
+}
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 18:39:17 [DEBUG] [file_utils.py:154] {
+    "r": "{\"gid\":\"541ad2f9bd029c614e8cc6ef428ce6cf\",\"tpid\":404,\"crat\":7,\"adv_crid\":\"804018\",\"icc\":1,\"glist\":\"404,2316102712,0,0"
+}
+2018-03-29 18:39:33 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-29 18:39:33 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-29 18:39:33 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-29 18:39:34 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 5615
+2018-03-29 18:39:34 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-29 18:39:34 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-29 18:39:47 [INFO] [file_utils.py:152] url is not correct: 1
+2018-03-29 18:39:47 [INFO] [file_utils.py:152] url is not correct: 1
+2018-03-29 18:39:47 [DEBUG] [file_utils.py:154] --------------p---------------
+2018-03-29 18:39:47 [DEBUG] [file_utils.py:154] --------------mp--------------
+2018-03-29 18:39:47 [DEBUG] [file_utils.py:154] --------------q---------------
+2018-03-29 18:39:47 [DEBUG] [file_utils.py:154] -------------csp--------------
+2018-03-29 18:39:47 [DEBUG] [file_utils.py:154] --------------r---------------
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:40:06 [DEBUG] [file_utils.py:154] --------------p---------------
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'str'> ,
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'str'> 
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_new_1.0.0;11;936;53;0;53;1;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> MNormalAlphaModelRanker_new_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e48638d37
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecd
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e487638d2
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecf
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'str'> 6
+	fact   is : <type 'str'> 
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e487638d1
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aece
+2018-03-29 18:40:06 [DEBUG] [file_utils.py:154] --------------mp--------------
+2018-03-29 18:40:06 [DEBUG] [file_utils.py:154] --------------q---------------
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> adnet_adserver
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 3
+	fact   is : <type 'str'> 4
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'str'> 208186055
+	fact   is : <type 'str'> 177223158
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e48638d57
+	fact   is : <type 'str'> 5abcbbe2c6c1e23ecb1aed26
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e48638d37
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecd
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 1.50
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> ["4","4",1,1]
+	fact   is : <type 'str'> ["1.50","1.50","1","1"]
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 2317535758
+	fact   is : <type 'str'> 2244624521
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 1.50
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> A2
+	fact   is : <type 'str'> 20
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 390
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'str'> 5
+	fact   is : <type 'str'> 0
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:40:06 [DEBUG] [file_utils.py:154] -------------csp--------------
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] MW_adBackendData:
+	expect is : <type 'str'> 1:208186055:1
+	fact   is : <type 'str'> 1:177223158:1
+2018-03-29 18:40:06 [DEBUG] [file_utils.py:154] --------------r---------------
+2018-03-29 18:40:06 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"541ad2f9bd029c614e8cc6ef428ce6cf","tpid":404,"crat":7,"adv_crid":"804018","icc":1,"glist":"404,2316102712,0,0
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"106,2251341089,757342,1200x627
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:45:34 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'str'> ,
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'str'> 
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_new_1.0.0;11;936;53;0;53;1;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> MNormalAlphaModelRanker_new_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e48638d37
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecd
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e487638d2
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecf
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'str'> 6
+	fact   is : <type 'str'> 
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e487638d1
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aece
+2018-03-29 18:45:34 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 18:45:34 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> adnet_adserver
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 3
+	fact   is : <type 'str'> 4
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'str'> 208186055
+	fact   is : <type 'str'> 177223158
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e48638d57
+	fact   is : <type 'str'> 5abcbbe2c6c1e23ecb1aed26
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcbfbbc6c1e23e48638d37
+	fact   is : <type 'str'> 5abcbbe1c6c1e23ecbd1aecd
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 1.50
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> ["4","4",1,1]
+	fact   is : <type 'str'> ["1.50","1.50","1","1"]
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 2317535758
+	fact   is : <type 'str'> 2244624521
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 4
+	fact   is : <type 'str'> 1.50
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> A2
+	fact   is : <type 'str'> 20
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 390
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'str'> 5
+	fact   is : <type 'str'> 0
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 18:45:34 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] MW_adBackendData:
+	expect is : <type 'str'> 1:208186055:1
+	fact   is : <type 'str'> 1:177223158:1
+2018-03-29 18:45:34 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 18:45:34 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"541ad2f9bd029c614e8cc6ef428ce6cf","tpid":404,"crat":7,"adv_crid":"804018","icc":1,"glist":"404,2316102712,0,0
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"106,2251341089,757342,1200x627
+2018-03-29 18:46:25 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:46:25 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:46:25 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:46:25 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:46:25 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 18:46:25 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 18:46:25 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 18:46:25 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 18:46:25 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 98
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 18:48:55 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 5abcc48389e09f0e9bf77b54
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] imei:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> e3a0280b89c42821
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> wifi
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'str'> e3a0280b89c42821
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'str'> google
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 5abcc48389e09f0e9bf77b56
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra16:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 1
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> ,
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'str'> wifi
+	fact   is : <type 'str'> en
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra18:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> ,
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] language:
+	expect is : <type 'str'> en
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] idfa:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 23db8601-97ef-4846-ac3f-8a86f340e2e3
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'str'> 23db8601-97ef-4846-ac3f-8a86f340e2e3
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> google
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 5.0
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 1
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc447c6c1e23ecbd1aeff
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc447c6c1e23ecbd1af01
+	fact   is : <type 'str'> 5abcc48389e09f0e9bf77b55
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc447c6c1e23ecbd1af00
+	fact   is : <type 'str'> 
+2018-03-29 18:48:55 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 18:48:55 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc447c6c1e23ecb1af046
+	fact   is : <type 'str'> 5abcc48389e09f0e9b77b599
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc447c6c1e23ecbd1aeff
+	fact   is : <type 'str'> 5abcc48389e09f0e9bf77b54
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] domain:
+	expect is : <type 'str'> sg01.rayjump.com
+	fact   is : <type 'str'> adnettktest.rayjump.com
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 2251341089
+	fact   is : <type 'str'> 2244624521
+2018-03-29 18:48:55 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 18:48:55 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 18:48:55 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"403,2244624524,0,
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"401,2137145769,0,

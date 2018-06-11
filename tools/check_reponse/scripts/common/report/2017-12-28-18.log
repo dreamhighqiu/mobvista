@@ -1,0 +1,21 @@
+2017-12-28 18:29:59 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 18:29:59 [DEBUG] [file_utils.py:135] ad_backend_data:
+	expect is : <type 'unicode'> 8:10895195759:0;1:132096887:1
+	fact   is : <type 'unicode'> 1:132096887:1;8:10895195759:0
+2017-12-28 18:29:59 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 18:29:59 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-28 18:32:18 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'unicode'> 1,8
+	fact   is : <type 'unicode'> 1
+2017-12-28 18:33:45 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:0:3
+	fact   is : <type 'unicode'> 1:mobvista_key_1:3
+2017-12-28 18:34:26 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:0:3
+	fact   is : <type 'unicode'> 1:mobvista_key_1:3

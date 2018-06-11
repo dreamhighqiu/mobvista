@@ -1,0 +1,21 @@
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'str'> 44050
+	fact   is : <type 'str'> 0
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'str'> 8:toutiao_ios_Butterfly:3;1:mobvista_key_1:1
+	fact   is : <type 'str'> :0:2
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'str'> 8,1
+	fact   is : <type 'str'> 0
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> iPhone8%2C1
+	fact   is : <type 'str'> iphone82c1
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] ad_backend_data:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> :0:1
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> MI_2.9.7
+	fact   is : <type 'str'> mi_2.9.7
+2017-12-27 21:00:01 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> apple

@@ -1,0 +1,261 @@
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] showedCampaignIdList:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] networkId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] requestId:
+	expect is : <type 'str'> 5a9d0ce14e52423c61d75e5a
+	fact   is : <type 'str'> 5a9d0cfe4e52427730265e4c
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] cityCode:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> mi_2.4.0
+	fact   is : <type 'str'> MI_2.4.0
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'str'> SIZE_1200x627
+	fact   is : <type 'str'> UNKNOWN
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] timezone:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":"1","total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":1,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'int'> 90305
+	fact   is : <type 'int'> 0
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] preclickCampaignIds:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'int'> 9030500
+	fact   is : <type 'int'> 0
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] parentSessionId:
+	expect is : <type 'str'> 5a9d0ce14e52423c612d75e4
+	fact   is : <type 'str'> 5a9d0cfe4e52427730265e4e
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'str'> apple
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] scenario:
+	expect is : <type 'str'> openapi_download
+	fact   is : <type 'str'> openapi
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] ua:
+	expect is : <type 'str'> Mozilla%2f5.0+(iPhone%253B+CPU+iPhone+OS+9_3_5+like+Mac+OS+X)+AppleWebKit%2f601.1.46+(KHTML%252C+like+Gecko)+Mobile%2f13G36
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] realAppId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] sessionId:
+	expect is : <type 'str'> 5a9d0ce14e52423c612d75e3
+	fact   is : <type 'str'> 5a9d0cfe4e52427730265e4d
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-05 17:28:30 [DEBUG] [file_utils.py:135] idfa:
+	expect is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] showedCampaignIdList:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] networkId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] cityCode:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> mi_2.4.0
+	fact   is : <type 'str'> MI_2.4.0
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'str'> SIZE_1200x627
+	fact   is : <type 'str'> UNKNOWN
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] timezone:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":"1","total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":1,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'int'> 90305
+	fact   is : <type 'int'> 0
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] preclickCampaignIds:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'int'> 9030500
+	fact   is : <type 'int'> 0
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'str'> apple
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] scenario:
+	expect is : <type 'str'> openapi_download
+	fact   is : <type 'str'> openapi
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] ua:
+	expect is : <type 'str'> Mozilla%2f5.0+(iPhone%253B+CPU+iPhone+OS+9_3_5+like+Mac+OS+X)+AppleWebKit%2f601.1.46+(KHTML%252C+like+Gecko)+Mobile%2f13G36
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] realAppId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-05 17:47:26 [DEBUG] [file_utils.py:135] idfa:
+	expect is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] showedCampaignIdList:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] networkId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] cityCode:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> mi_2.4.0
+	fact   is : <type 'str'> MI_2.4.0
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'str'> SIZE_1200x627
+	fact   is : <type 'str'> UNKNOWN
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] timezone:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":"1","total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":1,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'int'> 90305
+	fact   is : <type 'int'> 0
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] preclickCampaignIds:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'int'> 9030500
+	fact   is : <type 'int'> 0
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'str'> apple
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] scenario:
+	expect is : <type 'str'> openapi_download
+	fact   is : <type 'str'> openapi
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] ua:
+	expect is : <type 'str'> Mozilla%2f5.0+(iPhone%253B+CPU+iPhone+OS+9_3_5+like+Mac+OS+X)+AppleWebKit%2f601.1.46+(KHTML%252C+like+Gecko)+Mobile%2f13G36
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] realAppId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-05 17:50:36 [DEBUG] [file_utils.py:135] idfa:
+	expect is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] showedCampaignIdList:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] networkId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] cityCode:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> mi_2.4.0
+	fact   is : <type 'str'> MI_2.4.0
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'str'> SIZE_1200x627
+	fact   is : <type 'str'> UNKNOWN
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] timezone:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":"1","total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":1,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'int'> 90305
+	fact   is : <type 'int'> 0
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] preclickCampaignIds:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'int'> 9030500
+	fact   is : <type 'int'> 0
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'str'> apple
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] scenario:
+	expect is : <type 'str'> openapi_download
+	fact   is : <type 'str'> openapi
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] ua:
+	expect is : <type 'str'> Mozilla%2f5.0+(iPhone%253B+CPU+iPhone+OS+9_3_5+like+Mac+OS+X)+AppleWebKit%2f601.1.46+(KHTML%252C+like+Gecko)+Mobile%2f13G36
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] realAppId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-05 17:51:15 [DEBUG] [file_utils.py:135] idfa:
+	expect is : <type 'str'> 35951D6A-DB66-47A1-8CD0-DB1E9E0D33CD
+	fact   is : <type 'NoneType'> None

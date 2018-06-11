@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>app接口报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+.img{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+    border: 2px solid #777;
+}
+
+.screenshots {
+    z-index: 100;
+	position:absolute;
+	left: 23%;
+	top: 20%;
+	display: none;
+}
+.close_shots {
+	position:absolute;
+	top:0; left:98%;
+	z-index:99;
+	width:20px;
+}
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+
+.piechart{
+    position:absolute;  ;
+    top:20px;
+    left:300px;
+    width: 200px;
+    float: left;
+    display:  inline;
+}
+
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+function drawCircle(pass, fail, error){
+    var color = ["#6c6","#c60","#c00"];
+    var data = [pass,fail,error];
+    var text_arr = ["pass", "fail", "error"];
+
+    var canvas = document.getElementById("circle");
+    var ctx = canvas.getContext("2d");
+    var startPoint=0;
+    var width = 20, height = 10;
+    var posX = 112 * 2 + 20, posY = 30;
+    var textX = posX + width + 5, textY = posY + 10;
+    for(var i=0;i<data.length;i++){
+        ctx.fillStyle = color[i];
+        ctx.beginPath();
+        ctx.moveTo(112,84);
+        ctx.arc(112,84,84,startPoint,startPoint+Math.PI*2*(data[i]/(data[0]+data[1]+data[2])),false);
+        ctx.fill();
+        startPoint += Math.PI*2*(data[i]/(data[0]+data[1]+data[2]));
+        ctx.fillStyle = color[i];
+        ctx.fillRect(posX, posY + 20 * i, width, height);
+        ctx.moveTo(posX, posY + 20 * i);
+        ctx.font = 'bold 14px';
+        ctx.fillStyle = color[i];
+        var percent = text_arr[i] + ":"+data[i];
+        ctx.fillText(percent, textX, textY + 20 * i);
+
+    }
+}
+
+function show_shots(obj) {
+	obj.nextElementSibling.style.display="block";
+
+}
+
+function close_shots(obj) {
+	obj.parentElement.style.display="none";
+}
+
+</script>
+<div class="piechart">
+    <div>
+        <canvas id="circle" width="350" height="168" </canvas>
+    </div>
+</div>
+<div class='heading'>
+<h1>app接口报告</h1>
+<p class='attribute'><strong>开始时间:</strong> 2018-06-08 10:59:55</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:12.236000</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>5</p>
+
+<p class='description'>综述</p>
+</div>
+
+
+
+<p id='show_detail_line'>显示
+<a href='javascript:showCase(0)'>概要</a>
+<a href='javascript:showCase(1)'>失败</a>
+<a href='javascript:showCase(2)'>所有</a>
+</p>
+
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>测试组/测试用例</td>
+    <td>总数</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>视图</td>
+    <td>错误截图</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_case.test_class</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',5)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td ><div class='testcase'>test_ads_v3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        通过</a></span>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: *******************第1个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=0&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+214428726 放置奇兵 -全球同服放置类游戏
+225664529 猎人旅团——团长与西索的对决
+205598767 克隆战争《Clone Evolution》
+*******************第2个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=1&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+225417636 天空王国
+227037883 天使纪元-刘亦菲代言
+214428726 放置奇兵 -全球同服放置类游戏
+*******************第3个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=2&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+214428726 放置奇兵 -全球同服放置类游戏
+177231121 3D 狙击刺客：第一人称射击手游《Sniper 3D 网游》
+205598767 克隆战争《Clone Evolution》
+*******************第4个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=3&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+214428726 放置奇兵 -全球同服放置类游戏
+177231121 3D 狙击刺客：第一人称射击手游《Sniper 3D 网游》
+205598767 克隆战争《Clone Evolution》
+*******************第5个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=4&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+177231121 3D 狙击刺客：第一人称射击手游《Sniper 3D 网游》
+225664529 猎人旅团——团长与西索的对决
+223801940 王国纪元(Lords Mobile)-年度更新“契约魔物”
+*******************第6个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=5&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+205598767 克隆战争《Clone Evolution》
+225664529 猎人旅团——团长与西索的对决
+202573155 War Robots
+*******************第7个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=6&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+205598767 克隆战争《Clone Evolution》
+216994202 轮回诀-革新动作竞技卡牌RPG
+220114507 猎人学院——猎人考试即将开始
+*******************第8个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=7&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+205598767 克隆战争《Clone Evolution》
+216994202 轮回诀-革新动作竞技卡牌RPG
+220114507 猎人学院——猎人考试即将开始
+*******************第9个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=8&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+220114507 猎人学院——猎人考试即将开始
+212346252 NBA篮球大师
+216994202 轮回诀-革新动作竞技卡牌RPG
+*******************第10个请求********************************
+http://sg.rayjump.com/openapi/ads?client_ip=122.96.41.170&amp;ad_num=3&amp;orientation=2&amp;ts=1528426795.61&amp;os_version=10.3&amp;brand=Apple&amp;app_id=100455&amp;sign=5a398a1d06155b1543d6dc3d922f0e79&amp;platform=2&amp;offset=9&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;unit_id=31419
+216994202 轮回诀-革新动作竞技卡牌RPG
+214136227 内涵三国
+212346252 NBA篮球大师
+{
+    "202573155": "War Robots", 
+    "225417636": "天空王国", 
+    "177231121": "3D 狙击刺客：第一人称射击手游《Sniper 3D 网游》", 
+    "220114507": "猎人学院——猎人考试即将开始", 
+    "212346252": "NBA篮球大师", 
+    "205598767": "克隆战争《Clone Evolution》", 
+    "225664529": "猎人旅团——团长与西索的对决", 
+    "214136227": "内涵三国", 
+    "223801940": "王国纪元(Lords Mobile)-年度更新“契约魔物”", 
+    "214428726": "放置奇兵 -全球同服放置类游戏", 
+    "216994202": "轮回诀-革新动作竞技卡牌RPG", 
+    "227037883": "天使纪元-刘亦菲代言"
+}
+202573155,225417636,177231121,220114507,212346252,205598767,225664529,214136227,223801940,214428726,216994202,227037883
+总共刷10次接口，刷到offer为10
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td ><div class='testcase'>test_bv</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        通过</a></span>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: *******************第1个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=0&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+223721697 瘋狂大廚- 餐廳遊戲
+*******************第2个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=1&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+205194710 熹妃傳-第一部可以玩的宮鬥小說
+*******************第3个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=2&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+177233154 京門風月
+*******************第4个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=3&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+222745400 My Cafe: Recipes &amp; Stories
+*******************第5个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=4&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第6个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=5&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第7个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=6&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第8个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=7&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第9个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=8&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第10个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=9&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34768&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426797.22&amp;content_type=286&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+{
+    "222745400": "My Cafe: Recipes &amp; Stories", 
+    "223721697": "瘋狂大廚- 餐廳遊戲", 
+    "177233154": "京門風月", 
+    "205194710": "熹妃傳-第一部可以玩的宮鬥小說"
+}
+222745400,223721697,177233154,205194710
+总共刷10次接口，刷到offer为4
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td ><div class='testcase'>test_fv</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        通过</a></span>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: *******************第1个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=0&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+223721698 瘋狂大廚- 餐廳遊戲
+*******************第2个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=1&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+205194710 熹妃傳-第一部可以玩的宮鬥小說
+*******************第3个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=2&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+177233154 京門風月
+*******************第4个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=3&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+222745400 My Cafe: Recipes &amp; Stories
+*******************第5个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=4&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第6个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=5&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第7个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=6&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第8个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=7&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第9个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=8&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第10个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=2&amp;offset=9&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=31327&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=1266x596&amp;ts=1528426799.91&amp;content_type=94&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+{
+    "222745400": "My Cafe: Recipes &amp; Stories", 
+    "223721698": "瘋狂大廚- 餐廳遊戲", 
+    "177233154": "京門風月", 
+    "205194710": "熹妃傳-第一部可以玩的宮鬥小說"
+}
+222745400,223721698,177233154,205194710
+总共刷10次接口，刷到offer为4
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td ><div class='testcase'>test_net_v3</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        通过</a></span>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: *******************第1个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+*******************第2个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=1&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+223868567 暴走學園-返校日
+*******************第3个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=2&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+205194710 熹妃傳-第一部可以玩的宮鬥小說
+*******************第4个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=3&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+205194710 熹妃傳-第一部可以玩的宮鬥小說
+*******************第5个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+*******************第6个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=5&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+192797961 填色一二三：著色本 (Color by Number)
+*******************第7个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+*******************第8个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=7&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+223801942 Game of Dice
+*******************第9个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=8&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+226496152 Last Shelter: Survival
+*******************第10个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/ad/v3?tnum=1&amp;orientation=1&amp;package_name=com.mobvista.ui.test&amp;app_id=92763&amp;ad_source_id=1&amp;country_code=CN&amp;timezone=GMT%252B08%253A00&amp;mnc=11&amp;ping_mode=1&amp;category=0&amp;platform=2&amp;unit_id=21319&amp;os_version=10.3&amp;sdk_version=MI_3.0.0&amp;ttc_ids=%255B%255D&amp;req_type=2&amp;exclude_ids=%255B177229991%255D&amp;channel=1&amp;http_req=2&amp;idfv=CDC64491-8081-4D60-B4DB-1019D3F53EC0&amp;ad_num=20&amp;app_version_name=3.0.0&amp;screen_size=375.000000x812.000000&amp;mcc=460&amp;ts=1528426802.28&amp;ad_type=94&amp;display_cids=%255B%2528null%2529%255D&amp;idfa=E950958A-BCC6-4BF8-B03E-D1F7502CB62C&amp;content_type=94&amp;offset=9&amp;only_impression=1&amp;sign=193df46b1b8f8a3622bf97afd49948ab&amp;keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&amp;language=zh-Hans-CN&amp;version_flag=1&amp;openidfa=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=9
+218030966 瑯琊榜3D-風起長林
+{
+    "223801942": "Game of Dice", 
+    "205194710": "熹妃傳-第一部可以玩的宮鬥小說", 
+    "192797961": "填色一二三：著色本 (Color by Number)", 
+    "218030966": "瑯琊榜3D-風起長林", 
+    "223868567": "暴走學園-返校日", 
+    "226496152": "Last Shelter: Survival"
+}
+223801942,205194710,192797961,218030966,223868567,226496152
+总共刷10次接口，刷到offer为7
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td ><div class='testcase'>test_nv</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        通过</a></span>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: *******************第1个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=0&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+223721697 瘋狂大廚- 餐廳遊戲
+*******************第2个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=1&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+205194710 熹妃傳-第一部可以玩的宮鬥小說
+*******************第3个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=2&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+177233154 京門風月
+*******************第4个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=3&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+222745400 My Cafe: Recipes &amp; Stories
+*******************第5个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=4&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第6个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=5&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第7个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=6&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第8个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=7&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第9个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=8&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+*******************第10个请求********************************
+D:\install\python2\lib\site-packages\urllib3\connectionpool.py:858: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+https://net.rayjump.com/openapi/jssdkad?tnum=1&amp;orientation=1&amp;offset=9&amp;app_id=31609&amp;sign=105d93d991325adfeaf15ed641bdf8f7&amp;android_id=&amp;ping_mode=1&amp;main_domain=pingan.i99pay.com&amp;platform=2&amp;unit_id=34769&amp;os_version=10.3&amp;sdk_version=js_1.1.10&amp;ttc_ids=%5B%5D&amp;exclude_ids=%5B%5D&amp;api_version=1.1&amp;http_req=2&amp;client_ip=null&amp;ad_num=1&amp;screen_size=980x1743&amp;ts=1528426805.41&amp;content_type=285&amp;image_size=7&amp;imei=&amp;only_impression=1&amp;gaid=&amp;language=zh-CN&amp;version_flag=1&amp;deviceid=&amp;useragent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+10_3+like+Mac+OS+X%29+AppleWebKit%2F602.1.50+%28KHTML%2C+like+Gecko%29+CriOS%2F56.0.2924.75+Mobile%2F14E5239e+Safari%2F602.1&amp;model=iphone10.3&amp;network_type=4
+{u'status': -1, u'msg': u'EXCEPTION_RETURN_EMPTY'}
+{
+    "222745400": "My Cafe: Recipes &amp; Stories", 
+    "223721697": "瘋狂大廚- 餐廳遊戲", 
+    "177233154": "京門風月", 
+    "205194710": "熹妃傳-第一部可以玩的宮鬥小說"
+}
+222745400,223721697,177233154,205194710
+总共刷10次接口，刷到offer为4
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr id='total_row'>
+    <td>统计</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+<script>
+    drawCircle(5, 0, 0)
+</script>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>

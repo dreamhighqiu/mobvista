@@ -1,0 +1,19 @@
+2018-04-10 10:34:58 [DEBUG] [file_utils.py:156] you can choose these log_type :
+adnet_request
+adnnet_request
+2018-04-10 10:36:02 [INFO] [file_utils.py:152] you can choose these log_type :
+adnet_request
+adnnet_request
+2018-04-10 10:38:22 [INFO] [file_utils.py:152] you can choose these log_type :
+adnet_request
+adnnet_request
+2018-04-10 10:38:36 [DEBUG] [file_utils.py:156] get the latest file failed: list index out of range
+2018-04-10 10:38:36 [INFO] [file_utils.py:154] The file folder is empty: /data/adn_logs/stat_v3/request
+2018-04-10 10:38:37 [DEBUG] [file_utils.py:156] waiting for 1 seconds to get fact data
+2018-04-10 10:38:37 [DEBUG] [file_utils.py:156] get the latest file failed: list index out of range
+2018-04-10 10:38:37 [INFO] [file_utils.py:154] The file folder is empty: /data/adn_logs/adnet/request
+2018-04-10 10:38:42 [DEBUG] [file_utils.py:156] get the latest file failed: list index out of range
+2018-04-10 10:38:42 [INFO] [file_utils.py:154] The file folder is empty: /data/adn_logs/stat_v3/request
+2018-04-10 10:38:43 [DEBUG] [file_utils.py:156] waiting for 1 seconds to get fact data
+2018-04-10 10:38:43 [DEBUG] [file_utils.py:156] get the latest file failed: list index out of range
+2018-04-10 10:38:43 [INFO] [file_utils.py:154] The file folder is empty: /data/adn_logs/adnet/request

@@ -1,0 +1,1635 @@
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] devinfoencrypt:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] pingmode:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] sdktype:
+	expect is : <type 'str'> mal
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mnc:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] publishertype:
+	expect is : <type 'int'> 3
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adtypeid:
+	expect is : <type 'int'> 42
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mobilecode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra20:
+	expect is : <type 'str'> [[130553083,457,0,0,1,1]]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] param:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'Category': 0, 'TNum': 1, 'UaFamily': '', 'DVI': '4BzuYk5uRUE0iAVAfURFiah9fnVFfAv0WozwDki0G0RMiUvMiavMiavMiav0WoztYrxBYFQ3+FQ3RUE0DFfrfAl2HU39Hn3BHalTD0zK', 'CampaignID': 0, 'AppID': 24282, 'ApiVersion': 0, 'HTTPReq': 0, 'OpenIDFA': '', 'TTCIDS': '[177536538]', 'ParentSessionID': '', 'ScreenSize': '540x960', 'DisplayCamIds': None, 'Extra7': 0, 'Extra8': 0, 'VersionFlag': 0, 'ExtflowTagId': '', 'Charging': 0, 'Smart': '', 'GAID': 'ee94a9ba-c079-4786-8867-2ab109ed5610', 'Extalgo': '', 'InstallIDS': '[177536538]', 'EndcardCreativeID': 0, 'Brand': 'google', 'OnlyImpression': 1, 'MWFlowTagID': 0, 'SessionID': '', 'PriceFloor': 0, 'GPSAccuracy': '', 'Extra13': 0, 'RealPackageName': 'id24282', 'OSVersionCode': 0, 'ResidualMemory': '', 'Extra14': 0, 'Offset': 1, 'ApiRequestNum': -2, 'Extra16': 0, 'LNG': '', 'ScreenWidth': 540, 'PublisherID': 5731, 'ImpressionImage': 0, 'CreativeDescSource': 0, 'ExtdeleteDevid': '', 'RankerInfo': '{"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\\u0000"}', 'IDFV': '', 'GPST': '', 'Language': 'en', 'PreClickCamIds': None, 'ExcludeIDS': '[177536538]', 'ExtthreesInstallTime': '', 'IDFA': '', 'Extstats2': '', 'Extra4': '', 'Extfinalsubid': 0, 'Debug': 0, 'Extchannel': '', 'OSVersion': '6.0.1', 'HeaderUA': '', 'PublisherType': 3, 'FlowTagID': 0, 'NativeInfo': '', 'PowerRate': 0, 'CityCode': 390, 'AdNum': 1, 'Orientation': 1, 'FrameNum': 0, 'ScreenHeigh': 960, 'Extadstacking': '', 'Extreject': '', 'ExtthirdCid': '', 'CreativeId': 0, 'RealAppID': 0, 'Network': 0, 'ExtcdnType': '', 'MAC': '020000000000', 'GPSType': 0, 'RequestID': '5a9f49644e524277979a2e95', 'ExtpriceIn': '', 'ExtdspRealAppid': 0, 'LAT': '', 'NetworkType': 9, 'ExtfinalPackageName': '', 'ExtpackageName': '', 'AppVersionCode': '1', 'RequestPath': '/openapi/ad/v3', 'Extrvtemplate': 0, 'CID': '', 'ExtrushNoPre': '', 'PackageName': 'com.mobvista.sdk.demo', 'Scenario': 'openapi', 'UnitSize': '', 'Extbtclass': 0, 'AdvertiserID': 0, 'Platform': 1, 'AdType': 42, 'Extplayable': '', 'TimeZone': 'GMT%2B08%3A00', 'ExtinstallFrom': '', 'ExttrueNvt2': '', 'UnSupportSdkTrueNum': 1, 'Extendcard': '', 'VideoVersion': '', 'GPSV': '', 'Power': '', 'AppName': 'Android7.4demo\xef\xbc\x88donot modify\xef\xbc\x89', 'VideoAdType': 1, 'ExtpriceOut': '', 'TotalMemory': '', 'Extstats': '', 'ServerIP': '', 'CountryCode': 'HK', 'Extb2t': '', 'GPVersion': '8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514', 'RemoteIP': '', 'ExtifLowerImp': '', 'UserAgent': 'Mozilla%2F5.0%20%28Linux%3B%20Android%206.0.1%3B%20Nexus%205X%20Build%2FMTC19T%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F60.0.3112.116%20Mobile%20Safari%2F537.36', 'ClientIP': '39.109.124.93', 'MNC': '', 'IsOffline': 0, 'ApiCacheNum': -2, 'ExtnativeVideo': '', 'SDKVersion': 'MAL_8.4.0', 'RandValue': 0, 'Extbp': '', 'IsRVBack': False, 'MWRandValue': 0, 'Extnativex': '', 'Extabtest2': '', 'PingMode': 1, 'Extattr': '', 'AndroidID': 'ccf785f98e92d84b', 'IMEI': '35362607855670', 'Model': 'Nexus%205X', 'ExtcreativeCdnFlag': '', 'AppVersionName': '1.0', 'ExtadvInstallTime': '', 'Extctype': 0, 'NetWork': '', 'AlgoMap': None, 'Extra': '', 'Extsource': '', 'MCC': '', 'AdSourceID': 1, 'Sign': '489942276c3cf759447d81719c104b95', 'Extnvt2': 0, 'DisplayCIDS': '[177536538]', 'Extabtest1': '', 'ExtcreativeSizeFlag': '', 'BaseIDS': '', 'UnitID': 492, 'ImageSize': '', 'D2': '', 'D3': '', 'D1': ''}
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] platform:
+	expect is : <type 'str'> android
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] nativeinfolist:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] networktype:
+	expect is : <type 'str'> wifi
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] cache1:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] cache2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_channel:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] packagename:
+	expect is : <type 'str'> com.mobvista.sdk.demo
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_rushnopre:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] sdknumber:
+	expect is : <type 'str'> 8.4.0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] framenum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] goadserver:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] networktypeid:
+	expect is : <type 'int'> 9
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_thirdcid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] imei:
+	expect is : <type 'str'> 35362607855670
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] isvast:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adnum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] platformid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] httpreq:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_systemuseragent:
+	expect is : <type 'str'> Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F64.0.3282.186%20Safari%2F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] appid:
+	expect is : <type 'int'> 24282
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] devicebrand:
+	expect is : <type 'str'> google
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] impressionimage:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] truenum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_endcard:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] imagesizeid:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] unitsize:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] excludeids:
+	expect is : <type 'str'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] sign:
+	expect is : <type 'str'> 489942276c3cf759447d81719c104b95
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] parentsessionid:
+	expect is : <type 'str'> 5a9f4f944e52423c6f1af511
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] versionflag:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] lng:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adformat:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] appversioncode:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] category:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_packagename:
+	expect is : <type 'str'> com.mobvista.sdk.demo
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] requesttype:
+	expect is : <type 'int'> 7
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] realappid:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] langnum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] requesttypename:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] osversion:
+	expect is : <type 'str'> 6.0.1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] networkstr:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] uiorientation:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] appinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'publisher': {'username': 'adntest', 'status': 1, 'blockCategory': [30], 'apiKey': '7c22942b749fe6a6e361b675e96b3ee9', 'mvSourceStatus': 1, 'type': 3, 'forceDeviceId': 2, 'created': 1438067413, 'publisherId': 5731}, 'updated': 1517992965, 'reduceRuleV2': None, 'vtaConfigApp': None, 'blackPackageNameList': ['ccc.ccc.ccc', 'com.asdfasfw', 'da.cdsadfsaf', 'com.cmcm.iswipe', 'ttt.cc.cc'], 'allowIp': None, 'vbaConf': {'vbaOption': [], 'vbaClose': 2}, 'app': {'status': 4, 'campaignType': 2, 'grade': 1, 'directMarket': 2, 'appId': 24282, 'apkChance': {'ALL': 0}, 'name': 'Android7.4demo\xef\xbc\x88donot modify\xef\xbc\x89', 'devinfoEncrypt': 1, 'created': 1458111075, 'rushUnits': {'492': 100}, 'custom': [], 'platform': 1, 'isIncent': 1, 'rushSetting': {'pc': 50, 'sdkrush': 1}, 'publisherId': 5731}, 'postbackM': 0, 'priceAdjustmentApp': 0, 'blackList': None, 'excludeSpecialType': [], 'reduceRule': {'priority': 0, 'status': 0, 'price': 0, 'install': 0, 'start': 0}, 'blend_traffic': None, 'landingPageVersion': [], 'appId': 24282, 'fillRateApp': None, 'publisherId': 5731, 'realPackageName': 'id24282'}
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] gpst:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] maindomain:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] apiversion:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mwcitycode:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] googleadvertisingid:
+	expect is : <type 'str'> ee94a9ba-c079-4786-8867-2ab109ed5610
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra16:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] remoteip:
+	expect is : <type 'str'> 192.168.1.228
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra15:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] preclick:
+	expect is : <type 'bool'> True
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] publisherid:
+	expect is : <type 'int'> 5731
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_finalpackagename:
+	expect is : <type 'str'> id24282
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] language:
+	expect is : <type 'str'> en
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra13:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] flowrequestid:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] zeusredisdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mac:
+	expect is : <type 'str'> 020000000000
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mw_flowtagid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] zeusredislocaldebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] gpstype:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] osversioncode:
+	expect is : <type 'int'> 23
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] algo:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] useragent:
+	expect is : <type 'str'> Mozilla%2F5.0%20%28Linux%3B%20Android%206.0.1%3B%20Nexus%205X%20Build%2FMTC19T%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F60.0.3112.116%20Mobile%20Safari%2F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] requestid:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mpsaclever:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] rand:
+	expect is : <type 'str'> 40
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] unitinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'publisher': {'username': 'adntest', 'status': 1, 'blockCategory': [30], 'apiKey': '7c22942b749fe6a6e361b675e96b3ee9', 'mvSourceStatus': 1, 'type': 3, 'forceDeviceId': 2, 'created': 1438067413, 'publisherId': 5731}, 'updated': 1513848403, 'fakeRuleV2': None, 'securityKey': '', 'blackPackageNameList': ['ccc.ccc.ccc', 'com.asdfasfw', 'da.cdsadfsaf', 'com.cmcm.iswipe', 'ttt.cc.cc'], 'virtualReward': {'exchange_rate': 0, 'name': '', 'static_reward': 0}, 'adSourceCountry': {'WF': 0, 'JP': 1, 'JM': 0, 'JO': 0, 'WS': 0, 'JE': 0, 'GW': 0, 'GU': 0, 'GT': 0, 'GS': 0, 'GR': 0, 'GQ': 0, 'GP': 0, 'GY': 0, 'GG': 0, 'GF': 0, 'GE': 0, 'GD': 0, 'GB': 0, 'GA': 0, 'GN': 0, 'GM': 0, 'GL': 0, 'GI': 0, 'GH': 0, 'PR': 0, 'PS': 0, 'PW': 0, 'PT': 0, 'PY': 0, 'PA': 0, 'PF': 0, 'PG': 0, 'PE': 0, 'PK': 0, 'PH': 0, 'PN': 0, 'PL': 0, 'PM': 0, 'ZM': 0, 'ZA': 0, 'ZW': 0, 'ME': 0, 'MD': 0, 'MG': 0, 'MF': 0, 'MA': 0, 'MC': 0, 'MM': 0, 'ML': 0, 'MO': 0, 'MN': 0, 'MH': 0, 'MK': 0, 'MU': 0, 'MT': 0, 'MW': 0, 'MV': 0, 'MQ': 0, 'MP': 0, 'MS': 0, 'MR': 0, 'MY': 0, 'MX': 0, 'MZ': 0, 'FR': 0, 'FI': 0, 'FJ': 0, 'FK': 0, 'FM': 0, 'FO': 0, 'CK': 0, 'CI': 0, 'CH': 0, 'CO': 0, 'CN': 0, 'CM': 0, 'CL': 0, 'CC': 0, 'CA': 0, 'CG': 0, 'CF': 0, 'CD': 0, 'CZ': 0, 'CY': 0, 'CX': 0, 'CR': 0, 'CW': 0, 'CV': 0, 'CU': 0, 'SZ': 0, 'SY': 0, 'SX': 0, 'SS': 0, 'SR': 0, 'SV': 0, 'ST': 0, 'SK': 0, 'SJ': 0, 'SI': 0, 'SH': 0, 'SO': 0, 'SN': 0, 'SM': 0, 'SL': 0, 'SC': 0, 'SB': 0, 'SA': 0, 'SG': 0, 'SE': 0, 'SD': 0, 'YE': 0, 'YT': 0, 'LB': 0, 'LC': 0, 'LA': 0, 'LK': 0, 'LI': 0, 'LV': 0, 'LT': 0, 'LU': 0, 'LR': 0, 'LS': 0, 'LY': 0, 'VA': 0, 'VC': 0, 'VE': 0, 'VG': 0, 'IQ': 0, 'VI': 0, 'IS': 0, 'IR': 0, 'IT': 0, 'VN': 0, 'IM': 0, 'IL': 0, 'IO': 0, 'IN': 0, 'IE': 0, 'ID': 0, 'BD': 0, 'BE': 0, 'BF': 0, 'BG': 0, 'BA': 0, 'BB': 0, 'BL': 0, 'BM': 0, 'BN': 0, 'BO': 0, 'BH': 0, 'BI': 0, 'BJ': 0, 'BT': 0, 'BV': 0, 'BW': 0, 'BQ': 0, 'BR': 0, 'BS': 0, 'BY': 0, 'BZ': 0, 'RU': 0, 'RW': 0, 'RS': 0, 'RE': 0, 'RO': 0, 'OM': 0, 'HR': 0, 'HT': 0, 'HU': 0, 'HK': 0, 'HN': 0, 'HM': 0, 'EH': 0, 'EE': 0, 'EG': 0, 'EC': 0, 'ET': 0, 'ES': 0, 'ER': 0, 'UY': 0, 'UZ': 0, 'US': 0, 'UM': 0, 'UK': 0, 'UG': 0, 'UA': 0, 'VU': 0, 'NI': 0, 'NK': 0, 'NL': 0, 'NO': 0, 'NA': 0, 'NC': 0, 'NE': 0, 'NF': 0, 'NG': 0, 'NZ': 0, 'NP': 0, 'NR': 0, 'NU': 0, 'KG': 0, 'KE': 0, 'KI': 0, 'KH': 0, 'KN': 0, 'KM': 0, 'KR': 0, 'KP': 0, 'KW': 0, 'KZ': 0, 'KY': 0, 'DO': 0, 'DM': 0, 'DJ': 0, 'DK': 0, 'DE': 0, 'DZ': 0, 'TZ': 0, 'TV': 0, 'TW': 0, 'TT': 0, 'TR': 0, 'TN': 0, 'TO': 0, 'TL': 0, 'TM': 0, 'TJ': 0, 'TK': 0, 'TH': 0, 'TF': 0, 'TG': 0, 'TD': 0, 'TC': 0, 'AE': 0, 'AD': 0, 'AG': 0, 'AF': 0, 'AI': 0, 'AM': 0, 'AL': 0, 'AO': 0, 'AQ': 0, 'AS': 0, 'AR': 0, 'AU': 0, 'AT': 0, 'AW': 0, 'AX': 0, 'AZ': 0, 'OTH': 0, 'QA': 0}, 'app': {'status': 4, 'campaignType': 2, 'grade': 1, 'directMarket': 2, 'appId': 24282, 'apkChance': {'ALL': 0}, 'name': 'Android7.4demo\xef\xbc\x88donot modify\xef\xbc\x89', 'devinfoEncrypt': 1, 'created': 1458111075, 'custom': [], 'platform': 1, 'isIncent': 1, 'rushSetting': {'pc': 50, 'sdkrush': 1}, 'publisherId': 5731}, 'appId': 24282, 'outputType': [], 'setting': {'apiRequestNum': -2, 'ttcType': 2, 'apiCacheNum': -2}, 'myOfferIdList': [], 'vtaConfigUnit': None, 'unitId': 492, 'publisherId': 5731, 'subsidyRule': None, 'fillRateUnit': None, 'adSourceData': [[{'status': 1, 'priority': 8, 'adSourceId': 3}, {'status': 1, 'priority': 7, 'adSourceId': 1}, {'status': 2, 'priority': 6, 'adSourceId': 2}, {'status': 0, 'priority': 5, 'adSourceId': 5}, {'status': 0, 'priority': 4, 'adSourceId': 6}, {'status': 0, 'priority': 3, 'adSourceId': 7}, {'status': 0, 'priority': 2, 'adSourceId': 8}, {'status': 2, 'priority': 1, 'adSourceId': 9}], [{'status': 1, 'priority': 8, 'adSourceId': 1}, {'status': 1, 'priority': 7, 'adSourceId': 3}, {'status': 2, 'priority': 6, 'adSourceId': 2}, {'status': 0, 'priority': 5, 'adSourceId': 5}, {'status': 0, 'priority': 4, 'adSourceId': 6}, {'status': 0, 'priority': 3, 'adSourceId': 7}, {'status': 0, 'priority': 2, 'adSourceId': 8}, {'status': 2, 'priority': 1, 'adSourceId': 9}]], 'fakeRule': {'status': 0, 'start': None, 'updated': '', 'install': 0}, 'unit': {'templates': [2, 3], 'pubnativeAppToken': '', 'grade': 0, 'orientation': 1, 'relatedUnitId': 0, 'btClass': 0, 'videoAds': 1, 'newFakeRule': 1, 'nvTemplate': 0, 'unitId': 492, 'redPointShowInterval': 0, 'status': 1, 'redPointShow': True, 'preClick': True, 'mobvistaApiKey': 'ce7599d6bb7eb5a0c098aabb6af64a2c', 'ttcType': 2, 'appId': 24282, 'apiRequestNum': -2, 'entraImage': '', 'apiCacheNum': -2, 'name': 'youxian FB', 'mobvistaAppId': 24283, 'isIncent': 2, 'adFilter': -2, 'adType': 42, 'publisherId': 5731}, 'callbackUrl': ''}
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] googleplayversion:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] cc:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] unitid:
+	expect is : <type 'int'> 492
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] sdkversion:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] displaycids:
+	expect is : <type 'str'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] serverclever:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] pricefloor:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] rushnopreclick:
+	expect is : <type 'bool'> False
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] countrycode:
+	expect is : <type 'str'> HK
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] devid:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adbackend:
+	expect is : <type 'list'> [1]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adsourceid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adtype:
+	expect is : <type 'str'> native
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] publisherinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'publisher': {'username': 'adntest', 'status': 1, 'blockCategory': [30], 'apiKey': '7c22942b749fe6a6e361b675e96b3ee9', 'mvSourceStatus': 1, 'type': 3, 'forceDeviceId': 2, 'created': 1438067413, 'publisherId': 5731}, 'updated': 1513848403, 'publisherId': 5731, 'blackPackageNameList': ['ccc.ccc.ccc', 'com.asdfasfw', 'da.cdsadfsaf', 'com.cmcm.iswipe', 'ttt.cc.cc'], 'excludeAdvertiserIds': []}
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] systemuseragent:
+	expect is : <type 'str'> Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/64.0.3282.186 Safari\/537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] subip:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra12:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] rankerinfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] imagesize:
+	expect is : <type 'str'> 128x128
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] debuginfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mcc:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ttcids:
+	expect is : <type 'str'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] sessionid:
+	expect is : <type 'str'> 5a9f4f944e52423c6f1af510
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] installidarr:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] screensize:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] videoversion:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] prepid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] cid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] osversioncodev2:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] onlyimpression:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] openidfa:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] islinktypetest:
+	expect is : <type 'bool'> False
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] newcreative:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_flowtagid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] videow:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] orientation:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ip:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] cango3scn:
+	expect is : <type 'bool'> True
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] zeusdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] timezone:
+	expect is : <type 'str'> GMT%2B08%3A00
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] videoh:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] adbackendconfig:
+	expect is : <type 'str'> 1:0:0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] idfa:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] gpsaccuracy:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra2:
+	expect is : <type 'str'> 130553083
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRTestRanker_old_1.0.0;11;772;18;0;18;0;
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra4:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra5:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra6:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra7:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra9:
+	expect is : <type 'str'> Mozilla%252F5.0%2520%2528Linux%253B%2520Android%25206.0.1%253B%2520Nexus%25205X%2520Build%252FMTC19T%253B%2520wv%2529%2520AppleWebKit%252F537.36%2520%2528KHTML%252C%2520like%2520Gecko%2529%2520Version%252F4.0%2520Chrome%252F60.0.3112.116%2520Mobile%2520Safari%252F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] isoffline:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] charging:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] channel:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ats:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] idfv:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] devicemodel:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mw_randvalue:
+	expect is : <type 'int'> 931
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] requestkey:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] backendid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] baseids:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] ext_cdntype:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] lat:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] serverid:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] network:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] powerrate:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] creativeredisdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] unsupportsdktruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] scenario:
+	expect is : <type 'str'> openapi
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] excludeidarr:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] mwcountrycode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] citystring:
+	expect is : <type 'str'> hong kong
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] isclever:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:48:29 [DEBUG] [file_utils.py:135] appversionname:
+	expect is : <type 'str'> 1.0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extdeletedevid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extthirdcid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extchannel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] requestpath:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> /openapi/ad/v3
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] devinfoencrypt:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extpricein:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] sdktype:
+	expect is : <type 'str'> mal
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] exttruenvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] randvalue:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extinstallfrom:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extb2t:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] d1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] adtypeid:
+	expect is : <type 'int'> 42
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mobilecode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] debug:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra20:
+	expect is : <type 'str'> [[130553083,457,0,0,1,1]]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] totalmemory:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] platform:
+	expect is : <type 'str'> android
+	fact   is : <type 'int'> 1
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] nativeinfolist:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mwrandvalue:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] networktype:
+	expect is : <type 'str'> wifi
+	fact   is : <type 'int'> 9
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] smart:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extflowtagid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] cache1:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] cache2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extsource:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_channel:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_rushnopre:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] sdknumber:
+	expect is : <type 'str'> 8.4.0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extalgo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] framenum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] goadserver:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] networktypeid:
+	expect is : <type 'int'> 9
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_thirdcid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] isvast:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] nativeinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extcreativecdnflag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] platformid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] campaignid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extabtest2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extcdntype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] videoadtype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extabtest1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extstats2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_systemuseragent:
+	expect is : <type 'str'> Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F64.0.3282.186%20Safari%2F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] devicebrand:
+	expect is : <type 'str'> google
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] impressionimage:
+	expect is : <type 'str'> 
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] truenum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extpackagename:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_endcard:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] imagesizeid:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extctype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] d3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] unitsize:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extnvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] gpversion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extattr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] parentsessionid:
+	expect is : <type 'str'> 5a9f4f944e52423c6f1af511
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] creativedescsource:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] adformat:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extthreesinstalltime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_packagename:
+	expect is : <type 'str'> com.mobvista.sdk.demo
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] requesttype:
+	expect is : <type 'int'> 7
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] d2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] langnum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] flowtagid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mwflowtagid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extplayable:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] requesttypename:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] networkstr:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] uiorientation:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] gpsv:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] maindomain:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mwcitycode:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] googleadvertisingid:
+	expect is : <type 'str'> ee94a9ba-c079-4786-8867-2ab109ed5610
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra16:
+	expect is : <type 'int'> 2
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] remoteip:
+	expect is : <type 'str'> 192.168.1.228
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra14:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra15:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] preclick:
+	expect is : <type 'bool'> True
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_finalpackagename:
+	expect is : <type 'str'> id24282
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra13:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] flowrequestid:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] zeusredisdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mw_flowtagid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] zeusredislocaldebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] gpstype:
+	expect is : <type 'str'> 
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] osversioncode:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] algo:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] creativeid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extnativevideo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] requestid:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'str'> 5a9f49644e524277979a2e95
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mpsaclever:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] rand:
+	expect is : <type 'str'> 40
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] googleplayversion:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] cc:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] isrvback:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'bool'> False
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] sdkversion:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extiflowerimp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extendcard:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] apirequestnum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> -2
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extcreativesizeflag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extfinalsubid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] serverclever:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] tnum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] pricefloor:
+	expect is : <type 'str'> 
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] rushnopreclick:
+	expect is : <type 'bool'> False
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] endcardcreativeid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] gaid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ee94a9ba-c079-4786-8867-2ab109ed5610
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] appname:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Android7.4demo（donot modify）
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] devid:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] adbackend:
+	expect is : <type 'list'> [1]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extbtclass:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] adtype:
+	expect is : <type 'str'> native
+	fact   is : <type 'int'> 42
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] systemuseragent:
+	expect is : <type 'str'> Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/64.0.3282.186 Safari\/537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] subip:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra12:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] rankerinfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] uafamily:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] imagesize:
+	expect is : <type 'str'> 128x128
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] residualmemory:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] brand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> google
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] sessionid:
+	expect is : <type 'str'> 5a9f4f944e52423c6f1af510
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] installidarr:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] headerua:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extfinalpackagename:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] prepid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extbp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extrushnopre:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] osversioncodev2:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extstats:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] openidfa:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] islinktypetest:
+	expect is : <type 'bool'> False
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] newcreative:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] screenwidth:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 540
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_flowtagid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extadvinstalltime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] videow:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ip:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] realpackagename:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> id24282
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extdsprealappid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] power:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] cango3scn:
+	expect is : <type 'bool'> True
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] zeusdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] serverip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] clientip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] videoh:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] adbackendconfig:
+	expect is : <type 'str'> 1:0:0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] citycode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 390
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extreject:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extpriceout:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] apicachenum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> -2
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra2:
+	expect is : <type 'str'> 130553083
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRTestRanker_old_1.0.0;11;772;18;0;18;0;
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra4:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra5:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra6:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra7:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra8:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra9:
+	expect is : <type 'str'> Mozilla%252F5.0%2520%2528Linux%253B%2520Android%25206.0.1%253B%2520Nexus%25205X%2520Build%252FMTC19T%253B%2520wv%2529%2520AppleWebKit%252F537.36%2520%2528KHTML%252C%2520like%2520Gecko%2529%2520Version%252F4.0%2520Chrome%252F60.0.3112.116%2520Mobile%2520Safari%252F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] channel:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ats:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] idfv:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] advertiserid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] androidid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ccf785f98e92d84b
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] devicemodel:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mw_randvalue:
+	expect is : <type 'int'> 931
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] requestkey:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] backendid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] baseids:
+	expect is : <type 'list'> []
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] ext_cdntype:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] serverid:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] network:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extrvtemplate:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] creativeredisdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] dvi:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 4BzuYk5uRUE0iAVAfURFiah9fnVFfAv0WozwDki0G0RMiUvMiavMiavMiav0WoztYrxBYFQ3+FQ3RUE0DFfrfAl2HU39Hn3BHalTD0zK
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] unsupportsdktruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] installids:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> [177536538]
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extnativex:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] excludeidarr:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] mwcountrycode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] screenheigh:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 960
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] extadstacking:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] citystring:
+	expect is : <type 'str'> hong kong
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] isclever:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:51:08 [DEBUG] [file_utils.py:135] model:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Nexus%205X
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extdeletedevid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extthirdcid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extchannel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] requestpath:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> /openapi/ad/v3
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] devinfoencrypt:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extpricein:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] sdktype:
+	expect is : <type 'str'> mal
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] exttruenvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] randvalue:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extinstallfrom:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extb2t:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] d1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] adtypeid:
+	expect is : <type 'int'> 42
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mobilecode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] debug:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra20:
+	expect is : <type 'str'> [[130553083,457,0,0,1,1]]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] totalmemory:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] param:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'Category': 0, 'TNum': 1, 'UaFamily': '', 'DVI': '4BzuYk5uRUE0iAVAfURFiah9fnVFfAv0WozwDki0G0RMiUvMiavMiavMiav0WoztYrxBYFQ3+FQ3RUE0DFfrfAl2HU39Hn3BHalTD0zK', 'CampaignID': 0, 'AppID': 24282, 'ApiVersion': 0, 'HTTPReq': 0, 'OpenIDFA': '', 'TTCIDS': '[177536538]', 'ParentSessionID': '', 'ScreenSize': '540x960', 'DisplayCamIds': None, 'Extra7': 0, 'Extra8': 0, 'VersionFlag': 0, 'ExtflowTagId': '', 'Charging': 0, 'Smart': '', 'GAID': 'ee94a9ba-c079-4786-8867-2ab109ed5610', 'Extalgo': '', 'InstallIDS': '[177536538]', 'EndcardCreativeID': 0, 'Brand': 'google', 'OnlyImpression': 1, 'MWFlowTagID': 0, 'SessionID': '', 'PriceFloor': 0, 'GPSAccuracy': '', 'Extra13': 0, 'RealPackageName': 'id24282', 'OSVersionCode': 0, 'ResidualMemory': '', 'Extra14': 0, 'Offset': 1, 'ApiRequestNum': -2, 'Extra16': 0, 'LNG': '', 'ScreenWidth': 540, 'PublisherID': 5731, 'ImpressionImage': 0, 'CreativeDescSource': 0, 'ExtdeleteDevid': '', 'RankerInfo': '{"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\\u0000"}', 'IDFV': '', 'GPST': '', 'Language': 'en', 'PreClickCamIds': None, 'ExcludeIDS': '[177536538]', 'ExtthreesInstallTime': '', 'IDFA': '', 'Extstats2': '', 'Extra4': '', 'Extfinalsubid': 0, 'Debug': 0, 'Extchannel': '', 'OSVersion': '6.0.1', 'HeaderUA': '', 'PublisherType': 3, 'FlowTagID': 0, 'NativeInfo': '', 'PowerRate': 0, 'CityCode': 390, 'AdNum': 1, 'Orientation': 1, 'FrameNum': 0, 'ScreenHeigh': 960, 'Extadstacking': '', 'Extreject': '', 'ExtthirdCid': '', 'CreativeId': 0, 'RealAppID': 0, 'Network': 0, 'ExtcdnType': '', 'MAC': '020000000000', 'GPSType': 0, 'RequestID': '5a9f49644e524277979a2e95', 'ExtpriceIn': '', 'ExtdspRealAppid': 0, 'LAT': '', 'NetworkType': 9, 'ExtfinalPackageName': '', 'ExtpackageName': '', 'AppVersionCode': '1', 'RequestPath': '/openapi/ad/v3', 'Extrvtemplate': 0, 'CID': '', 'ExtrushNoPre': '', 'PackageName': 'com.mobvista.sdk.demo', 'Scenario': 'openapi', 'UnitSize': '', 'Extbtclass': 0, 'AdvertiserID': 0, 'Platform': 1, 'AdType': 42, 'Extplayable': '', 'TimeZone': 'GMT%2B08%3A00', 'ExtinstallFrom': '', 'ExttrueNvt2': '', 'UnSupportSdkTrueNum': 1, 'Extendcard': '', 'VideoVersion': '', 'GPSV': '', 'Power': '', 'AppName': 'Android7.4demo\xef\xbc\x88donot modify\xef\xbc\x89', 'VideoAdType': 1, 'ExtpriceOut': '', 'TotalMemory': '', 'Extstats': '', 'ServerIP': '', 'CountryCode': 'HK', 'Extb2t': '', 'GPVersion': '8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514', 'RemoteIP': '', 'ExtifLowerImp': '', 'UserAgent': 'Mozilla%2F5.0%20%28Linux%3B%20Android%206.0.1%3B%20Nexus%205X%20Build%2FMTC19T%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F60.0.3112.116%20Mobile%20Safari%2F537.36', 'ClientIP': '39.109.124.93', 'MNC': '', 'IsOffline': 0, 'ApiCacheNum': -2, 'ExtnativeVideo': '', 'SDKVersion': 'MAL_8.4.0', 'RandValue': 0, 'Extbp': '', 'IsRVBack': False, 'MWRandValue': 0, 'Extnativex': '', 'Extabtest2': '', 'PingMode': 1, 'Extattr': '', 'AndroidID': 'ccf785f98e92d84b', 'IMEI': '35362607855670', 'Model': 'Nexus%205X', 'ExtcreativeCdnFlag': '', 'AppVersionName': '1.0', 'ExtadvInstallTime': '', 'Extctype': 0, 'NetWork': '', 'AlgoMap': None, 'Extra': '', 'Extsource': '', 'MCC': '', 'AdSourceID': 1, 'Sign': '489942276c3cf759447d81719c104b95', 'Extnvt2': 0, 'DisplayCIDS': '[177536538]', 'Extabtest1': '', 'ExtcreativeSizeFlag': '', 'BaseIDS': '', 'UnitID': 492, 'ImageSize': '', 'D2': '', 'D3': '', 'D1': ''}
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] platform:
+	expect is : <type 'str'> android
+	fact   is : <type 'int'> 1
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] nativeinfolist:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mwrandvalue:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] networktype:
+	expect is : <type 'str'> wifi
+	fact   is : <type 'int'> 9
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] smart:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extflowtagid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] cache1:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] cache2:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] gpsv:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extsource:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_channel:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_rushnopre:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] sdknumber:
+	expect is : <type 'str'> 8.4.0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extalgo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] framenum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] goadserver:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] networktypeid:
+	expect is : <type 'int'> 9
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_thirdcid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] isvast:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] nativeinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extcreativecdnflag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] platformid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] campaignid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extthreesinstalltime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extcdntype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] videoadtype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extabtest1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extstats2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_systemuseragent:
+	expect is : <type 'str'> Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F64.0.3282.186%20Safari%2F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] devicebrand:
+	expect is : <type 'str'> google
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] impressionimage:
+	expect is : <type 'str'> 
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] truenum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extctype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_endcard:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] imagesizeid:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] d3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] unitsize:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extnvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] gpversion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extattr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] parentsessionid:
+	expect is : <type 'str'> 5a9f4f944e52423c6f1af511
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] creativedescsource:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] adformat:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extabtest2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_packagename:
+	expect is : <type 'str'> com.mobvista.sdk.demo
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] requesttype:
+	expect is : <type 'int'> 7
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] d2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] langnum:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] flowtagid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mwflowtagid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extplayable:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] requesttypename:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] networkstr:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] uiorientation:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] appinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'publisher': {'username': 'adntest', 'status': 1, 'blockCategory': [30], 'apiKey': '7c22942b749fe6a6e361b675e96b3ee9', 'mvSourceStatus': 1, 'type': 3, 'forceDeviceId': 2, 'created': 1438067413, 'publisherId': 5731}, 'updated': 1517992965, 'reduceRuleV2': None, 'vtaConfigApp': None, 'blackPackageNameList': ['ccc.ccc.ccc', 'com.asdfasfw', 'da.cdsadfsaf', 'com.cmcm.iswipe', 'ttt.cc.cc'], 'allowIp': None, 'vbaConf': {'vbaOption': [], 'vbaClose': 2}, 'app': {'status': 4, 'campaignType': 2, 'grade': 1, 'directMarket': 2, 'appId': 24282, 'apkChance': {'ALL': 0}, 'name': 'Android7.4demo\xef\xbc\x88donot modify\xef\xbc\x89', 'devinfoEncrypt': 1, 'created': 1458111075, 'rushUnits': {'492': 100}, 'custom': [], 'platform': 1, 'isIncent': 1, 'rushSetting': {'pc': 50, 'sdkrush': 1}, 'publisherId': 5731}, 'postbackM': 0, 'priceAdjustmentApp': 0, 'blackList': None, 'excludeSpecialType': [], 'reduceRule': {'priority': 0, 'status': 0, 'price': 0, 'install': 0, 'start': 0}, 'blend_traffic': None, 'landingPageVersion': [], 'appId': 24282, 'fillRateApp': None, 'publisherId': 5731, 'realPackageName': 'id24282'}
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] power:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] maindomain:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mwcitycode:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] googleadvertisingid:
+	expect is : <type 'str'> ee94a9ba-c079-4786-8867-2ab109ed5610
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra16:
+	expect is : <type 'int'> 2
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] remoteip:
+	expect is : <type 'str'> 192.168.1.228
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra14:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra15:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] advertiserid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] preclick:
+	expect is : <type 'bool'> True
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_finalpackagename:
+	expect is : <type 'str'> id24282
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra13:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] flowrequestid:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] zeusredisdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mw_flowtagid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] zeusredislocaldebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] gpstype:
+	expect is : <type 'str'> 
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] osversioncode:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] algo:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] creativeid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extadvinstalltime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] requestid:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'str'> 5a9f49644e524277979a2e95
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mpsaclever:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] rand:
+	expect is : <type 'str'> 40
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] unitinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'publisher': {'username': 'adntest', 'status': 1, 'blockCategory': [30], 'apiKey': '7c22942b749fe6a6e361b675e96b3ee9', 'mvSourceStatus': 1, 'type': 3, 'forceDeviceId': 2, 'created': 1438067413, 'publisherId': 5731}, 'updated': 1513848403, 'fakeRuleV2': None, 'securityKey': '', 'blackPackageNameList': ['ccc.ccc.ccc', 'com.asdfasfw', 'da.cdsadfsaf', 'com.cmcm.iswipe', 'ttt.cc.cc'], 'virtualReward': {'exchange_rate': 0, 'name': '', 'static_reward': 0}, 'adSourceCountry': {'WF': 0, 'JP': 1, 'JM': 0, 'JO': 0, 'WS': 0, 'JE': 0, 'GW': 0, 'GU': 0, 'GT': 0, 'GS': 0, 'GR': 0, 'GQ': 0, 'GP': 0, 'GY': 0, 'GG': 0, 'GF': 0, 'GE': 0, 'GD': 0, 'GB': 0, 'GA': 0, 'GN': 0, 'GM': 0, 'GL': 0, 'GI': 0, 'GH': 0, 'PR': 0, 'PS': 0, 'PW': 0, 'PT': 0, 'PY': 0, 'PA': 0, 'PF': 0, 'PG': 0, 'PE': 0, 'PK': 0, 'PH': 0, 'PN': 0, 'PL': 0, 'PM': 0, 'ZM': 0, 'ZA': 0, 'ZW': 0, 'ME': 0, 'MD': 0, 'MG': 0, 'MF': 0, 'MA': 0, 'MC': 0, 'MM': 0, 'ML': 0, 'MO': 0, 'MN': 0, 'MH': 0, 'MK': 0, 'MU': 0, 'MT': 0, 'MW': 0, 'MV': 0, 'MQ': 0, 'MP': 0, 'MS': 0, 'MR': 0, 'MY': 0, 'MX': 0, 'MZ': 0, 'FR': 0, 'FI': 0, 'FJ': 0, 'FK': 0, 'FM': 0, 'FO': 0, 'CK': 0, 'CI': 0, 'CH': 0, 'CO': 0, 'CN': 0, 'CM': 0, 'CL': 0, 'CC': 0, 'CA': 0, 'CG': 0, 'CF': 0, 'CD': 0, 'CZ': 0, 'CY': 0, 'CX': 0, 'CR': 0, 'CW': 0, 'CV': 0, 'CU': 0, 'SZ': 0, 'SY': 0, 'SX': 0, 'SS': 0, 'SR': 0, 'SV': 0, 'ST': 0, 'SK': 0, 'SJ': 0, 'SI': 0, 'SH': 0, 'SO': 0, 'SN': 0, 'SM': 0, 'SL': 0, 'SC': 0, 'SB': 0, 'SA': 0, 'SG': 0, 'SE': 0, 'SD': 0, 'YE': 0, 'YT': 0, 'LB': 0, 'LC': 0, 'LA': 0, 'LK': 0, 'LI': 0, 'LV': 0, 'LT': 0, 'LU': 0, 'LR': 0, 'LS': 0, 'LY': 0, 'VA': 0, 'VC': 0, 'VE': 0, 'VG': 0, 'IQ': 0, 'VI': 0, 'IS': 0, 'IR': 0, 'IT': 0, 'VN': 0, 'IM': 0, 'IL': 0, 'IO': 0, 'IN': 0, 'IE': 0, 'ID': 0, 'BD': 0, 'BE': 0, 'BF': 0, 'BG': 0, 'BA': 0, 'BB': 0, 'BL': 0, 'BM': 0, 'BN': 0, 'BO': 0, 'BH': 0, 'BI': 0, 'BJ': 0, 'BT': 0, 'BV': 0, 'BW': 0, 'BQ': 0, 'BR': 0, 'BS': 0, 'BY': 0, 'BZ': 0, 'RU': 0, 'RW': 0, 'RS': 0, 'RE': 0, 'RO': 0, 'OM': 0, 'HR': 0, 'HT': 0, 'HU': 0, 'HK': 0, 'HN': 0, 'HM': 0, 'EH': 0, 'EE': 0, 'EG': 0, 'EC': 0, 'ET': 0, 'ES': 0, 'ER': 0, 'UY': 0, 'UZ': 0, 'US': 0, 'UM': 0, 'UK': 0, 'UG': 0, 'UA': 0, 'VU': 0, 'NI': 0, 'NK': 0, 'NL': 0, 'NO': 0, 'NA': 0, 'NC': 0, 'NE': 0, 'NF': 0, 'NG': 0, 'NZ': 0, 'NP': 0, 'NR': 0, 'NU': 0, 'KG': 0, 'KE': 0, 'KI': 0, 'KH': 0, 'KN': 0, 'KM': 0, 'KR': 0, 'KP': 0, 'KW': 0, 'KZ': 0, 'KY': 0, 'DO': 0, 'DM': 0, 'DJ': 0, 'DK': 0, 'DE': 0, 'DZ': 0, 'TZ': 0, 'TV': 0, 'TW': 0, 'TT': 0, 'TR': 0, 'TN': 0, 'TO': 0, 'TL': 0, 'TM': 0, 'TJ': 0, 'TK': 0, 'TH': 0, 'TF': 0, 'TG': 0, 'TD': 0, 'TC': 0, 'AE': 0, 'AD': 0, 'AG': 0, 'AF': 0, 'AI': 0, 'AM': 0, 'AL': 0, 'AO': 0, 'AQ': 0, 'AS': 0, 'AR': 0, 'AU': 0, 'AT': 0, 'AW': 0, 'AX': 0, 'AZ': 0, 'OTH': 0, 'QA': 0}, 'app': {'status': 4, 'campaignType': 2, 'grade': 1, 'directMarket': 2, 'appId': 24282, 'apkChance': {'ALL': 0}, 'name': 'Android7.4demo\xef\xbc\x88donot modify\xef\xbc\x89', 'devinfoEncrypt': 1, 'created': 1458111075, 'custom': [], 'platform': 1, 'isIncent': 1, 'rushSetting': {'pc': 50, 'sdkrush': 1}, 'publisherId': 5731}, 'appId': 24282, 'outputType': [], 'setting': {'apiRequestNum': -2, 'ttcType': 2, 'apiCacheNum': -2}, 'myOfferIdList': [], 'vtaConfigUnit': None, 'unitId': 492, 'publisherId': 5731, 'subsidyRule': None, 'fillRateUnit': None, 'adSourceData': [[{'status': 1, 'priority': 8, 'adSourceId': 3}, {'status': 1, 'priority': 7, 'adSourceId': 1}, {'status': 2, 'priority': 6, 'adSourceId': 2}, {'status': 0, 'priority': 5, 'adSourceId': 5}, {'status': 0, 'priority': 4, 'adSourceId': 6}, {'status': 0, 'priority': 3, 'adSourceId': 7}, {'status': 0, 'priority': 2, 'adSourceId': 8}, {'status': 2, 'priority': 1, 'adSourceId': 9}], [{'status': 1, 'priority': 8, 'adSourceId': 1}, {'status': 1, 'priority': 7, 'adSourceId': 3}, {'status': 2, 'priority': 6, 'adSourceId': 2}, {'status': 0, 'priority': 5, 'adSourceId': 5}, {'status': 0, 'priority': 4, 'adSourceId': 6}, {'status': 0, 'priority': 3, 'adSourceId': 7}, {'status': 0, 'priority': 2, 'adSourceId': 8}, {'status': 2, 'priority': 1, 'adSourceId': 9}]], 'fakeRule': {'status': 0, 'start': None, 'updated': '', 'install': 0}, 'unit': {'templates': [2, 3], 'pubnativeAppToken': '', 'grade': 0, 'orientation': 1, 'relatedUnitId': 0, 'btClass': 0, 'videoAds': 1, 'newFakeRule': 1, 'nvTemplate': 0, 'unitId': 492, 'redPointShowInterval': 0, 'status': 1, 'redPointShow': True, 'preClick': True, 'mobvistaApiKey': 'ce7599d6bb7eb5a0c098aabb6af64a2c', 'ttcType': 2, 'appId': 24282, 'apiRequestNum': -2, 'entraImage': '', 'apiCacheNum': -2, 'name': 'youxian FB', 'mobvistaAppId': 24283, 'isIncent': 2, 'adFilter': -2, 'adType': 42, 'publisherId': 5731}, 'callbackUrl': ''}
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] googleplayversion:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] cc:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] isrvback:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'bool'> False
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] sdkversion:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extiflowerimp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extendcard:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] apirequestnum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> -2
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extcreativesizeflag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extfinalsubid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] serverclever:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] tnum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] pricefloor:
+	expect is : <type 'str'> 
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] rushnopreclick:
+	expect is : <type 'bool'> False
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] endcardcreativeid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] gaid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ee94a9ba-c079-4786-8867-2ab109ed5610
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] appname:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Android7.4demo（donot modify）
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] devid:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] adbackend:
+	expect is : <type 'list'> [1]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extbtclass:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] adtype:
+	expect is : <type 'str'> native
+	fact   is : <type 'int'> 42
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] publisherinfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {'publisher': {'username': 'adntest', 'status': 1, 'blockCategory': [30], 'apiKey': '7c22942b749fe6a6e361b675e96b3ee9', 'mvSourceStatus': 1, 'type': 3, 'forceDeviceId': 2, 'created': 1438067413, 'publisherId': 5731}, 'updated': 1513848403, 'publisherId': 5731, 'blackPackageNameList': ['ccc.ccc.ccc', 'com.asdfasfw', 'da.cdsadfsaf', 'com.cmcm.iswipe', 'ttt.cc.cc'], 'excludeAdvertiserIds': []}
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] systemuseragent:
+	expect is : <type 'str'> Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/64.0.3282.186 Safari\/537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] subip:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra12:
+	expect is : <type 'int'> 390
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] rankerinfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] uafamily:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] imagesize:
+	expect is : <type 'str'> 128x128
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] residualmemory:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] debuginfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] brand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> google
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] sessionid:
+	expect is : <type 'str'> 5a9f4f944e52423c6f1af510
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] installidarr:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] headerua:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extfinalpackagename:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] prepid:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extbp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] osversioncodev2:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extstats:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] openidfa:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] islinktypetest:
+	expect is : <type 'bool'> False
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] newcreative:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] screenwidth:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 540
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_flowtagid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extnativevideo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] videow:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ip:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] realpackagename:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> id24282
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extdsprealappid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] cango3scn:
+	expect is : <type 'bool'> True
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] zeusdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] serverip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] clientip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] videoh:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] adbackendconfig:
+	expect is : <type 'str'> 1:0:0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] citycode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 390
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extreject:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extpriceout:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] apicachenum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> -2
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra2:
+	expect is : <type 'str'> 130553083
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRTestRanker_old_1.0.0;11;772;18;0;18;0;
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra4:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra5:
+	expect is : <type 'str'> 5a9f4f944e52423c6faf512b
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra6:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra7:
+	expect is : <type 'int'> 1
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra8:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra9:
+	expect is : <type 'str'> Mozilla%252F5.0%2520%2528Linux%253B%2520Android%25206.0.1%253B%2520Nexus%25205X%2520Build%252FMTC19T%253B%2520wv%2529%2520AppleWebKit%252F537.36%2520%2528KHTML%252C%2520like%2520Gecko%2529%2520Version%252F4.0%2520Chrome%252F60.0.3112.116%2520Mobile%2520Safari%252F537.36
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] channel:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ats:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] idfv:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extrushnopre:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] androidid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ccf785f98e92d84b
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] devicemodel:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mw_randvalue:
+	expect is : <type 'int'> 931
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] requestkey:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] backendid:
+	expect is : <type 'int'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] baseids:
+	expect is : <type 'list'> []
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] ext_cdntype:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extpackagename:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] serverid:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] network:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extrvtemplate:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] creativeredisdebug:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] dvi:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 4BzuYk5uRUE0iAVAfURFiah9fnVFfAv0WozwDki0G0RMiUvMiavMiavMiav0WoztYrxBYFQ3+FQ3RUE0DFfrfAl2HU39Hn3BHalTD0zK
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] unsupportsdktruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] installids:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> [177536538]
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extnativex:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] excludeidarr:
+	expect is : <type 'list'> [177536538]
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] mwcountrycode:
+	expect is : <type 'str'> 
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] screenheigh:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 960
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] extadstacking:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] citystring:
+	expect is : <type 'str'> hong kong
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] isclever:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2018-03-07 10:53:40 [DEBUG] [file_utils.py:135] model:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Nexus%205X

@@ -1,0 +1,15 @@
+2018-06-08 08:08:10:961 - info: [Appium] Welcome to Appium v1.8.0
+2018-06-08 08:08:10:964 - info: [Appium] Non-default server args:
+2018-06-08 08:08:10:965 - info: [Appium]   port: 4700
+2018-06-08 08:08:10:965 - info: [Appium]   bootstrapPort: 4900
+2018-06-08 08:08:10:965 - info: [Appium]   sessionOverride: true
+2018-06-08 08:08:10:965 - info: [Appium]   log: E:/jssdk_ui/log/test02.log
+2018-06-08 08:08:10:965 - info: [Appium]   udid: 85U8PBFE99999999
+2018-06-08 08:08:10:965 - info: [Appium]   noReset: true
+2018-06-08 08:08:10:966 - warn: [Appium] Deprecated server args:
+2018-06-08 08:08:10:966 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"85U8PBFE99999999"}'
+2018-06-08 08:08:10:966 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2018-06-08 08:08:10:966 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-06-08 08:08:10:966 - info: [Appium]   udid: 85U8PBFE99999999
+2018-06-08 08:08:10:966 - info: [Appium]   noReset: true
+2018-06-08 08:08:10:987 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4700

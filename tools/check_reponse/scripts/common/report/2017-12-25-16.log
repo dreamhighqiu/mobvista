@@ -1,0 +1,84 @@
+2017-12-25 16:15:14 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:15:14 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2017-12-25 16:15:14 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:15:14 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:17:17 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'str'> 9
+	fact   is : <type 'str'> 2
+2017-12-25 16:17:17 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:17:17 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:17:17 [DEBUG] [file_utils.py:135] imageSize:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 1200x627
+2017-12-25 16:17:17 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:22:35 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:22:35 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:23:18 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:23:18 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2017-12-25 16:23:18 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:23:18 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:26:30 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:26:30 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:28:43 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:28:43 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:36:02 [DEBUG] [file_utils.py:135] ext_threesInstallTime:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 0
+2017-12-25 16:36:02 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:36:02 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:37:26 [DEBUG] [file_utils.py:135] ext_threesInstallTime:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 0
+2017-12-25 16:37:26 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:37:26 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 16:39:28 [DEBUG] [file_utils.py:135] ext_threesInstallTime:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 0
+2017-12-25 16:39:28 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 16:39:28 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0

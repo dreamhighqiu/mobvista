@@ -1,0 +1,12 @@
+2017-12-29 20:57:34 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-29 20:57:34 [DEBUG] [file_utils.py:135] ad_backend_data:
+	expect is : <type 'unicode'> 8:10895195759:1
+	fact   is : <type 'unicode'> 8:10895195759:1;1:160451909:1
+2017-12-29 20:57:34 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-29 20:57:34 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1

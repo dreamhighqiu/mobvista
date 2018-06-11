@@ -1,0 +1,45 @@
+2018-04-13 16:03:12 [INFO] [file_utils.py:152] url: build mp, the size of key 34 is diff to size of value 33
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] ---------p----------
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] None
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] {
+    "MW_mcc_mnc": "46003", 
+    "countryCode": "CN", 
+    "platformId": "1", 
+    "ip": "0", 
+    "devId": "", 
+    "MW_adnum": "20", 
+    "networkTypeId": "9", 
+    "MW_backendConfig": "8:toutiao_android_qiuqiu:3", 
+    "orientation": "2", 
+    "MW_adBackendData": "8:10278207790:1", 
+    "MW_tnum": "1", 
+    "deviceBrand": "vivo", 
+    "MW_flowTagId": "149", 
+    "adTypeId": "94", 
+    "MW_adBackend": "8", 
+    "requestId": "5ad0640d47463337e40b13b6", 
+    "unitId": "30249", 
+    "screenSize": "1280x720", 
+    "extra12": "7422", 
+    "googleAdvertisingId": "7cf4d17b7b607a7", 
+    "mac": "020000000000", 
+    "idfa": "", 
+    "appId": "100081", 
+    "imei": "A1000055E8DCB8", 
+    "osVersion": "6.0.1", 
+    "sdkVersion": "mal_8.3.10", 
+    "deviceModel": "vivo y55a", 
+    "language": "zh", 
+    "publisherId": "12571", 
+    "remoteIp": "0", 
+    "MW_randValue": "2761", 
+    "serverId": "0", 
+    "appVersionName": "8.0.0"
+}
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] ---------q----------
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] None
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] --------csp---------
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] None
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] ---------r----------
+2018-04-13 16:03:12 [DEBUG] [file_utils.py:154] None

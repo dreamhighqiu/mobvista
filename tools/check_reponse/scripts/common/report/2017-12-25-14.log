@@ -1,0 +1,9 @@
+2017-12-25 14:33:33 [DEBUG] [file_utils.py:135] b.b2:
+	expect is : <type 'int'> 2
+	fact   is : <type 'NoneType'> None
+2017-12-25 14:33:33 [DEBUG] [file_utils.py:135] b.b3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 2
+2017-12-25 14:33:44 [DEBUG] [file_utils.py:135] b.b2:
+	expect is : <type 'int'> 2
+	fact   is : <type 'int'> 3

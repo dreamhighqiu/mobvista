@@ -1,0 +1,459 @@
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 65.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 68.i32:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 20.str:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 28.str:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 13.str:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 19.str:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 46.str:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 45.str:
+	expect is : <type 'str'> 5a9e4c984e52425198f1521b
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f5
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 40.i32:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 41.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 3
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 1.i64:
+	expect is : <type 'int'> 1520323736
+	fact   is : <type 'int'> 1520323752
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 7.i32:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 75.str:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 33.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f151f
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f6
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 36.str:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:12:56 [DEBUG] [file_utils.py:135] 34.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f1520
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f7
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 65.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 68.i32:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 20.str:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 28.str:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 13.str:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 19.str:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 46.str:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 45.str:
+	expect is : <type 'str'> 5a9e4c984e52425198f1521b
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f5
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 40.i32:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 41.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 3
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 1.i64:
+	expect is : <type 'int'> 1520323736
+	fact   is : <type 'int'> 1520323752
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 7.i32:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 75.str:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 33.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f151f
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f6
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 36.str:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:29:56 [DEBUG] [file_utils.py:135] 34.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f1520
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f7
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] GP_version:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] adNum:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:46:13 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 65.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 68.i32:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 20.str:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 28.str:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 13.str:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 19.str:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 46.str:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 45.str:
+	expect is : <type 'str'> 5a9e4c984e52425198f1521b
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f5
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 40.i32:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 41.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 3
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 1.i64:
+	expect is : <type 'int'> 1520323736
+	fact   is : <type 'int'> 1520323752
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 7.i32:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 75.str:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 33.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f151f
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f6
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 36.str:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:46:46 [DEBUG] [file_utils.py:135] 34.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f1520
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f7
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] GP_version:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] adNum:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:47:46 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 65.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 68.i32:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 20.str:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 28.str:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 13.str:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 19.str:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 46.str:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 45.str:
+	expect is : <type 'str'> 5a9e4c984e52425198f1521b
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f5
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 40.i32:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 41.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 3
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 1.i64:
+	expect is : <type 'int'> 1520323736
+	fact   is : <type 'int'> 1520323752
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 7.i32:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 75.str:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 33.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f151f
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f6
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 36.str:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:48:36 [DEBUG] [file_utils.py:135] 34.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f1520
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f7
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] unSupportSdkTruenum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] requestType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> OPENAPI_V3
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] appId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 90582
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] GP_version:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] mnc:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] scenario:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> openapi
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] platform:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ANDROID
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] unitId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 13607
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] requestId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5a9e54314e524215859fb2fa
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] adTypeStr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> native
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] cityCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 390
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] adNum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 5
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] adSourceList:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> ['APIOFFER']
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] timestamp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1520325681
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] mcc:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] googleAdvertisingId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ee94a9ba-c079-4786-8867-2ab109ed5610
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] imei:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 35362607855670
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] DEPRECATED_publisherType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> M
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] trueNum:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] ua:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Mozilla%2F5.0%20%28Linux%3B%20Android%206.0.1%3B%20Nexus%205X%20Build%2FMTC19T%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F60.0.3112.116%20Mobile%20Safari%2F537.36
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] packageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> com.mobvista.sdk.demo
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] videoVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2.0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] orientation:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> VERTICAL
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] countryCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> HK
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> UNKNOWN
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] ip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] devId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] unitSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] timezone:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> GMT%2B08%3A00
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] realAppId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] category:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> UNKNOWN
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] rankerInfo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] networkId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] osVersionCodeV2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] osVersionCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] appVersionCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] parentSessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5a9e54314e524215859fb2fc
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] networkType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> NET_WIFI
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] osVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 6.0.1
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> google
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] language:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> en
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] appVersionName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1.0
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] mac:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 020000000000
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] sessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5a9e54314e524215859fb2fb
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] screenSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 540x960
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] adnServerIp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] ifSupportSeperateCreative:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 2
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] idfa:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-06 16:51:57 [DEBUG] [file_utils.py:135] recallADNOffer:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 1
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 65.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 1
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 68.i32:
+	expect is : <type 'int'> 6000100
+	fact   is : <type 'int'> 0
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 20.str:
+	expect is : <type 'str'> nexus205x
+	fact   is : <type 'str'> Nexus%205X
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 28.str:
+	expect is : <type 'str'> 192.168.1.185
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 13.str:
+	expect is : <type 'str'> mal_8.4.0
+	fact   is : <type 'str'> MAL_8.4.0
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 19.str:
+	expect is : <type 'str'> ccf785f98e92d84b
+	fact   is : <type 'str'> 
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 46.str:
+	expect is : <type 'str'> 540x960
+	fact   is : <type 'str'> 
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 45.str:
+	expect is : <type 'str'> 5a9e4c984e52425198f1521b
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f5
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 40.i32:
+	expect is : <type 'int'> 23
+	fact   is : <type 'int'> 0
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 41.i32:
+	expect is : <type 'int'> 0
+	fact   is : <type 'int'> 3
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 1.i64:
+	expect is : <type 'int'> 1520323736
+	fact   is : <type 'int'> 1520323752
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 7.i32:
+	expect is : <type 'int'> 20
+	fact   is : <type 'int'> 5
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 75.str:
+	expect is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":""}
+	fact   is : <type 'str'> {"power_rate":0,"charging":0,"total_memory":"","residual_memory":"","cid":"","lat":"","lng":"","gpst":"","gps_accuracy":"","gps_type":"\u0000"}
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 33.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f151f
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f6
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 36.str:
+	expect is : <type 'str'> 8.1.73.S-all%20%5B0%5D%20%5BFP%5D%20165518514
+	fact   is : <type 'str'> 
+2018-03-06 16:52:39 [DEBUG] [file_utils.py:135] 34.str:
+	expect is : <type 'str'> 5a9e4c984e524251980f1520
+	fact   is : <type 'str'> 5a9e4ca84e524215859fb2f7

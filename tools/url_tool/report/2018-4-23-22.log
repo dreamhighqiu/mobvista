@@ -1,0 +1,83 @@
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] ---------p----------
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] None
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] {
+    "MW_mcc_mnc": "44050", 
+    "countryCode": "HK", 
+    "platformId": "2", 
+    "ip": "0", 
+    "devId": "", 
+    "MW_adnum": "5", 
+    "networkTypeId": "9", 
+    "MW_playInfo": "", 
+    "MW_backendConfig": "8:toutiao_test:3", 
+    "orientation": "1", 
+    "MW_adBackendData": "8:10156622397:1", 
+    "MW_tnum": "5", 
+    "deviceBrand": "apple", 
+    "scenario": "openapi", 
+    "MW_flowTagId": "103", 
+    "adTypeId": "94", 
+    "MW_adBackend": "8", 
+    "requestId": "5addea5c4e52423a2d947ec5", 
+    "unitId": "1341", 
+    "screenSize": "375x812", 
+    "extra12": "390", 
+    "googleAdvertisingId": "", 
+    "mac": "", 
+    "idfa": "C98B99BB-1B2F-434E-BE53-FD651B03FB6A", 
+    "appId": "25259", 
+    "imei": "", 
+    "osVersion": "11.1.2", 
+    "sdkVersion": "mi_3.3.2", 
+    "deviceModel": "iphone8,1", 
+    "language": "en-JP", 
+    "publisherId": "5095", 
+    "remoteIp": "0", 
+    "MW_randValue": "8064", 
+    "serverId": "0", 
+    "appVersionName": "8.3.4"
+}
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] ---------q----------
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] None
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] --------csp---------
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] None
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] ---------r----------
+2018-04-23 22:15:03 [DEBUG] [file_utils.py:154] None
+2018-04-23 22:17:45 [DEBUG] [file_utils.py:154] {
+    "MW_mcc_mnc": "44050", 
+    "countryCode": "HK", 
+    "platformId": "2", 
+    "ip": "0", 
+    "devId": "", 
+    "MW_adnum": "5", 
+    "networkTypeId": "9", 
+    "MW_playInfo": "", 
+    "MW_backendConfig": "8:toutiao_test:3", 
+    "orientation": "1", 
+    "MW_adBackendData": "8:10156622397:1", 
+    "MW_tnum": "5", 
+    "deviceBrand": "apple", 
+    "scenario": "openapi", 
+    "MW_flowTagId": "103", 
+    "adTypeId": "94", 
+    "MW_adBackend": "8", 
+    "requestId": "5adde6914e52423a2d947ec0", 
+    "unitId": "1341", 
+    "screenSize": "375x812", 
+    "extra12": "390", 
+    "googleAdvertisingId": "", 
+    "mac": "", 
+    "idfa": "C98B99BB-1B2F-434E-BE53-FD651B03FB6A", 
+    "appId": "25259", 
+    "imei": "", 
+    "osVersion": "11.1.2", 
+    "sdkVersion": "mi_3.3.2", 
+    "deviceModel": "iphone8,1", 
+    "language": "en-JP", 
+    "publisherId": "5095", 
+    "remoteIp": "0", 
+    "MW_randValue": "8064", 
+    "serverId": "0", 
+    "appVersionName": "8.3.4"
+}

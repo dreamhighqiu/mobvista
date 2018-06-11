@@ -1,0 +1,373 @@
+2018-03-29 16:13:43 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-29 16:13:43 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-29 16:13:43 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-29 16:13:44 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 2330
+2018-03-29 16:13:44 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-29 16:13:44 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-29 16:13:44 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-29 16:13:44 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5abca0384e52423c5fda11c0&p=NTA5NXwyNTI1OXwxMzQxfHx8fG9wZW5hcGl8cmV3YXJkZWRfdmlkZW98MTI4eDEyOHw3fGlvc3wxMS4xLjJ8bWlfMy4zLjJ8aXBob25lODJjMXwzNzV4ODEyfDF8SEt8ZW4tSlB8d2lmaXw0NDA1MHxhbGdvfDc0MzA3MnxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM4NGU1MjQyM2M1ZmRhMTFjMHw1YWJjYTAzODRlNTI0MjNjNWZkYTExYzB8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiY2EwMzg0ZTUyNDIzYzVmZGExMWMwfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJjYTAzODRlNTI0MjNjNWYxZGExMWF8NWFiY2EwMzg0ZTUyNDIzYzVmMWRhMTFifHwzOTB8MXwyNTI1OXwxfDB8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLG51bGwsMCwwLDAsMV1dfHx8fHx8Y29tLnZzdHVkaW8uY2FtZXJhMzYwfHwxMDN8MHw0fDB8fGlkNDQzMzU0ODYxfHx8fHx8fDF8fHx8fHx8MHx8fDB8fHx8fHx8fHxweXRob24tcmVxdWVzdHMlMkYyLjEzLjB8&csp=i%2BMM6ajMibM9iaDT6al1J7K2J7QtY2KTH%2BfTGUiOinuwYFzFL%2BfTD5K8H%2BQ6inEeGAR1Lk2XDrQsH5KfJ%2BfuDTHf%2BTc%2FHdzXLkN1igMe6aj%3D
+2018-03-29 16:13:44 [DEBUG] [file_utils.py:154] fact_url: https://adnettktest.rayjump.com/onlyImpression?k=5abca0394e52420da25ed26c&csp=i%2BMM6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1i%2BMe6aj%3D&p=NTA5NXwyNTI1OXwxMzQxfHx8fG9wZW5hcGl8cmV3YXJkZWRfdmlkZW98MTI4eDEyOHw3fGlvc3wxMS4xLjJ8bWlfMy4zLjJ8aXBob25lOCwxfDM3NXg4MTJ8MXxIS3xlbi1KUHx3aWZpfDQ0MDUwfGFkbmV0X2Fkc2VydmVyfHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2Y3w1YWJjYTAzOTRlNTI0MjBkYTI1ZWQyNmN8fDF8MHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiY2EwMzk0ZTUyNDIwZGEyNWVkMjZjfDM5LjEwOS4xMjQuOTN8fHx8MTMuMjI4LjIzMy4xNHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfDguMy40fGFwcGxlfHw1YWJjYTAzOTRlNTI0MjBkYTI1ZWQyNmR8NWFiY2EwMzk0ZTUyNDIwZGEyNWVkMjZlfHwzOTB8MXx8MXwwfDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHxbWyI3NDMwNzIiLCI0NTciLCIiLCIiLCIxIiwiIl1dfHx8fHx8Y29tLnZzdHVkaW8uY2FtZXJhMzYwfHwxMDN8fDR8fHxpZDQ0MzM1NDg2MXx8fHx8fDJ8fHx8fHx8fHx8fHx8fHx8fDB8fHxweXRob24tcmVxdWVzdHMlMkYyLjEzLjA%3D
+2018-03-29 16:13:44 [INFO] [file_utils.py:152] only_impression_url: build p, the size of key 95 is diff to size of value 96
+2018-03-29 16:13:44 [ERROR] [file_utils.py:148] build csp faild:
+only_impression_url: [u'i%2BMM6ajMibM9iaDT6al1J7K2J7QtY2KTH%2BfTGUiOinuwYFzFL%2BfTD5K8H%2BQ6inEeGAR1Lk2XDrQsH5KfJ%2BfuDTHf%2BTc%2FHdzXLkN1igMe6aj%3D']
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build csp faild:
+only_impression_url: [u'i%2BMM6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1i%2BMe6aj%3D']
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] adType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> rewarded_video
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> adnet_adserver
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] requestType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 7
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_trueNvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] appId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 25259
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_finalsubid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_b2t:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_stats:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] osVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 11.1.2
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_systemUseragent:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> python-requests%2F2.13.0
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra20:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> [["743072","457","","","1",""]]
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_ifLowerImp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] platform:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ios
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abca0394e52420da25ed26c
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] unitId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1341
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_attr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_packageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> com.vstudio.camera360
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_stats2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra6:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] imei:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_abtest2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] imageSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 128x128
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_finalPackageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> id443354861
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] sdkVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> mi_3.3.2
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] scenario:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> openapi
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> NTA5NXwyNTI1OXwxMzQxfHx8fG9wZW5hcGl8cmV3YXJkZWRfdmlkZW98MTI4eDEyOHw3fGlvc3wxMS4xLjJ8bWlfMy4zLjJ8aXBob25lODJjMXwzNzV4ODEyfDF8SEt8ZW4tSlB8d2lmaXw0NDA1MHxhbGdvfDc0MzA3MnxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM4NGU1MjQyM2M1ZmRhMTFjMHw1YWJjYTAzODRlNTI0MjNjNWZkYTExYzB8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiY2EwMzg0ZTUyNDIzYzVmZGExMWMwfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJjYTAzODRlNTI0MjNjNWYxZGExMWF8NWFiY2EwMzg0ZTUyNDIzYzVmMWRhMTFifHwzOTB8MXwyNTI1OXwxfDB8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLG51bGwsMCwwLDAsMV1dfHx8fHx8Y29tLnZzdHVkaW8uY2FtZXJhMzYwfHwxMDN8MHw0fDB8fGlkNDQzMzU0ODYxfHx8fHx8fDF8fHx8fHx8MHx8fDB8fHx8fHx8fHxweXRob24tcmVxdWVzdHMlMkYyLjEzLjB8
+	fact   is : <type 'NoneType'> None
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] publisherId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5095
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_threesInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_advInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 4
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> HK
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 44050
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] reduce:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_algo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] advertiserId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_ctype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_thirdCid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_creativeSizeFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> apple
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;10;497;8;0;8;1;1_base
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abca0394e52420da25ed26c
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abca0394e52420da25ed26c
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_channel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra8:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra9:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_nativex:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_flowTagId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 103
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_creativeCdnFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_nativeVideo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abca0394e52420da25ed26e
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 390
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra13:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra16:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2603D94D-7465-4388-B0C3-BDFA40DCBE32,74C87BBD-C675-EE2A-7651-6EBAC72835EA
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra14:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> wifi
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra18:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] extra19:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_reject:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_source:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> iphone8,1
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] language:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> en-JP
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] appVersionName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 8.3.4
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] mac:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5abca0394e52420da25ed26d
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] screenSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 375x812
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] idfa:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> C98B99BB-1B2F-434E-BE53-FD651B03FB6A
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] MW_adBackend:
+	expect is : <type 'unicode'> i%2BMM6ajMibM9iaDT6al1J7K2J7QtY2KTH%2BfTGUiOinuwYFzFL%2BfTD5K8H%2BQ6inEeGAR1Lk2XDrQsH5KfJ%2BfuDTHf%2BTc%2FHdzXLkN1igMe6aj%3D
+	fact   is : <type 'unicode'> i%2BMM6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1i%2BMe6aj%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ==================impression_url==================
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/impression?k=5abca0384e52423c5fda11c0&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5Nzs4OzA7ODsxOzFfYmFzZXw1YWJjYTAzODRlNTI0MjNjNWZkYTExYzB8fHx8fHx8fDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8fGFwcGxlfDE5Mi4xNjguMS4yMjh8NWFiY2EwMzg0ZTUyNDIzYzVmMWRhMTFhfDVhYmNhMDM4NGU1MjQyM2M1ZjFkYTExYnx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBiFi2Hrxtinc3DgM2DkzUDnvAGaxQfnRTiUfUfkH3DnjeDASIfnvPf%2BMBfnR2G%2BMeiANe6dMbfaiMfAzI6detY7JX6aJIZjwI6aSI6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INnSI6aR2iUVP6deIidMeiafIidMT6aSI6dMB6aSIidMM6deIi%2BeI6aSIideYRUv0WoRMR0MMWaSJ6aj%3D&x=0&r=&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] fact_url: https://adnettktest.rayjump.com/impression?k=5abca0394e52420da25ed26c&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2Y3x8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8fDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2ZHw1YWJjYTAzOTRlNTI0MjBkYTI1ZWQyNmV8fHx8fDF8fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDMsMjAwMDM3MDg2NywsfDQwNCwyMDY0MTk1NzY0LCx8NDA1LDIwNjQxOTU3NjUsLHwxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&x=0
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] impression_url: build p, the size of key 95 is diff to size of value 96
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build q faild:
+impression_url: [u'a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBiFi2Hrxtinc3DgM2DkzUDnvAGaxQfnRTiUfUfkH3DnjeDASIfnvPf%2BMBfnR2G%2BMeiANe6dMbfaiMfAzI6detY7JX6aJIZjwI6aSI6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INnSI6aR2iUVP6deIidMeiafIidMT6aSI6dMB6aSIidMM6deIi%2BeI6aSIideYRUv0WoRMR0MMWaSJ6aj%3D']
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build csp faild:
+impression_url: [u'i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D']
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build csp faild:
+impression_url: [u'i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D']
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] impression_url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build q faild:
+impression_url: [u'a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D']
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5Nzs4OzA7ODsxOzFfYmFzZXw1YWJjYTAzODRlNTI0MjNjNWZkYTExYzB8fHx8fHx8fDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8fGFwcGxlfDE5Mi4xNjguMS4yMjh8NWFiY2EwMzg0ZTUyNDIzYzVmMWRhMTFhfDVhYmNhMDM4NGU1MjQyM2M1ZjFkYTExYnx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D
+	fact   is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2Y3x8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8fDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2ZHw1YWJjYTAzOTRlNTI0MjBkYTI1ZWQyNmV8fHx8fDF8fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] version:
+	expect is : <type 'unicode'> a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBiFi2Hrxtinc3DgM2DkzUDnvAGaxQfnRTiUfUfkH3DnjeDASIfnvPf%2BMBfnR2G%2BMeiANe6dMbfaiMfAzI6detY7JX6aJIZjwI6aSI6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INnSI6aR2iUVP6deIidMeiafIidMT6aSI6dMB6aSIidMM6deIi%2BeI6aSIideYRUv0WoRMR0MMWaSJ6aj%3D
+	fact   is : <type 'unicode'> a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] one side data is illegal, 
+	expect: <type 'unicode'>	
+	fact:<type 'unicode'>	eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDMsMjAwMDM3MDg2NywsfDQwNCwyMDY0MTk1NzY0LCx8NDA1LDIwNjQxOTU3NjUsLHwxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsIiwicGkiOjcsInBvIjo3fQ%3D%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ====================notice_url====================
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/click?k=5abca0394e52423c5fda11db&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5Nzs4OzA7ODsxOzFfYmFzZXw1YWJjYTAzODRlNTI0MjNjNWZkYTExYzB8fHx8fHx8fDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8fGFwcGxlfDE5Mi4xNjguMS4yMjh8NWFiY2EwMzg0ZTUyNDIzYzVmMWRhMTFhfDVhYmNhMDM4NGU1MjQyM2M1ZjFkYTExYnx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBiFi2Hrxtinc3DgM2DkzUDnvAGaxQfnRTiUfUfkH3DnjeDASIfnvPf%2BMBfnR2G%2BMeiANe6dMbfaiMfAzI6detY7JX6aJIZjwI6aSI6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INnSI6aR2iUVP6deIidMeiafIidMT6aSI6dMB6aSIidMM6deIi%2BeI6aSIideYRUv0WoRMR0MMWaSJ6aj%3D&r=&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D&notice=1
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] fact_url: https://adnettktest.rayjump.com/click?k=5abca0394e52420da2ed2715&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2Y3x8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8fDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2ZHw1YWJjYTAzOTRlNTI0MjBkYTI1ZWQyNmV8fHx8fDF8fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDMsMjAwMDM3MDg2NywsfDQwNCwyMDY0MTk1NzY0LCx8NDA1LDIwNjQxOTU3NjUsLHwxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&notice=1
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] notice_url: build p, the size of key 95 is diff to size of value 96
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build q faild:
+notice_url: [u'a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBiFi2Hrxtinc3DgM2DkzUDnvAGaxQfnRTiUfUfkH3DnjeDASIfnvPf%2BMBfnR2G%2BMeiANe6dMbfaiMfAzI6detY7JX6aJIZjwI6aSI6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INnSI6aR2iUVP6deIidMeiafIidMT6aSI6dMB6aSIidMM6deIi%2BeI6aSIideYRUv0WoRMR0MMWaSJ6aj%3D']
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build csp faild:
+notice_url: [u'i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D']
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build csp faild:
+notice_url: [u'i%2BMeGUhTiAvbiUEe6ajMibM9iaDT6aj1YkK0JrQAJ7c6LF5P%2BAj1igMe6aj%3D']
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] notice_url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 16:13:45 [ERROR] [file_utils.py:148] build q faild:
+notice_url: [u'a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D']
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5Nzs4OzA7ODsxOzFfYmFzZXw1YWJjYTAzODRlNTI0MjNjNWZkYTExYzB8fHx8fHx8fDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8fGFwcGxlfDE5Mi4xNjguMS4yMjh8NWFiY2EwMzg0ZTUyNDIzYzVmMWRhMTFhfDVhYmNhMDM4NGU1MjQyM2M1ZjFkYTExYnx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D
+	fact   is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3Ozg7MDs4OzE7MV9iYXNlfDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2Y3x8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8fDVhYmNhMDM5NGU1MjQyMGRhMjVlZDI2ZHw1YWJjYTAzOTRlNTI0MjBkYTI1ZWQyNmV8fHx8fDF8fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] version:
+	expect is : <type 'unicode'> a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBiFi2Hrxtinc3DgM2DkzUDnvAGaxQfnRTiUfUfkH3DnjeDASIfnvPf%2BMBfnR2G%2BMeiANe6dMbfaiMfAzI6detY7JX6aJIZjwI6aSI6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INnSI6aR2iUVP6deIidMeiafIidMT6aSI6dMB6aSIidMM6deIi%2BeI6aSIideYRUv0WoRMR0MMWaSJ6aj%3D
+	fact   is : <type 'unicode'> a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] one side data is illegal, 
+	expect: <type 'unicode'>	
+	fact:<type 'unicode'>	eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDMsMjAwMDM3MDg2NywsfDQwNCwyMDY0MTk1NzY0LCx8NDA1LDIwNjQxOTU3NjUsLHwxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsIiwicGkiOjcsInBvIjo3fQ%3D%3D
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ====================click_url=====================
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] expect_url: 
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] fact_url: http://tracking.lenzmx.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=0&mb_ad_type=8&mb_package=id443354861&aff_sub=a_i09M67c3Yr5TJ7wTH%2BfTWgzt4ku2Y%2Bv%2FDFKw6a5tDrftiaiPf7V2iUNBi7xtir53iUhef%2BM2DkzUDnvAGnxQfnRTiUS3DnR2HkNBfrfIfnvPf%2BMBfnR2G%2BMeiANe6aN2fbMbfaiMfAzIfB9MidMbWUvM67c3Yr5T%2BFc3hF5BJr5B6aJIZjwIWncIidMe6aR2iUVP6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2Ii%2BMM6aR2iUVP6dMe6aSIinvA6deSinvAf%2BeIideuHaNTiAi2falFi%2BMB6aRMfUNeGnVbfUHIigeIi%2BMB6dMA6deIideYRUh%2Fiav0WoRbWUvMR0M0iZRsRUj0%2B%2BM2fv%3D%3D&mb_subid=25259&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A
+2018-03-29 16:13:45 [INFO] [file_utils.py:152] click_url is not correct: 
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-29 16:13:45 [DEBUG] [file_utils.py:154] ---------r----------

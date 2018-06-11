@@ -1,0 +1,18 @@
+2018-01-22 11:21:43 [DEBUG] [file_utils.py:135] content.403.9698764.value:
+	expect is : <type 'int'> 5
+	fact   is : <type 'int'> 4
+2018-01-22 11:21:43 [DEBUG] [file_utils.py:135] source:
+	expect is : <type 'unicode'> mongo
+	fact   is : <type 'unicode'> zeus
+2018-01-22 11:22:24 [DEBUG] [file_utils.py:135] content.403.9698764.value:
+	expect is : <type 'int'> 5
+	fact   is : <type 'int'> 4
+2018-01-22 11:22:24 [DEBUG] [file_utils.py:135] source:
+	expect is : <type 'unicode'> mongo
+	fact   is : <type 'unicode'> zeus
+2018-01-22 11:34:04 [DEBUG] [file_utils.py:135] content.403.9698764.value:
+	expect is : <type 'int'> 5
+	fact   is : <type 'int'> 4
+2018-01-22 11:34:04 [DEBUG] [file_utils.py:135] source:
+	expect is : <type 'unicode'> mongo
+	fact   is : <type 'unicode'> zeus

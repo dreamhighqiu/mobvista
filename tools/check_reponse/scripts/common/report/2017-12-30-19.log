@@ -1,0 +1,33 @@
+2017-12-30 19:00:37 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-30 19:00:37 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-30 19:00:37 [DEBUG] [file_utils.py:135] true_num:
+	expect is : <type 'unicode'> 5
+	fact   is : <type 'unicode'> 10
+2017-12-30 19:00:37 [DEBUG] [file_utils.py:135] request_num:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 4
+2017-12-30 19:00:37 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.7.9
+	fact   is : <type 'unicode'> mi_2.7.9
+2017-12-30 19:00:37 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-30 19:03:53 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-30 19:03:53 [DEBUG] [file_utils.py:135] true_num:
+	expect is : <type 'unicode'> 5
+	fact   is : <type 'unicode'> 10
+2017-12-30 19:03:53 [DEBUG] [file_utils.py:135] request_num:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 4
+2017-12-30 19:03:53 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.7.9
+	fact   is : <type 'unicode'> mi_2.7.9
+2017-12-30 19:03:53 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1

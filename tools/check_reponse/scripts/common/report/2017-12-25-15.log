@@ -1,0 +1,45 @@
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] request_id:
+	expect is : <type 'str'> 5a40ad89697194579700000e
+	fact   is : <type 'str'> 5a40ad8d6971945eb48f0126
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] logId:
+	expect is : <type 'str'> 5a40ad89697194579700000e
+	fact   is : <type 'str'> 5a40ad8d6971945eb48f0126
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] created:
+	expect is : <type 'str'> 1514188168
+	fact   is : <type 'str'> 1514188173
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] server_ip:
+	expect is : <type 'str'> 52.76.190.24
+	fact   is : <type 'str'> 54.169.74.166
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] remoteIp:
+	expect is : <type 'str'> 192.168.1.75
+	fact   is : <type 'str'> 39.109.124.93
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] time:
+	expect is : <type 'str'> 154928
+	fact   is : <type 'str'> 154933
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] parentSessionId:
+	expect is : <type 'str'> 5a40ad888f01c3694e6ac151
+	fact   is : <type 'str'> 5a40ad8d6971945eb438f011
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 15:50:50 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-25 15:52:10 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 15:52:10 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'str'> 1
+	fact   is : <type 'NoneType'> None
+2017-12-25 15:52:10 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-25 15:52:10 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0

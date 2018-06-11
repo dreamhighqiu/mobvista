@@ -1,0 +1,108 @@
+2017-12-28 17:23:56 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:mobvista_key_1:1
+	fact   is : <type 'unicode'> 1:0:0
+2017-12-28 17:23:56 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 17:23:56 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 17:23:56 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-28 17:33:40 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'unicode'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+2017-12-28 17:33:40 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'unicode'> 5
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:33:40 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:34:42 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'unicode'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+2017-12-28 17:34:42 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:35:56 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'unicode'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+2017-12-28 17:35:56 [DEBUG] [file_utils.py:135] creativeId:
+	expect is : <type 'unicode'> 2211837550
+	fact   is : <type 'unicode'> 2211838023
+2017-12-28 17:35:56 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:36:33 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'unicode'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+2017-12-28 17:36:33 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:37:10 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'unicode'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+2017-12-28 17:37:10 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:38:17 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:mobvista_key_1:1
+	fact   is : <type 'unicode'> 1:0:0
+2017-12-28 17:39:26 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:0:3
+	fact   is : <type 'unicode'> 1::3
+2017-12-28 17:50:45 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 17:50:45 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 17:50:45 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] return_num:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] ext_rv_template:
+	expect is : <type 'unicode'> 4
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'unicode'> [[132096887,457,0,0,0],[160451909,457,0,0,0]]
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'unicode'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'unicode'> 160451909,132096887
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'unicode'> 5
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:52:25 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:54:59 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:54:59 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 17:54:59 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 17:54:59 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-28 17:55:50 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-28 17:55:50 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 17:55:50 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 17:55:50 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1

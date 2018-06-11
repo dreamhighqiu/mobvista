@@ -1,0 +1,87 @@
+2017-12-28 19:30:03 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:0:3
+	fact   is : <type 'unicode'> 1:mobvista_key_1:3
+2017-12-28 19:31:03 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:34:25 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'unicode'> 1:0:3
+	fact   is : <type 'unicode'> 1:mobvista_key_1:3
+2017-12-28 19:35:18 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'unicode'> 1,8
+	fact   is : <type 'unicode'> 1
+2017-12-28 19:36:46 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 9
+2017-12-28 19:36:46 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'unicode'> 5
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:36:46 [DEBUG] [file_utils.py:135] imageSize:
+	expect is : <type 'unicode'> 1200x627
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:36:46 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:37:46 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 9
+2017-12-28 19:37:46 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'unicode'> 5
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:37:46 [DEBUG] [file_utils.py:135] imageSize:
+	expect is : <type 'unicode'> 1200x627
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:37:46 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:39:52 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 9
+2017-12-28 19:39:52 [DEBUG] [file_utils.py:135] imageSize:
+	expect is : <type 'unicode'> 1200x627
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:39:52 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:40:33 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'unicode'> ad_server
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:48:42 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 19:48:42 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 19:48:42 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-28 19:54:54 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'unicode'> 1,8
+	fact   is : <type 'unicode'> 1
+2017-12-28 19:56:09 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:56:09 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'unicode'> 8,1
+	fact   is : <type 'unicode'> 8
+2017-12-28 19:56:09 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 19:56:09 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 19:56:09 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-28 19:56:53 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-28 19:56:53 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-28 19:56:53 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-28 19:56:53 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1

@@ -1,0 +1,313 @@
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:01:12 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'str'> ,
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'str'> 
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc751c6c1e23e49443a37
+	fact   is : <type 'str'> 5abcc447c6c1e23ecbd1aeff
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc751c6c1e23e496443a2
+	fact   is : <type 'str'> 5abcc447c6c1e23ecbd1af01
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'str'> 6
+	fact   is : <type 'str'> 
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc751c6c1e23e496443a1
+	fact   is : <type 'str'> 5abcc447c6c1e23ecbd1af00
+2018-03-29 19:01:12 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 19:01:12 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> adnet_adserver
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 3
+	fact   is : <type 'str'> 4
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc751c6c1e23e49443a57
+	fact   is : <type 'str'> 5abcc447c6c1e23ecb1af046
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc751c6c1e23e49443a37
+	fact   is : <type 'str'> 5abcc447c6c1e23ecbd1aeff
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 1.5
+	fact   is : <type 'str'> 1.50
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> ["1.5","1.5",1,1]
+	fact   is : <type 'str'> ["1.50","1.50","1","1"]
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 2244624521
+	fact   is : <type 'str'> 2251341089
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 1.5
+	fact   is : <type 'str'> 1.50
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> A2
+	fact   is : <type 'str'> 20
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 390
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'str'> 5
+	fact   is : <type 'str'> 0
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-03-29 19:01:12 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 19:01:12 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 19:01:12 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":7,"adv_crid":0,"icc":1,"glist":"402,2137145771,0,0
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"403,2244624524,0,
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 99
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:06:55 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> en
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'str'> e3a0280b89c42821
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] reduce:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> e3a0280b89c42821
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'str'> google
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 5abcc8c389e09f427cd82bde
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 5abcc8c389e09f427cd82bdd
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> ,
+	fact   is : <type 'str'> 1
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'str'> wifi
+	fact   is : <type 'str'> KR
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra19:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> ,
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] language:
+	expect is : <type 'str'> en
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] appVersionName:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 23db8601-97ef-4846-ac3f-8a86f340e2e3
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> wifi
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'str'> 23db8601-97ef-4846-ac3f-8a86f340e2e3
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 5.0
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 1
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra6:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 5abcc8c389e09f427cd82bdc
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] mac:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af07
+	fact   is : <type 'str'> 
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af06
+	fact   is : <type 'str'> google
+2018-03-29 19:06:55 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 19:06:55 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc8c2c6c1e23ecb1af0a7
+	fact   is : <type 'str'> 5abcc8c389e09f427c82be16
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abcc8c389e09f427cd82bdc
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] domain:
+	expect is : <type 'str'> sg01.rayjump.com
+	fact   is : <type 'str'> adnettktest.rayjump.com
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'str'> 2244624521
+	fact   is : <type 'str'> 2251341089
+2018-03-29 19:06:55 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 19:06:55 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 19:06:55 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"106,2251341089,757342,1200x627
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"201,2244624521,0,
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:17:09 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;52;0;52;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af07
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a8
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af06
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a7
+2018-03-29 19:17:09 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 19:17:09 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc8c2c6c1e23ecb1af0a7
+	fact   is : <type 'str'> 5abccb2489e09f52786c5ab6
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] domain:
+	expect is : <type 'str'> sg01.rayjump.com
+	fact   is : <type 'str'> adnettktest.rayjump.com
+2018-03-29 19:17:09 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 19:17:09 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 19:17:09 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"106,2251341089,757342,1200x627
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"401,2137145769,0,
+2018-03-29 19:18:35 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'str'> 13.228.178.198
+	fact   is : <type 'str'> 52.76.192.122
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;52;0;52;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af07
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a8
+2018-03-29 19:18:35 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af06
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a7
+2018-03-29 19:18:35 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 19:18:35 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 19:18:35 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 19:18:35 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:19:34 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;52;0;52;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af07
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a8
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af06
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a7
+2018-03-29 19:19:34 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 19:19:34 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc8c2c6c1e23ecb1af0a7
+	fact   is : <type 'str'> 5abccb2489e09f52786c5ab6
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] domain:
+	expect is : <type 'str'> sg01.rayjump.com
+	fact   is : <type 'str'> adnettktest.rayjump.com
+2018-03-29 19:19:34 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 19:19:34 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 19:19:34 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"106,2251341089,757342,1200x627
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"401,2137145769,0,
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 8
+2018-03-29 19:19:57 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;53;0;53;2;1_xgboost_discrete-3_fr2_base
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;936;52;0;52;2;1_xgboost_discrete-3_fr2_base
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af07
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a8
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af06
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a7
+2018-03-29 19:19:57 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-03-29 19:19:57 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5abcc8c2c6c1e23ecb1af0a7
+	fact   is : <type 'str'> 5abccb2489e09f52786c5ab6
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5abcc8c1c6c1e23ecbd1af05
+	fact   is : <type 'str'> 5abccb2389e09f5278a6c5a6
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] domain:
+	expect is : <type 'str'> sg01.rayjump.com
+	fact   is : <type 'str'> adnettktest.rayjump.com
+2018-03-29 19:19:57 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-03-29 19:19:57 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-03-29 19:19:57 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"106,2251341089,757342,1200x627
+	fact   is : <type 'str'> {"gid":"749c202f5a4de245b8ff874ad2eb627b","tpid":404,"crat":3,"adv_crid":757342,"icc":1,"glist":"401,2137145769,0,

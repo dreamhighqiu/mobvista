@@ -1,0 +1,367 @@
+2018-03-06 13:56:41:501 - info: [Appium] Welcome to Appium v1.7.1
+2018-03-06 13:56:41:513 - info: [Appium] Non-default server args:
+2018-03-06 13:56:41:514 - info: [Appium]   log: E:/teacher/Imooc/AppiumPython/log/test.log
+2018-03-06 13:56:41:515 - info: [Appium]   udid: 127.0.0.1:21503
+2018-03-06 13:56:41:517 - warn: [Appium] Deprecated server args:
+2018-03-06 13:56:41:518 - warn: [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:21503"}'
+2018-03-06 13:56:41:519 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2018-03-06 13:56:41:523 - info: [Appium]   udid: '127.0.0.1:21503'
+2018-03-06 13:56:41:570 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-03-06 13:57:09:528 - info: [HTTP] --> POST /wd/hub/session {"requiredCapabilities":{},"desiredCapabilities":{"deviceName":"127.0.0.1:21503","app":"E:\\PythonAppium\\AutoTestAppium\\apps\\mukewang.apk","platformName":"Android","appWaitActivity":"cn.com.open.mooc.user.register.MCPhoneRegisterAty","noReset":"true"}}
+2018-03-06 13:57:09:534 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"127.0.0.1:21503","app":"E:\\PythonAppium\\AutoTestAppium\\apps\\mukewang.apk","platformName":"Android","appWaitActivity":"cn.com.open.mooc.user.register.MCPhoneRegisterAty","noReset":"true"},{},null]
+2018-03-06 13:57:09:541 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1520344629537 (21:57:09 GMT+0800 (中国标准时间))
+2018-03-06 13:57:09:546 - info: [Appium] Creating new AndroidDriver (v1.35.0) session
+2018-03-06 13:57:09:548 - info: [Appium] Capabilities:
+2018-03-06 13:57:09:549 - info: [Appium]   deviceName: '127.0.0.1:21503'
+2018-03-06 13:57:09:550 - info: [Appium]   app: 'E:\\PythonAppium\\AutoTestAppium\\apps\\mukewang.apk'
+2018-03-06 13:57:09:551 - info: [Appium]   platformName: 'Android'
+2018-03-06 13:57:09:552 - info: [Appium]   appWaitActivity: 'cn.com.open.mooc.user.register.MCPhoneRegisterAty'
+2018-03-06 13:57:09:553 - info: [Appium]   noReset: 'true'
+2018-03-06 13:57:09:555 - info: [Appium]   udid: '127.0.0.1:21503'
+2018-03-06 13:57:09:590 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-03-06 13:57:09:623 - info: [BaseDriver] Session created with session id: 0bbc7678-92ae-4de0-83da-2018d43ec13d
+2018-03-06 13:57:09:626 - info: [debug] [AndroidDriver] Getting Java version
+2018-03-06 13:57:09:968 - info: [AndroidDriver] Java version is: 1.8.0_121
+2018-03-06 13:57:09:974 - info: [ADB] Checking whether adb is present
+2018-03-06 13:57:09:984 - info: [ADB] Using adb.exe from D:\java\sdk\platform-tools\adb.exe
+2018-03-06 13:57:09:986 - info: [AndroidDriver] Retrieving device list
+2018-03-06 13:57:09:988 - info: [debug] [ADB] Trying to find a connected android device
+2018-03-06 13:57:09:991 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:10:125 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:10:127 - info: [AndroidDriver] Using device: 127.0.0.1:21503
+2018-03-06 13:57:10:128 - info: [ADB] Checking whether adb is present
+2018-03-06 13:57:10:131 - info: [ADB] Using adb.exe from D:\java\sdk\platform-tools\adb.exe
+2018-03-06 13:57:10:132 - info: [debug] [ADB] Setting device id to 127.0.0.1:21503
+2018-03-06 13:57:10:134 - info: [BaseDriver] Using local app 'E:\PythonAppium\AutoTestAppium\apps\mukewang.apk'
+2018-03-06 13:57:10:136 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-03-06 13:57:10:139 - info: [AndroidDriver] Starting Android session
+2018-03-06 13:57:10:145 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","wait-for-device"]
+2018-03-06 13:57:10:230 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:10:435 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:10:436 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","echo","ping"]
+2018-03-06 13:57:10:568 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-03-06 13:57:10:569 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-03-06 13:57:10:571 - info: [debug] [Logcat] Starting logcat capture
+2018-03-06 13:57:10:659 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-03-06 13:57:10:697 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-03-06 13:57:10:700 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:10:872 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:10:875 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","pm","list","packages","io.appium.settings"]
+2018-03-06 13:57:11:476 - info: [debug] [ADB] App is installed
+2018-03-06 13:57:11:478 - info: [debug] [ADB] Getting package info for io.appium.settings
+2018-03-06 13:57:11:479 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:11:548 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:11:549 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","package","io.appium.settings"]
+2018-03-06 13:57:11:663 - info: [ADB] Checking whether aapt is present
+2018-03-06 13:57:11:667 - info: [ADB] Using aapt.exe from D:\java\sdk\tools\aapt.exe
+2018-03-06 13:57:11:715 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade (5 >= 5)
+2018-03-06 13:57:11:718 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:11:792 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:11:794 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","getprop","ro.build.version.sdk"]
+2018-03-06 13:57:11:872 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 19
+2018-03-06 13:57:11:873 - info: [debug] [ADB] Device API level: 19
+2018-03-06 13:57:11:874 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:11:992 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:11:993 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","package","io.appium.settings"]
+2018-03-06 13:57:12:134 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:12:251 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:12:252 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","ps"]
+2018-03-06 13:57:12:409 - info: [debug] [ADB] Device API level: 19
+2018-03-06 13:57:12:411 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:12:506 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:12:508 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","am","start","-W","-n","io.appium.settings/.Settings","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-03-06 13:57:13:678 - info: [debug] [ADB] Device API level: 19
+2018-03-06 13:57:13:679 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:13:837 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:13:842 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","settings","put","secure","mock_location","1"]
+2018-03-06 13:57:14:534 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-03-06 13:57:14:536 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-03-06 13:57:14:537 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:14:741 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:14:743 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","pm","list","packages","io.appium.unlock"]
+2018-03-06 13:57:15:267 - info: [debug] [ADB] App is installed
+2018-03-06 13:57:15:269 - info: [debug] [ADB] Getting package info for io.appium.unlock
+2018-03-06 13:57:15:270 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:15:333 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:15:338 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","package","io.appium.unlock"]
+2018-03-06 13:57:15:425 - info: [ADB] Checking whether aapt is present
+2018-03-06 13:57:15:433 - info: [ADB] Using aapt.exe from D:\java\sdk\tools\aapt.exe
+2018-03-06 13:57:15:476 - info: [debug] [ADB] The installed 'io.appium.unlock' package is older than 'D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_appium-unlock@2.0.0@appium-unlock\bin\unlock_apk-debug.apk' (1 < 2). Executing upgrade
+2018-03-06 13:57:15:478 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","install","-r","D:\\java\\nodejs\\node_gobal\\node_modules\\appium\\node_modules\\_appium-unlock@2.0.0@appium-unlock\\bin\\unlock_apk-debug.apk"]
+2018-03-06 13:57:16:117 - info: [ADB] Getting device platform version
+2018-03-06 13:57:16:119 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:16:187 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:16:188 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","getprop","ro.build.version.release"]
+2018-03-06 13:57:16:310 - info: [debug] [ADB] Current device property 'ro.build.version.release': 4.4.4
+2018-03-06 13:57:16:311 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:16:434 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:16:435 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","wm","size"]
+2018-03-06 13:57:16:936 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:17:007 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:17:008 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","getprop","ro.product.model"]
+2018-03-06 13:57:17:090 - info: [debug] [ADB] Current device property 'ro.product.model': MI 5s
+2018-03-06 13:57:17:092 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:17:153 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:17:154 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","getprop","ro.product.manufacturer"]
+2018-03-06 13:57:17:223 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-03-06 13:57:17:225 - info: [debug] [AndroidDriver] Parsing package and activity from app manifest
+2018-03-06 13:57:17:228 - info: [ADB] Checking whether aapt is present
+2018-03-06 13:57:17:231 - info: [ADB] Using aapt.exe from D:\java\sdk\tools\aapt.exe
+2018-03-06 13:57:17:232 - info: [ADB] Extracting package and launch activity from manifest
+2018-03-06 13:57:17:282 - info: [debug] [ADB] badging package: cn.com.open.mooc
+2018-03-06 13:57:17:283 - info: [debug] [ADB] badging act: cn.com.open.mooc.index.splash.MCSplashActivity
+2018-03-06 13:57:17:288 - info: [debug] [AndroidDriver] Parsed package and activity are: cn.com.open.mooc/cn.com.open.mooc.index.splash.MCSplashActivity
+2018-03-06 13:57:17:406 - info: [AndroidDriver] Remote apk path is /data/local/tmp/ad752f3781627681e20bb657ecc49d28.apk
+2018-03-06 13:57:17:408 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:17:552 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:17:553 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","ls","/data/local/tmp/ad752f3781627681e20bb657ecc49d28.apk"]
+2018-03-06 13:57:17:623 - info: [debug] [AndroidDriver] Checking if app is installed
+2018-03-06 13:57:17:624 - info: [debug] [ADB] Getting install status for cn.com.open.mooc
+2018-03-06 13:57:17:625 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:17:722 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:17:723 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","pm","list","packages","cn.com.open.mooc"]
+2018-03-06 13:57:18:248 - info: [debug] [ADB] App is installed
+2018-03-06 13:57:18:252 - info: [debug] [AndroidDriver] Extracting strings from apk E:\PythonAppium\AutoTestAppium\apps\mukewang.apk null C:\Users\KYB\AppData\Local\Temp\cn.com.open.mooc
+2018-03-06 13:57:18:255 - info: [debug] [ADB] Extracting strings for language: default
+2018-03-06 13:57:18:259 - info: [debug] [ADB] Device API level: 19
+2018-03-06 13:57:18:263 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:18:334 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:18:336 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","getprop","persist.sys.language"]
+2018-03-06 13:57:18:410 - info: [debug] [ADB] Current device property 'persist.sys.language': zh
+2018-03-06 13:57:20:140 - info: [debug] [ADB] No strings.xml for language 'zh', getting default strings.xml
+2018-03-06 13:57:21:661 - info: [debug] [ADB] Reading strings from converted strings.json
+2018-03-06 13:57:21:668 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","push","C:\\Users\\KYB\\AppData\\Local\\Temp\\cn.com.open.mooc\\strings.json","/data/local/tmp"]
+2018-03-06 13:57:21:826 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-03-06 13:57:21:829 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-03-06 13:57:21:830 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","forward","tcp:4724","tcp:4724"]
+2018-03-06 13:57:21:841 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-03-06 13:57:21:843 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-03-06 13:57:21:845 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-03-06 13:57:21:847 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-03-06 13:57:21:848 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","push","D:\\java\\nodejs\\node_gobal\\node_modules\\appium\\node_modules\\_appium-android-bootstrap@2.10.0@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-03-06 13:57:21:965 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-03-06 13:57:21:968 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-03-06 13:57:21:970 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:22:028 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:22:030 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","ps"]
+2018-03-06 13:57:22:107 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-03-06 13:57:22:109 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-03-06 13:57:22:111 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:21503","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","cn.com.open.mooc","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-03-06 13:57:22:413 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-03-06 13:57:22:440 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-03-06 13:57:22:443 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:22:460 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+2018-03-06 13:57:22:462 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-03-06 13:57:22:463 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-03-06 13:57:22:533 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:22:534 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window"]
+2018-03-06 13:57:22:613 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-03-06 13:57:22:615 - info: [debug] [ADB] Device API level: 19
+2018-03-06 13:57:22:616 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:22:689 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:22:691 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","am","start","-W","-n","cn.com.open.mooc/cn.com.open.mooc.index.splash.MCSplashActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-03-06 13:57:24:358 - info: [debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'cn.com.open.mooc' and activity: 'cn.com.open.mooc.user.register.MCPhoneRegisterAty' to be focused
+2018-03-06 13:57:24:366 - info: [debug] [ADB] Possible activities, to be checked: 'cn.com.open.mooc.user.register.MCPhoneRegisterAty'
+2018-03-06 13:57:24:377 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:24:379 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:24:473 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:24:476 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:24:610 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.splash.MCSplashActivity'
+2018-03-06 13:57:24:612 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:25:369 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:25:370 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:25:527 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:25:529 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:25:651 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.splash.MCSplashActivity'
+2018-03-06 13:57:25:654 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:26:406 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:26:410 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:26:503 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:26:504 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:26:597 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.splash.MCSplashActivity'
+2018-03-06 13:57:26:599 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:27:355 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:27:369 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:27:453 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:27:455 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:27:606 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:27:608 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:28:361 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:28:362 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:28:476 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:28:481 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:28:725 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:28:751 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:29:503 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:29:507 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:29:597 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:29:598 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:29:719 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:29:721 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:30:503 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:30:505 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:30:583 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:30:585 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:30:774 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:30:779 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:31:540 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:31:549 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:31:663 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:31:669 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:31:883 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:31:886 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:32:639 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:32:640 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:32:777 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:32:782 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:32:949 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:32:952 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:33:705 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:33:707 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:33:793 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:33:813 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:33:938 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:33:939 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:34:698 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:34:702 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:34:816 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:34:825 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:35:027 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:35:030 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:35:859 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:35:864 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:35:971 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:35:973 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:36:129 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:36:132 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:36:885 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:36:889 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:36:999 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:37:009 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:37:204 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:37:213 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:37:977 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:37:982 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:38:171 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:38:172 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:38:322 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:38:323 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:39:099 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:39:116 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:39:440 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:39:445 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:39:910 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:39:911 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:40:665 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:40:668 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:40:914 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:40:916 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:41:072 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:41:074 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:41:828 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:41:831 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:41:932 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:41:937 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:42:129 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:42:131 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:42:884 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:42:886 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:43:020 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:43:024 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:43:143 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:43:144 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:43:917 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:43:938 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:44:067 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:44:070 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:44:236 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:44:237 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:44:993 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:45:032 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:45:133 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:45:135 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:45:652 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:45:654 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:46:414 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:46:417 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:46:554 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:46:556 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:46:801 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:46:804 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:47:556 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:47:557 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:47:641 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:47:642 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:47:781 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:47:783 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:48:496 - info: [Appium] Received SIGINT - shutting down
+2018-03-06 13:57:48:499 - error: [UiAutomator] UiAutomator exited unexpectedly with code 3221225786, signal null
+2018-03-06 13:57:48:500 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-03-06 13:57:48:517 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-03-06 13:57:48:519 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:48:532 - error: [Logcat] Logcat terminated with code 3221225786, signal null
+2018-03-06 13:57:48:533 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:48:534 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:48:605 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:48:609 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","am","force-stop","cn.com.open.mooc"]
+2018-03-06 13:57:48:626 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:48:628 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:48:768 - info: [debug] [ADB] Found package: 'cn.com.open.mooc' and fully qualified activity name : 'cn.com.open.mooc.index.MCMainActivity'
+2018-03-06 13:57:48:769 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:49:132 - info: [debug] [ADB] Pressing the HOME button
+2018-03-06 13:57:49:135 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:49:194 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:49:195 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","input","keyevent",3]
+2018-03-06 13:57:49:543 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:49:544 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:49:670 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:49:672 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:49:729 - warn: [AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+2018-03-06 13:57:49:732 - info: [debug] [Logcat] Stopping logcat capture
+2018-03-06 13:57:49:734 - info: [debug] [Logcat] Logcat already stopped
+2018-03-06 13:57:49:736 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:49:830 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:49:832 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","am","force-stop","io.appium.unlock"]
+2018-03-06 13:57:49:880 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:50:514 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-03-06 13:57:50:632 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:50:633 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:50:682 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:50:683 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:50:770 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:51:521 - info: [debug] [ADB] Getting focused package and activity
+2018-03-06 13:57:51:522 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:51:581 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:51:582 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","dumpsys","window","windows"]
+2018-03-06 13:57:51:669 - info: [debug] [ADB] Incorrect package and activity. Retrying.
+2018-03-06 13:57:52:440 - error: [ADB] Error: Error occured while starting App. Original error: 'cn.com.open.mooc.user.register.MCPhoneRegisterAty' never started
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+ Error: Error occured while starting App. Original error: 'cn.com.open.mooc.user.register.MCPhoneRegisterAty' never started
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2018-03-06 13:57:52:442 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-03-06 13:57:52:443 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2018-03-06 13:57:52:445 - info: [debug] [ADB] Getting connected devices...
+2018-03-06 13:57:52:509 - info: [debug] [ADB] 1 device(s) connected
+2018-03-06 13:57:52:511 - info: [debug] [ADB] Running 'D:\java\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","127.0.0.1:21503","shell","am","force-stop","io.appium.unlock"]
+2018-03-06 13:57:53:033 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-03-06 13:57:53:041 - error: [MJSONWP] Encountered internal error running command: Error: Error occured while starting App. Original error: 'cn.com.open.mooc.user.register.MCPhoneRegisterAty' never started
+    at Object.wrappedLogger.errorAndThrow (../../lib/logging.js:69:13)
+    at ADB.callee$0$0$ (../../../lib/tools/apk-utils.js:101:9)
+    at tryCatch (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (D:\java\nodejs\node_gobal\node_modules\appium\node_modules\_babel-runtime@5.8.24@babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2018-03-06 13:57:53:054 - info: [HTTP] <-- POST /wd/hub/session 500 43520 ms - 252 

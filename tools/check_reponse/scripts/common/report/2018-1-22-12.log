@@ -1,0 +1,9 @@
+2018-01-22 12:56:26 [DEBUG] [file_utils.py:135] content.403.9698764.value:
+	expect is : <type 'int'> 5
+	fact   is : <type 'int'> 4
+2018-01-22 12:56:26 [DEBUG] [file_utils.py:135] source:
+	expect is : <type 'unicode'> mongo
+	fact   is : <type 'unicode'> zeus
+2018-01-22 12:57:31 [DEBUG] [file_utils.py:135] content.106.9698752:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'dict'> {u'advCreativeId': u'0', u'url': u'http://cdn-adn.rayjump.com/cdn-adn/portal/18/01/03/16/40/5a4c971b89f52.jpg', u'attribute': u'', u'mime': u'image/jpeg', u'creativeId': 2221618791L, u'resolution': u'1200x627'}

@@ -1,0 +1,46 @@
+2018-04-20 17:25:12 [INFO] [file_utils.py:152] url: build mp, the size of key 35 is diff to size of value 34
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] ---------p----------
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] None
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] {
+    "MW_mcc_mnc": "", 
+    "countryCode": "HK", 
+    "platformId": "2", 
+    "ip": "39.109.124.93", 
+    "devId": "", 
+    "MW_adnum": "5", 
+    "networkTypeId": "9", 
+    "MW_playInfo": "openapi", 
+    "MW_backendConfig": "8:toutiao_test:3", 
+    "orientation": "1", 
+    "MW_adBackendData": "8:10044573757:1", 
+    "MW_tnum": "5", 
+    "deviceBrand": "apple", 
+    "MW_flowTagId": "103", 
+    "adTypeId": "94", 
+    "MW_adBackend": "8", 
+    "requestId": "5ad9b1e14e52421a34d67b2e", 
+    "unitId": "1341", 
+    "screenSize": "375x812", 
+    "extra12": "390", 
+    "googleAdvertisingId": "", 
+    "mac": "", 
+    "idfa": "C98B99BB-1B2F-434E-BE53-FD651B03FB6A", 
+    "appId": "25259", 
+    "imei": "", 
+    "osVersion": "11.1.2", 
+    "sdkVersion": "mi_3.3.2", 
+    "deviceModel": "iphone8,1", 
+    "language": "en-JP", 
+    "publisherId": "5095", 
+    "remoteIp": "", 
+    "MW_randValue": "8064", 
+    "serverId": "13.228.233.14", 
+    "appVersionName": "8.3.4"
+}
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] ---------q----------
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] None
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] --------csp---------
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] None
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] ---------r----------
+2018-04-20 17:25:12 [DEBUG] [file_utils.py:154] None

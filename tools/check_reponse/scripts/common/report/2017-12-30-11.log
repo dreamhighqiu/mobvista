@@ -1,0 +1,18 @@
+2017-12-30 11:02:11 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'unicode'> [[132096887,457,0,0,0],[151396266,761,0,0,0],[181195357,903,0,0,1],[185354338,922,0,0,0],[191002783,457,0,0,1]]
+	fact   is : <type 'unicode'> [[132096887,457,0,0,0],[151396266,761,0,0,0],[181195357,903,0,0,1],[190873629,903,0,0,0],[191002783,457,0,0,1]]
+2017-12-30 11:02:11 [DEBUG] [file_utils.py:135] useragent:
+	expect is : <type 'unicode'> python-requests%2F2.13.0
+	fact   is : <type 'unicode'> Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F63.0.3239.84%20Safari%2F537.36
+2017-12-30 11:02:11 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'unicode'> 151396266,132096887,181195357,191002783,185354338
+	fact   is : <type 'unicode'> 151396266,132096887,181195357,191002783,190873629
+2017-12-30 11:02:11 [DEBUG] [file_utils.py:135] sessionId:
+	expect is : <type 'unicode'> 5a46ffc98f01c33fc8571081
+	fact   is : <type 'unicode'> 5a47015d6971940c776f0d53
+2017-12-30 11:04:27 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 2
+2017-12-30 11:04:27 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 1

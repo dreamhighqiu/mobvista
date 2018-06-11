@@ -1,0 +1,772 @@
+2018-03-27 22:02:09 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:02:09 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:02:09 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:02:11 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 64
+2018-03-27 22:02:11 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:02:12 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:10:04 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:10:04 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:10:04 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:10:05 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 64
+2018-03-27 22:10:05 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:10:05 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:10:48 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:10:48 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:10:48 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:10:49 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 3722
+2018-03-27 22:10:49 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:10:49 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5aba50e94e524251a44c9c80&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MGU5NGU1MjQyNTFhNDRjOWM4MHw1YWJhNTBlOTRlNTI0MjUxYTQ0YzljODB8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTUwZTk0ZTUyNDI1MWE0NGM5YzgwfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTBlOTRlNTI0MjUxYTQwNGM5YzZ8NWFiYTUwZTk0ZTUyNDI1MWE0MDRjOWM3fHwzOTB8MXw5MDA0NHwxfDl8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/onlyImpression?k=5aba50e94e5242241d568b8b&mp=fkc0DnVMHn3THnVBfaRBfac3fnD9DUt06a3efUJIGnvMfaxIinj2fazIi%2BMM6jtW6aiPidMB6a3T6ajeWUj%2FigewL5IAWUi%2FigM9WUi%2FfdethdSsH%2Beuh7tXYrV9WacIiAh24aleigMe675%2FWVuN6aQI6aiPWUjMGZ9eiUN%2FGnfI6ajAWURBGo9BiAi%2FinxI6deI6jiPGjRPGVzoWncoi3DwfaiTxZ2oxnVAWVHjfUVeNUvAx3RFN%2BMe6acIi%2BM9iaDT6aj1iaEM6v%3D%3D
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] ==================impression_url==================
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/impression?k=5aba50e94e524251a44c9c80&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MGU5NGU1MjQyNTFhNDRjOWM4MHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTBlOTRlNTI0MjUxYTQwNGM5YzZ8NWFiYTUwZTk0ZTUyNDI1MWE0MDRjOWM3fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2i7VPf7V2iUNBfnctfaxUGkiPfdM2DkztfnSQGnxQfnRTiUVeDnNTDAQUGaSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&x=0&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwwLDB8MTA2LDIwMDg1MzQ1ODQsMCwwfDIwMSwyMDY0MTk1NzY2LDAsNTQ0eDMwNnw0MDEsMjA2NDE5NTc2MSwwLDB8NDAyLDIwNjQxOTU3NjIsMCwwfDQwMywyMDAwMzcwODY3LDAsMHw0MDQsMjA2NDE5NTc2NCwwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/impression?k=5aba50e94e5242241d568b8b&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fG5hdGl2ZXxWSURFT3x8aW9zfDkuMy41fG1pXzIuNC4wfGlwaG9uZTYsMnwzMjB4NTY4fDF8fHpoLUhhbnMtQVN8d2lmaXwyMDEyMDJ8fHxNTm9ybWFsQWxwaGFNb2RlbFJUZXN0UmFua2VyX29sZF8xLjAuMDsxMDs4NjM7Mzg7MDszODswO3w1YWJhNDkzYjRlNTI0MjI0MWQ1NjhiMzh8fHx8fHx8fDIxOC4xOS40Ni4yMTl8fHx8fHx8fHwzNTk1MUQ2QS1EQjY2LTQ3QTEtOENEMC1EQjFFOUUwRElERkF8fGFwcGxlfHw1YWJhNDkzYjRlNTI0MjI0MWQ1NjhiMzl8NWFiYTQ5M2I0ZTUyNDIyNDFkNTY4YjNhfHx8fHwxfHwxRDcxMERGOS03NTBDLTQ5MjMtQTRDRi0zMDYyOUQxRklERlYsMzU5NTFENkEtREI2Ni00N0ExLThDRDAtREIxRTlFMERPUEVOfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2i7VPf7V2iUNBiUNeHaD9DU3Mf%2BM2DkztfnSQGnxQfnRTiURTikN2fUt0G7zIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsfDQwMywyMDAwMzcwODY3LCx8NDA0LDIwNjQxOTU3NjQsLHw0MDUsMjA2NDE5NTc2NSwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&x=0
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] ====================notice_url====================
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/click?k=5aba50e94e524251a44c9c94&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MGU5NGU1MjQyNTFhNDRjOWM4MHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTBlOTRlNTI0MjUxYTQwNGM5YzZ8NWFiYTUwZTk0ZTUyNDI1MWE0MDRjOWM3fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2i7VPf7V2iUNBfnctfaxUGkiPfdM2DkztfnSQGnxQfnRTiUVeDnNTDAQUGaSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwwLDB8MTA2LDIwMDg1MzQ1ODQsMCwwfDIwMSwyMDY0MTk1NzY2LDAsNTQ0eDMwNnw0MDEsMjA2NDE5NTc2MSwwLDB8NDAyLDIwNjQxOTU3NjIsMCwwfDQwMywyMDAwMzcwODY3LDAsMHw0MDQsMjA2NDE5NTc2NCwwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D&notice=1
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/click?k=5aba50e94e5242241d68b905&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fG5hdGl2ZXxWSURFT3x8aW9zfDkuMy41fG1pXzIuNC4wfGlwaG9uZTYsMnwzMjB4NTY4fDF8fHpoLUhhbnMtQVN8d2lmaXwyMDEyMDJ8fHxNTm9ybWFsQWxwaGFNb2RlbFJUZXN0UmFua2VyX29sZF8xLjAuMDsxMDs4NjM7Mzg7MDszODswO3w1YWJhNDkzYjRlNTI0MjI0MWQ1NjhiMzh8fHx8fHx8fDIxOC4xOS40Ni4yMTl8fHx8fHx8fHwzNTk1MUQ2QS1EQjY2LTQ3QTEtOENEMC1EQjFFOUUwRElERkF8fGFwcGxlfHw1YWJhNDkzYjRlNTI0MjI0MWQ1NjhiMzl8NWFiYTQ5M2I0ZTUyNDIyNDFkNTY4YjNhfHx8fHwxfHwxRDcxMERGOS03NTBDLTQ5MjMtQTRDRi0zMDYyOUQxRklERlYsMzU5NTFENkEtREI2Ni00N0ExLThDRDAtREIxRTlFMERPUEVOfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2i7VPf7V2iUNBiUNeHaD9DU3Mf%2BM2DkztfnSQGnxQfnRTiURTikN2fUt0G7zIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsfDQwMywyMDAwMzcwODY3LCx8NDA0LDIwNjQxOTU3NjQsLHw0MDUsMjA2NDE5NTc2NSwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&notice=1
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] ====================click_url=====================
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] expect_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=&mb_ad_type=&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2i7VPf7V2iUNBfnctfaxUGkiPfdM2DkztfnSQGnxQfnRTiUVeDnNTDAQUGaSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:10:49 [DEBUG] [file_utils.py:154] fact_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=0&mb_ad_type=8&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2i7VPf7V2iUNBiUNeHaD9DU3Mf%2BM2DkztfnSQGnxQfnRTiURTikN2fUt0G7zIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:14:10 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:14:10 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:14:10 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:14:10 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 3714
+2018-03-27 22:14:10 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:14:11 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5aba51b24e5242519a8ec761&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MWIyNGU1MjQyNTE5YThlYzc2MXw1YWJhNTFiMjRlNTI0MjUxOWE4ZWM3NjF8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTUxYjI0ZTUyNDI1MTlhOGVjNzYxfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTFiMjRlNTI0MjUxOWE3OGVjNzR8NWFiYTUxYjI0ZTUyNDI1MTlhNzhlYzc1fHwzOTB8MXw5MDA0NHwxfDl8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/onlyImpression?k=5aba51b34e52422bb7866af6&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfHw3fGlvc3wxMS4xLjJ8bWlfMy4zLjJ8aXBob25lOCwxfDM3NXg4MTJ8MXxIS3xlbi1KUHx3aWZpfDQ0MDUwfGFkX3NlcnZlcnx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmNnw1YWJhNTFiMzRlNTI0MjJiYjc4NjZhZjZ8fDF8MHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fDM5LjEwOS4xMjQuOTN8fHx8MTMuMjI4LjIzMy4xNHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfDguMy40fGFwcGxlfHw1YWJhNTFiMzRlNTI0MjJiYjc4NjZhZjd8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY4fHwzOTB8MXx8MXw5fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHxbWyI3NDMwNzIiLCI0NTciLCIiLCIiLCIzIiwiIl1dfHx8fHx8Y29tLnZzdHVkaW8uY2FtZXJhMzYwfHwxfHw0fHx8fHx8fHx8Mnx8fHx8fHx8fHx8fHx8fHx8MHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMA%3D%3D
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] ==================impression_url==================
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/impression?k=5aba51b24e5242519a8ec761&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MWIyNGU1MjQyNTE5YThlYzc2MXx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTFiMjRlNTI0MjUxOWE3OGVjNzR8NWFiYTUxYjI0ZTUyNDI1MTlhNzhlYzc1fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2ikRBf7V2iUNBfnjPDntQDAhbi%2BM2Dkztfnc0iUxQfnRTiUVeGkj9HkibfUcIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&x=0&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDEsMjA2NDE5NTc2MSwwLDB8NDAyLDIwNjQxOTU3NjIsMCwwfDQwMywyMDAwMzcwODY3LDAsMHw0MDQsMjA2NDE5NTc2NCwwLDB8NDA1LDIwNjQxOTU3NjUsMCwwfDEwNiwyMDA4NTM0NTg0LDAsMHwyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDYiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/impression?k=5aba51b34e52422bb7866af6&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2ikRAf7V2iUNBirz0fADFDkH0fgM2Dkztfnc0iAxQfnRTiUz0DUh9fUHtHUHIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsfDQwMywyMDAwMzcwODY3LCx8NDA0LDIwNjQxOTU3NjQsLHw0MDUsMjA2NDE5NTc2NSwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&x=0
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] ====================notice_url====================
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/click?k=5aba51b24e5242519a8ec771&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MWIyNGU1MjQyNTE5YThlYzc2MXx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTFiMjRlNTI0MjUxOWE3OGVjNzR8NWFiYTUxYjI0ZTUyNDI1MTlhNzhlYzc1fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2ikRBf7V2iUNBfnjPDntQDAhbi%2BM2Dkztfnc0iUxQfnRTiUVeGkj9HkibfUcIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDEsMjA2NDE5NTc2MSwwLDB8NDAyLDIwNjQxOTU3NjIsMCwwfDQwMywyMDAwMzcwODY3LDAsMHw0MDQsMjA2NDE5NTc2NCwwLDB8NDA1LDIwNjQxOTU3NjUsMCwwfDEwNiwyMDA4NTM0NTg0LDAsMHwyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDYiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D&notice=1
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/click?k=5aba51b34e52422bb766afb6&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2ikRAf7V2iUNBirz0fADFDkH0fgM2Dkztfnc0iAxQfnRTiUz0DUh9fUHtHUHIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIxMDYsMjAwODUzNDU4NCwsfDIwMSwyMDY0MTk1NzY2LCx8NDAxLDIwNjQxOTU3NjEsLHw0MDIsMjA2NDE5NTc2MiwsfDQwMywyMDAwMzcwODY3LCx8NDA0LDIwNjQxOTU3NjQsLHw0MDUsMjA2NDE5NTc2NSwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&notice=1
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] ====================click_url=====================
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] expect_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=&mb_ad_type=&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2ikRBf7V2iUNBfnjPDntQDAhbi%2BM2Dkztfnc0iUxQfnRTiUVeGkj9HkibfUcIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:14:11 [DEBUG] [file_utils.py:154] fact_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=0&mb_ad_type=8&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2ikRAf7V2iUNBirz0fADFDkH0fgM2Dkztfnc0iAxQfnRTiUz0DUh9fUHtHUHIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:20:01 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:20:01 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:20:01 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:20:01 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 3693
+2018-03-27 22:20:01 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:20:01 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5aba53114e52423c60baa71a&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MzExNGU1MjQyM2M2MGJhYTcxYXw1YWJhNTMxMTRlNTI0MjNjNjBiYWE3MWF8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTUzMTE0ZTUyNDIzYzYwYmFhNzFhfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTMxMTRlNTI0MjNjNjA1YmFhNmZ8NWFiYTUzMTE0ZTUyNDIzYzYwNWJhYTcwfHwzOTB8MXw5MDA0NHwxfDl8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/onlyImpression?k=5aba53114e52422bb7866afc&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyMDB4NjI3fDd8aW9zfDExLjEuMnxtaV8zLjMuMnxpcGhvbmU4LDF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWRfc2VydmVyfHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUzMTE0ZTUyNDIyYmI3ODY2YWZjfDVhYmE1MzExNGU1MjQyMmJiNzg2NmFmY3x8MXwwfE1vemlsbGElMkY1LjAlMjUyMCUyOGlQaG9uZSUyNTNCJTI1MjBDUFUlMjUyMGlQaG9uZSUyNTIwT1MlMjUyMDEwXzJfMSUyNTIwbGlrZSUyNTIwTWFjJTI1MjBPUyUyNTIwWCUyOSUyNTIwQXBwbGVXZWJLaXQlMkY2MDIuNC42JTI1MjAlMjhLSFRNTCUyNTJDJTI1MjBsaWtlJTI1MjBHZWNrbyUyOSUyNTIwTW9iaWxlJTJGMTREMjclMjUyMENhbWVyYTM2MCUyRjguMy40fHw1YWJhNTMxMTRlNTI0MjJiYjc4NjZhZmN8MzkuMTA5LjEyNC45M3x8fHwxMy4yMjguMjMzLjE0fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8fDVhYmE1MzExNGU1MjQyMmJiNzg2NmFmZHw1YWJhNTMxMTRlNTI0MjJiYjc4NjZhZmV8fDM5MHwxfHwxfDJ8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbIjc0MzA3MiIsIjQ1NyIsIiIsIiIsIjMiLCIiXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8fDR8fHx8fHx8fHwyfHx8fHx8fHx8fHx8fHx8fHwwfHx8cHl0aG9uLXJlcXVlc3RzJTJGMi4xMy4w
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] ==================impression_url==================
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/impression?k=5aba53114e52423c60baa71a&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MzExNGU1MjQyM2M2MGJhYTcxYXx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTMxMTRlNTI0MjNjNjA1YmFhNmZ8NWFiYTUzMTE0ZTUyNDIzYzYwNWJhYTcwfHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2iAjef7V2iUNBiFiFi7ztDnhBD%2BM2DkztfnieinxQfnRTiUfUfUS0DkjbikcIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvMGaVAfaV9fdMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&x=0&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDZ8NDAxLDIwNjQxOTU3NjEsMCwwfDQwMiwyMDY0MTk1NzYyLDAsMHw0MDMsMjAwMDM3MDg2NywwLDB8NDA0LDIwNjQxOTU3NjQsMCwwfDQwNSwyMDY0MTk1NzY1LDAsMHwxMDYsMjAwODUzNDU4NCwwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/impression?k=5aba53114e52422bb7866afc&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2iAjef7V2iUNBirz0fADFDUvef%2BM2DkztfnieinxQfnRTiUz0DUh9fUHtHrfIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwsfDEwNiwyMDA4NTM0NTg0LCx8MjAxLDIwNjQxOTU3NjYsLHw0MDEsMjA2NDE5NTc2MSwsfDQwMiwyMDY0MTk1NzYyLCx8NDAzLDIwMDAzNzA4NjcsLHw0MDQsMjA2NDE5NTc2NCwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&x=0
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] ====================notice_url====================
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/click?k=5aba53114e52423c60baa72a&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1MzExNGU1MjQyM2M2MGJhYTcxYXx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTMxMTRlNTI0MjNjNjA1YmFhNmZ8NWFiYTUzMTE0ZTUyNDIzYzYwNWJhYTcwfHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2iAjef7V2iUNBiFiFi7ztDnhBD%2BM2DkztfnieinxQfnRTiUfUfUS0DkjbikcIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvMGaVAfaV9fdMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDZ8NDAxLDIwNjQxOTU3NjEsMCwwfDQwMiwyMDY0MTk1NzYyLDAsMHw0MDMsMjAwMDM3MDg2NywwLDB8NDA0LDIwNjQxOTU3NjQsMCwwfDQwNSwyMDY0MTk1NzY1LDAsMHwxMDYsMjAwODUzNDU4NCwwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D&notice=1
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/click?k=5aba53114e52422bb766b015&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2iAjef7V2iUNBirz0fADFDUvef%2BM2DkztfnieinxQfnRTiUz0DUh9fUHtHrfIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwsfDEwNiwyMDA4NTM0NTg0LCx8MjAxLDIwNjQxOTU3NjYsLHw0MDEsMjA2NDE5NTc2MSwsfDQwMiwyMDY0MTk1NzYyLCx8NDAzLDIwMDAzNzA4NjcsLHw0MDQsMjA2NDE5NTc2NCwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&notice=1
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] ====================click_url=====================
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] expect_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=&mb_ad_type=&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2iAjef7V2iUNBiFiFi7ztDnhBD%2BM2DkztfnieinxQfnRTiUfUfUS0DkjbikcIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvMGaVAfaV9fdMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:20:01 [DEBUG] [file_utils.py:154] fact_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=0&mb_ad_type=8&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2iAjef7V2iUNBirz0fADFDUvef%2BM2DkztfnieinxQfnRTiUz0DUh9fUHtHrfIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:24:44 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:24:44 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:24:44 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:24:44 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 3689
+2018-03-27 22:24:44 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:24:44 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5aba542c4e52423c7cb40b90&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDJjNGU1MjQyM2M3Y2I0MGI5MHw1YWJhNTQyYzRlNTI0MjNjN2NiNDBiOTB8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU0MmM0ZTUyNDIzYzdjYjQwYjkwfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQyYzRlNTI0MjNjN2M2YjQwYjd8NWFiYTU0MmM0ZTUyNDIzYzdjNmI0MGI4fHwzOTB8MXw5MDA0NHwxfDJ8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/onlyImpression?k=5aba542c4e52422bb7866b0a&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyMDB4NjI3fDd8aW9zfDExLjEuMnxtaV8zLjMuMnxpcGhvbmU4LDF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWRfc2VydmVyfHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTU0MmM0ZTUyNDIyYmI3ODY2YjBhfDVhYmE1NDJjNGU1MjQyMmJiNzg2NmIwYXx8MXwwfE1vemlsbGElMkY1LjAlMjUyMCUyOGlQaG9uZSUyNTNCJTI1MjBDUFUlMjUyMGlQaG9uZSUyNTIwT1MlMjUyMDEwXzJfMSUyNTIwbGlrZSUyNTIwTWFjJTI1MjBPUyUyNTIwWCUyOSUyNTIwQXBwbGVXZWJLaXQlMkY2MDIuNC42JTI1MjAlMjhLSFRNTCUyNTJDJTI1MjBsaWtlJTI1MjBHZWNrbyUyOSUyNTIwTW9iaWxlJTJGMTREMjclMjUyMENhbWVyYTM2MCUyRjguMy40fHw1YWJhNTQyYzRlNTI0MjJiYjc4NjZiMGF8MzkuMTA5LjEyNC45M3x8fHwxMy4yMjguMjMzLjE0fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8fDVhYmE1NDJjNGU1MjQyMmJiNzg2NmIwYnw1YWJhNTQyYzRlNTI0MjJiYjc4NjZiMGN8fDM5MHwxfHwxfDJ8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbIjc0MzA3MiIsIjQ1NyIsIiIsIiIsIjMiLCIiXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8fDR8fHx8fHx8fHwyfHx8fHx8fHx8fHx8fHx8fHwwfHx8cHl0aG9uLXJlcXVlc3RzJTJGMi4xMy4w
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] only_impression_url: build p, the size of key 95 is diff to size of value 96
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build csp faild:
+only_impression_url: [u'i%2BMM6acIGavFfdMeGUv1idMe6aj%3D']
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build csp faild:
+only_impression_url: [u'i%2BMM6acIGavFfdMeGUv1idMe6aj%3D']
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] adType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> rewarded_video
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ad_server
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] requestType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 7
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_trueNvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] appId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 90044
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_finalsubid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_b2t:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_stats:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] osVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 11.1.2
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_systemUseragent:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> python-requests%2F2.13.0
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra20:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> [["743072","457","","","3",""]]
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_ifLowerImp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] platform:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ios
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba542c4e52422bb7866b0a
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] unitId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 11542
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_attr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_packageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> com.vstudio.camera360
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_stats2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra6:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] imei:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_abtest2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] imageSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1200x627
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_finalPackageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] sdkVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> mi_3.3.2
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] scenario:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> openapi
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDJjNGU1MjQyM2M3Y2I0MGI5MHw1YWJhNTQyYzRlNTI0MjNjN2NiNDBiOTB8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU0MmM0ZTUyNDIzYzdjYjQwYjkwfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQyYzRlNTI0MjNjN2M2YjQwYjd8NWFiYTU0MmM0ZTUyNDIzYzdjNmI0MGI4fHwzOTB8MXw5MDA0NHwxfDJ8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D
+	fact   is : <type 'NoneType'> None
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] publisherId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 9167
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_threesInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_advInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 4
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> HK
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 44050
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] reduce:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_algo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] advertiserId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_ctype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_thirdCid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_creativeSizeFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> apple
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;10;497;12;0;12;1;1_base
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba542c4e52422bb7866b0a
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba542c4e52422bb7866b0a
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_channel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra8:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra9:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_nativex:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_flowTagId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_creativeCdnFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_nativeVideo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba542c4e52422bb7866b0c
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 390
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra13:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra16:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2603D94D-7465-4388-B0C3-BDFA40DCBE32,74C87BBD-C675-EE2A-7651-6EBAC72835EA
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra14:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> wifi
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra18:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] extra19:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_reject:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_source:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> iphone8,1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] language:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> en-JP
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] appVersionName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 8.3.4
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] mac:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba542c4e52422bb7866b0b
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] screenSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 375x812
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] idfa:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> C98B99BB-1B2F-434E-BE53-FD651B03FB6A
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ==================impression_url==================
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/impression?k=5aba542c4e52423c7cb40b90&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDJjNGU1MjQyM2M3Y2I0MGI5MHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQyYzRlNTI0MjNjN2M2YjQwYjd8NWFiYTU0MmM0ZTUyNDIzYzdjNmI0MGI4fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&x=0&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDQsMjA2NDE5NTc2NCwwLDB8NDA1LDIwNjQxOTU3NjUsMCwwfDEwNiwyMDA4NTM0NTg0LDAsMHwyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDZ8NDAxLDIwNjQxOTU3NjEsMCwwfDQwMiwyMDY0MTk1NzYyLDAsMHw0MDMsMjAwMDM3MDg2NywwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/impression?k=5aba542c4e52422bb7866b0a&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwsfDEwNiwyMDA4NTM0NTg0LCx8MjAxLDIwNjQxOTU3NjYsLHw0MDEsMjA2NDE5NTc2MSwsfDQwMiwyMDY0MTk1NzYyLCx8NDAzLDIwMDAzNzA4NjcsLHw0MDQsMjA2NDE5NTc2NCwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&x=0
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] impression_url: build p, the size of key 95 is diff to size of value 96
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build q faild:
+impression_url: [u'a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D']
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build csp faild:
+impression_url: [u'i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D']
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build csp faild:
+impression_url: [u'idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D']
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] impression_url: build p, the size of key 95 is diff to size of value 97
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build q faild:
+impression_url: [u'a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D']
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDJjNGU1MjQyM2M3Y2I0MGI5MHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQyYzRlNTI0MjNjN2M2YjQwYjd8NWFiYTU0MmM0ZTUyNDIzYzdjNmI0MGI4fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D
+	fact   is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] version:
+	expect is : <type 'unicode'> a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D
+	fact   is : <type 'unicode'> a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] MW_adBackend:
+	expect is : <type 'unicode'> i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+	fact   is : <type 'unicode'> idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] one side data is illegal, 
+	expect: <type 'unicode'>	eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDQsMjA2NDE5NTc2NCwwLDB8NDA1LDIwNjQxOTU3NjUsMCwwfDEwNiwyMDA4NTM0NTg0LDAsMHwyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDZ8NDAxLDIwNjQxOTU3NjEsMCwwfDQwMiwyMDY0MTk1NzYyLDAsMHw0MDMsMjAwMDM3MDg2NywwLDAiLCJwaSI6NywicG8iOjd9
+	fact:<type 'unicode'>	eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwsfDEwNiwyMDA4NTM0NTg0LCx8MjAxLDIwNjQxOTU3NjYsLHw0MDEsMjA2NDE5NTc2MSwsfDQwMiwyMDY0MTk1NzYyLCx8NDAzLDIwMDAzNzA4NjcsLHw0MDQsMjA2NDE5NTc2NCwsIiwicGkiOjcsInBvIjo3fQ%3D%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ====================notice_url====================
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/click?k=5aba542c4e52423c7cb40ba0&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDJjNGU1MjQyM2M3Y2I0MGI5MHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQyYzRlNTI0MjNjN2M2YjQwYjd8NWFiYTU0MmM0ZTUyNDIzYzdjNmI0MGI4fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDQsMjA2NDE5NTc2NCwwLDB8NDA1LDIwNjQxOTU3NjUsMCwwfDEwNiwyMDA4NTM0NTg0LDAsMHwyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDZ8NDAxLDIwNjQxOTU3NjEsMCwwfDQwMiwyMDY0MTk1NzYyLDAsMHw0MDMsMjAwMDM3MDg2NywwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D&notice=1
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/click?k=5aba542c4e52422bb766b0f5&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwsfDEwNiwyMDA4NTM0NTg0LCx8MjAxLDIwNjQxOTU3NjYsLHw0MDEsMjA2NDE5NTc2MSwsfDQwMiwyMDY0MTk1NzYyLCx8NDAzLDIwMDAzNzA4NjcsLHw0MDQsMjA2NDE5NTc2NCwsIiwicGkiOjcsInBvIjo3fQ%3D%3D&notice=1
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] notice_url: build p, the size of key 95 is diff to size of value 96
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build q faild:
+notice_url: [u'a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D']
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build csp faild:
+notice_url: [u'i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D']
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build csp faild:
+notice_url: [u'idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D']
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] notice_url: build p, the size of key 95 is diff to size of value 97
+2018-03-27 22:24:44 [ERROR] [file_utils.py:148] build q faild:
+notice_url: [u'a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D']
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDJjNGU1MjQyM2M3Y2I0MGI5MHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQyYzRlNTI0MjNjN2M2YjQwYjd8NWFiYTU0MmM0ZTUyNDIzYzdjNmI0MGI4fHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D
+	fact   is : <type 'unicode'> fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] version:
+	expect is : <type 'unicode'> a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D
+	fact   is : <type 'unicode'> a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] MW_adBackend:
+	expect is : <type 'unicode'> i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+	fact   is : <type 'unicode'> idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-27 22:24:44 [INFO] [file_utils.py:152] one side data is illegal, 
+	expect: <type 'unicode'>	eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDQsMjA2NDE5NTc2NCwwLDB8NDA1LDIwNjQxOTU3NjUsMCwwfDEwNiwyMDA4NTM0NTg0LDAsMHwyMDEsMjA2NDE5NTc2NiwwLDU0NHgzMDZ8NDAxLDIwNjQxOTU3NjEsMCwwfDQwMiwyMDY0MTk1NzYyLDAsMHw0MDMsMjAwMDM3MDg2NywwLDAiLCJwaSI6NywicG8iOjd9
+	fact:<type 'unicode'>	eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDUsMjA2NDE5NTc2NSwsfDEwNiwyMDA4NTM0NTg0LCx8MjAxLDIwNjQxOTU3NjYsLHw0MDEsMjA2NDE5NTc2MSwsfDQwMiwyMDY0MTk1NzYyLCx8NDAzLDIwMDAzNzA4NjcsLHw0MDQsMjA2NDE5NTc2NCwsIiwicGkiOjcsInBvIjo3fQ%3D%3D
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ====================click_url=====================
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] expect_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=&mb_ad_type=&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBiFibDFRTi7ztidM2DkztfnNBDAxQfnRTiUfUfFf0faS0GnSIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] fact_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=0&mb_ad_type=8&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fazUf7V2iUNBirz0fADFDUSrf%2BM2DkztfnNBDAxQfnRTiUz0DUh9fUH0i7cIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-27 22:24:44 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-27 22:25:13 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:25:13 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:25:13 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:25:14 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 3690
+2018-03-27 22:25:14 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:25:14 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5aba54494e52425198f16191&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDQ5NGU1MjQyNTE5OGYxNjE5MXw1YWJhNTQ0OTRlNTI0MjUxOThmMTYxOTF8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU0NDk0ZTUyNDI1MTk4ZjE2MTkxfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQ0OTRlNTI0MjUxOTgwZjE2MTd8NWFiYTU0NDk0ZTUyNDI1MTk4MGYxNjE4fHwzOTB8MXw5MDA0NHwxfDl8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/onlyImpression?k=5aba544a4e52422bb7866b10&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfHw3fGlvc3wxMS4xLjJ8bWlfMy4zLjJ8aXBob25lOCwxfDM3NXg4MTJ8MXxIS3xlbi1KUHx3aWZpfDQ0MDUwfGFkX3NlcnZlcnx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDRhNGU1MjQyMmJiNzg2NmIxMHw1YWJhNTQ0YTRlNTI0MjJiYjc4NjZiMTB8fDF8MHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU0NGE0ZTUyNDIyYmI3ODY2YjEwfDM5LjEwOS4xMjQuOTN8fHx8MTMuMjI4LjIzMy4xNHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfDguMy40fGFwcGxlfHw1YWJhNTQ0YTRlNTI0MjJiYjc4NjZiMTF8NWFiYTU0NGE0ZTUyNDIyYmI3ODY2YjEyfHwzOTB8MXx8MXw5fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHxbWyI3NDMwNzIiLCI0NTciLCIiLCIiLCIzIiwiIl1dfHx8fHx8Y29tLnZzdHVkaW8uY2FtZXJhMzYwfHwxfHw0fHx8fHx8fHx8Mnx8fHx8fHx8fHx8fHx8fHx8MHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMA%3D%3D
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] only_impression_url: build p, the size of key 95 is diff to size of value 96
+2018-03-27 22:25:14 [ERROR] [file_utils.py:148] build csp faild:
+only_impression_url: [u'i%2BMM6acIGavFfdMeGUv1idMe6aj%3D']
+2018-03-27 22:25:14 [ERROR] [file_utils.py:148] build csp faild:
+only_impression_url: [u'i%2BMM6acIGavFfdMeGUv1idMe6aj%3D']
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] ---------p----------
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] adType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> rewarded_video
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ad_server
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] requestType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 7
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_trueNvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] appId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 90044
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_finalsubid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] campaignId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_b2t:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_stats:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] osVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 11.1.2
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_systemUseragent:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> python-requests%2F2.13.0
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra20:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> [["743072","457","","","3",""]]
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_ifLowerImp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] platform:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> ios
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba544a4e52422bb7866b10
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] unitId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 11542
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_attr:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_packageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> com.vstudio.camera360
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_stats2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] googleAdvertisingId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra6:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] imei:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_abtest2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] imageSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_finalPackageName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] sdkVersion:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> mi_3.3.2
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] scenario:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> openapi
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] p:
+	expect is : <type 'unicode'> OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1NDQ5NGU1MjQyNTE5OGYxNjE5MXw1YWJhNTQ0OTRlNTI0MjUxOThmMTYxOTF8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU0NDk0ZTUyNDI1MTk4ZjE2MTkxfDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjIyOHw1YWJhNTQ0OTRlNTI0MjUxOTgwZjE2MTd8NWFiYTU0NDk0ZTUyNDI1MTk4MGYxNjE4fHwzOTB8MXw5MDA0NHwxfDl8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D
+	fact   is : <type 'NoneType'> None
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] serverId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 13.228.233.14
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] publisherId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 9167
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_threesInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_advInstallTime:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 4
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] orientation:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] countryCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> HK
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] mobileCode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 44050
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ip:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 39.109.124.93
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] devId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] reduce:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_algo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] advertiserId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_ctype:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_thirdCid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] creativeId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_creativeSizeFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> apple
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;10;497;12;0;12;1;1_base
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba544a4e52422bb7866b10
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba544a4e52422bb7866b10
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_channel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra8:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 0
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra9:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_nativex:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_flowTagId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_priceOut:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_creativeCdnFlag:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_nativeVideo:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba544a4e52422bb7866b12
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra12:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 390
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra13:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra10:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra11:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra16:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 9
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 2603D94D-7465-4388-B0C3-BDFA40DCBE32,74C87BBD-C675-EE2A-7651-6EBAC72835EA
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra14:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra15:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 1
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] networkType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> wifi
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra18:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] extra19:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_nvt2:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_reject:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_source:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> iphone8,1
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] language:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> en-JP
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] appVersionName:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 8.3.4
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_priceIn:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] mac:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 5aba544a4e52422bb7866b11
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] screenSize:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 375x812
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> 
+2018-03-27 22:25:14 [INFO] [file_utils.py:152] idfa:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'str'> C98B99BB-1B2F-434E-BE53-FD651B03FB6A
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] ---------mp---------
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] ---------q----------
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] --------csp---------
+2018-03-27 22:25:14 [DEBUG] [file_utils.py:154] ---------r----------
+2018-03-27 22:34:47 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:34:47 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B"id"%3A2%2C"ad_num"%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:34:47 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:34:47 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 3704
+2018-03-27 22:34:47 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:34:47 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?api_version=0.9&tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5B%7B%22id%22%3A2%2C%22ad_num%22%3A60%7D%5D&platform=2&cache2=51297.835938&unit_id=11542&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=+90044&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=ad65e4be9a35160da6481391cff361fb&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] ===============only_impression_url================
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/onlyImpression?k=5aba56874e52423c753830c4&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfDEyOHgxMjh8N3xpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfEhLfGVuLUpQfHdpZml8NDQwNTB8YWxnb3w3NDMwNzJ8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1Njg3NGU1MjQyM2M3NTM4MzBjNHw1YWJhNTY4NzRlNTI0MjNjNzUzODMwYzR8MXxBfHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU2ODc0ZTUyNDIzYzc1MzgzMGM0fDM5LjEwOS4xMjQuOTN8fHx8fHx8fHxDOThCOTlCQi0xQjJGLTQzNEUtQkU1My1GRDY1MUIwM0ZCNkF8OC4zLjR8YXBwbGV8MTkyLjE2OC4xLjE3OXw1YWJhNTY4NzRlNTI0MjNjNzU3MzgzMGF8NWFiYTU2ODc0ZTUyNDIzYzc1NzM4MzBifHwzOTB8MXw5MDA0NHwxfDl8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fFtbNzQzMDcyLDQ1NywwLDAsMywxXV18fHx8fHxjb20udnN0dWRpby5jYW1lcmEzNjB8fDF8MHw0fDB8fHx8fHx8fDJ8MXx8fHx8fHwwfHx8MXx8fHx8fHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMHw%3D&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/onlyImpression?k=5aba56874e52422bb7866b16&csp=i%2BMM6acIGavFfdMeGUv1idMe6aj%3D&p=OTE2N3w5MDA0NHwxMTU0Mnx8fHxvcGVuYXBpfHJld2FyZGVkX3ZpZGVvfHw3fGlvc3wxMS4xLjJ8bWlfMy4zLjJ8aXBob25lOCwxfDM3NXg4MTJ8MXxIS3xlbi1KUHx3aWZpfDQ0MDUwfGFkX3NlcnZlcnx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1Njg3NGU1MjQyMmJiNzg2NmIxNnw1YWJhNTY4NzRlNTI0MjJiYjc4NjZiMTZ8fDF8MHxNb3ppbGxhJTJGNS4wJTI1MjAlMjhpUGhvbmUlMjUzQiUyNTIwQ1BVJTI1MjBpUGhvbmUlMjUyME9TJTI1MjAxMF8yXzElMjUyMGxpa2UlMjUyME1hYyUyNTIwT1MlMjUyMFglMjklMjUyMEFwcGxlV2ViS2l0JTJGNjAyLjQuNiUyNTIwJTI4S0hUTUwlMjUyQyUyNTIwbGlrZSUyNTIwR2Vja28lMjklMjUyME1vYmlsZSUyRjE0RDI3JTI1MjBDYW1lcmEzNjAlMkY4LjMuNHx8NWFiYTU2ODc0ZTUyNDIyYmI3ODY2YjE2fDM5LjEwOS4xMjQuOTN8fHx8MTMuMjI4LjIzMy4xNHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfDguMy40fGFwcGxlfHw1YWJhNTY4NzRlNTI0MjJiYjc4NjZiMTd8NWFiYTU2ODc0ZTUyNDIyYmI3ODY2YjE4fHwzOTB8MXx8MXw5fDI2MDNEOTRELTc0NjUtNDM4OC1CMEMzLUJERkE0MERDQkUzMiw3NEM4N0JCRC1DNjc1LUVFMkEtNzY1MS02RUJBQzcyODM1RUF8fHxbWyI3NDMwNzIiLCI0NTciLCIiLCIiLCIzIiwiIl1dfHx8fHx8Y29tLnZzdHVkaW8uY2FtZXJhMzYwfHwxfHw0fHx8fHx8fHx8Mnx8fHx8fHx8fHx8fHx8fHx8MHx8fHB5dGhvbi1yZXF1ZXN0cyUyRjIuMTMuMA%3D%3D
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] ==================impression_url==================
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/impression?k=5aba56874e52423c753830c4&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1Njg3NGU1MjQyM2M3NTM4MzBjNHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjE3OXw1YWJhNTY4NzRlNTI0MjNjNzU3MzgzMGF8NWFiYTU2ODc0ZTUyNDIzYzc1NzM4MzBifHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fUlbf7V2iUNBiFibfni9iAS3fdM2DkztfnD9fAxQfnRTiUfUfAVAGaiMDAxIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&x=0&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIxMDYsMjAwODUzNDU4NCwwLDB8MjAxLDIwNjQxOTU3NjYsMCw1NDR4MzA2fDQwMSwyMDY0MTk1NzYxLDAsMHw0MDIsMjA2NDE5NTc2MiwwLDB8NDAzLDIwMDAzNzA4NjcsMCwwfDQwNCwyMDY0MTk1NzY0LDAsMHw0MDUsMjA2NDE5NTc2NSwwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/impression?k=5aba56874e52422bb7866b16&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fUlbf7V2iUNBirz0fADFDUc0GdM2DkztfnD9fAxQfnRTiUz0DUh9fUH0inHIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDQsMjA2NDE5NTc2NCwsfDQwNSwyMDY0MTk1NzY1LCx8MTA2LDIwMDg1MzQ1ODQsLHwyMDEsMjA2NDE5NTc2NiwsfDQwMSwyMDY0MTk1NzYxLCx8NDAyLDIwNjQxOTU3NjIsLHw0MDMsMjAwMDM3MDg2NywsIiwicGkiOjcsInBvIjo3fQ%3D%3D&x=0
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] ====================notice_url====================
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] expect_url: https://test-net.rayjump.com/click?k=5aba56874e52423c753830d4&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgyYzF8Mzc1eDgxMnwxfHxlbi1KUHx3aWZpfDQ0MDUwfHx8TU5vcm1hbEFscGhhTW9kZWxSYW5rZXJfb2xkXzEuMC4wOzEwOzQ5NzsxMjswOzEyOzE7MV9iYXNlfDVhYmE1Njg3NGU1MjQyM2M3NTM4MzBjNHx8fHx8fHx8MzkuMTA5LjEyNC45M3x8fHx8fHx8fEM5OEI5OUJCLTFCMkYtNDM0RS1CRTUzLUZENjUxQjAzRkI2QXx8YXBwbGV8MTkyLjE2OC4xLjE3OXw1YWJhNTY4NzRlNTI0MjNjNzU3MzgzMGF8NWFiYTU2ODc0ZTUyNDIzYzc1NzM4MzBifHx8fHwxfHwyNjAzRDk0RC03NDY1LTQzODgtQjBDMy1CREZBNDBEQ0JFMzIsNzRDODdCQkQtQzY3NS1FRTJBLTc2NTEtNkVCQUM3MjgzNUVBfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fA%3D%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fUlbf7V2iUNBiFibfni9iAS3fdM2DkztfnD9fAxQfnRTiUfUfAVAGaiMDAxIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiIxMDYsMjAwODUzNDU4NCwwLDB8MjAxLDIwNjQxOTU3NjYsMCw1NDR4MzA2fDQwMSwyMDY0MTk1NzYxLDAsMHw0MDIsMjA2NDE5NTc2MiwwLDB8NDAzLDIwMDAzNzA4NjcsMCwwfDQwNCwyMDY0MTk1NzY0LDAsMHw0MDUsMjA2NDE5NTc2NSwwLDAiLCJwaSI6NywicG8iOjd9&al=7%2C0.5%2C0.5%2C0&csp=i%2BMeGUhTiAvbiUEe6acIGavFfdMeGUEA6acIiN%3D%3D&notice=1
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] fact_url: https://test-net.rayjump.com/click?k=5aba56874e52422bb766b1b8&al=7%2C0.5%2C0.5%2C0&csp=idMMGUhTiAvbigMe6alMfUxIiaE1ibMe6aj%3D&p=fHx8fHx8fHJld2FyZGVkX3ZpZGVvfFZJREVPfHxpb3N8MTEuMS4yfG1pXzMuMy4yfGlwaG9uZTgsMXwzNzV4ODEyfDF8fGVuLUpQfHdpZml8NDQwNTB8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTA7NDk3OzEyOzA7MTI7MTsxX2Jhc2V8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY2fHx8fHx8fHwzOS4xMDkuMTI0LjkzfHx8fHx8fHx8Qzk4Qjk5QkItMUIyRi00MzRFLUJFNTMtRkQ2NTFCMDNGQjZBfHxhcHBsZXx8NWFiYTUxYjM0ZTUyNDIyYmI3ODY2YWY3fDVhYmE1MWIzNGU1MjQyMmJiNzg2NmFmOHx8fHx8MXx8MjYwM0Q5NEQtNzQ2NS00Mzg4LUIwQzMtQkRGQTQwRENCRTMyLDc0Qzg3QkJELUM2NzUtRUUyQS03NjUxLTZFQkFDNzI4MzVFQXx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fUlbf7V2iUNBirz0fADFDUc0GdM2DkztfnD9fAxQfnRTiUz0DUh9fUH0inHIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&r=eyJnaWQiOiIxNDViNWFlYjNkOTNiOTQwNjgyZTMxYzk3MmJhZGE2ZCIsInRwaWQiOjUwMSwiY3JhdCI6OCwiYWR2X2NyaWQiOjAsImljYyI6MCwiZ2xpc3QiOiI0MDQsMjA2NDE5NTc2NCwsfDQwNSwyMDY0MTk1NzY1LCx8MTA2LDIwMDg1MzQ1ODQsLHwyMDEsMjA2NDE5NTc2NiwsfDQwMSwyMDY0MTk1NzYxLCx8NDAyLDIwNjQxOTU3NjIsLHw0MDMsMjAwMDM3MDg2NywsIiwicGkiOjcsInBvIjo3fQ%3D%3D&notice=1
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] ====================click_url=====================
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] expect_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=&mb_ad_type=&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fUlbf7V2iUNBiFibfni9iAS3fdM2DkztfnD9fAxQfnRTiUfUfAVAGaiMDAxIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6aJIfbetY7JX6aJIZjwIWncIf%2BMe6a3MiaNT6aiPidM9WUi%2FfdeXh75%2FD%2BSu6aQI6o2INncI6a3MiaNT6deIidMe6aSINUjMiAfIideI6azIiUvFfajPfnhFfgMM6aSIi%2BMB6acIideIidMe6cs0fBRsRUh0Wajsi52IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:34:47 [DEBUG] [file_utils.py:154] fact_url: http://trackingcn.rayjump.com/click?mb_pl=android&mb_nt=cb441&mb_campid=faasos_in&mb_creative_id=0&mb_ad_type=8&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tDrj2fUlbf7V2iUNBirz0fADFDUc0GdM2DkztfnD9fAxQfnRTiUz0DUh9fUH0inHIGnjFfbMPiavTfdMeinVTigMTfnJIfANAiahB6ah%2FiaSIfB9MidetHcKAH%2BzFH%2BzIfbeRZbMwi%2BMM6acIGnvMfaxIiA3M6al%2FiB9T67KMHkPth7QIG%2BeIW%2BMe6aSIGnvMfaxI6acIidMe6deoinvAibeIideIigMBiaDTin32fADF6aSI6acIigeIi%2BeI6aSIkBRbWUvMR0M0fB9MioRsRUj0WoReRQ2IfnN%3D&mb_subid=90044&mb_idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&mb_trackingcn=1
+2018-03-27 22:53:09 [INFO] [file_utils.py:150] http://test-net.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:53:09 [INFO] [file_utils.py:150] http://test-adnet.rayjump.com/openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9
+2018-03-27 22:53:09 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-net.rayjump.com
+2018-03-27 22:53:10 [DEBUG] [connectionpool.py:395] http://test-net.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 4934
+2018-03-27 22:53:10 [DEBUG] [connectionpool.py:207] Starting new HTTP connection (1): test-adnet.rayjump.com
+2018-03-27 22:53:10 [DEBUG] [connectionpool.py:395] http://test-adnet.rayjump.com:80 "GET /openapi/ad/v3?tnum=1&orientation=1&package_name=com.vstudio.camera360&install_ids=%5B177536538%5D&ad_type=94&ad_source_id=1&country_code=CN&timezone=GMT%252B09%253A00&mnc=50&ping_mode=1&category=0&native_info=%5b%7b%22id%22%3a2%2c%22ad_num%22%3a60%7d%5d&platform=2&cache2=51297.835938&unit_id=1341&os_version=11.1.2&sdk_version=MI_3.3.2&ttc_ids=%5B177536538%5D&req_type=1&exclude_ids=%5B177536538%5D&cache1=63937.039062&api_version=1.3&http_req=2&idfv=2603D94D-7465-4388-B0C3-BDFA40DCBE32&ad_num=60&app_version_name=8.3.4&screen_size=375.000000x812.000000&mcc=440&app_id=25259&display_cids=%5B177536538%5D&idfa=C98B99BB-1B2F-434E-BE53-FD651B03FB6A&offset=0&only_impression=1&power_rate=80&sign=34b5ffd843857e456693bd9e4fa52f62&keyword=4MElRoztHFV0RaElinjso0vlRrJQYrxQh0RlG0veWvElRozMD%252B30RaElinRso0vlRrf2hbxXYZRlG0v0D%252Bf3HrdrwDXE8PV0WvElRozghdi0RaEl4MElRovlRretJoRlG0v0inv%2FinDAfAiBR0MpRovlRozsYrh0RaElRUDMWUjFiAhAi0RpRoSKogT%253D&language=en-JP&ui_orientation=26&version_flag=1&openidfa=74C87BBD-C675-EE2A-7651-6EBAC72835EA&ats=4MElRozGVTcsY7KbhTcBDrQThrcB4VeXDkxAR0v1RdxBJkVp6N%253D%253D&useragent=Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4&model=iPhone8%252C1&sub_ip=192.168.6.233&network_type=9 HTTP/1.1" 200 None

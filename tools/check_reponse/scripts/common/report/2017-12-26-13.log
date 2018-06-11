@@ -1,0 +1,213 @@
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] subId:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 22050
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] return_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] request_id:
+	expect is : <type 'str'> 5a41df646971945797000071
+	fact   is : <type 'str'> 5a41df696971940f20c8bb27
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] logId:
+	expect is : <type 'str'> 5a41df646971945797000071
+	fact   is : <type 'str'> 5a41df696971940f20c8bb27
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] ext_rv_template:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] created:
+	expect is : <type 'str'> 1514266467
+	fact   is : <type 'str'> 1514266473
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'str'> [[144877710,457,0,0,0]]
+	fact   is : <type 'str'> 0
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 128
+	fact   is : <type 'str'> 0
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'str'> 0
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] server_ip:
+	expect is : <type 'str'> 52.76.190.24
+	fact   is : <type 'str'> 54.169.74.166
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] useragent:
+	expect is : <type 'str'> Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4
+	fact   is : <type 'str'> 2
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] remoteIp:
+	expect is : <type 'str'> 192.168.1.75
+	fact   is : <type 'str'> 39.109.124.93
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'str'> 144877710
+	fact   is : <type 'str'> 0
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] time:
+	expect is : <type 'str'> 133427
+	fact   is : <type 'str'> 133433
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] parentSessionId:
+	expect is : <type 'str'> 5a41df638f01c31238086331
+	fact   is : <type 'str'> 5a41df696971940f206c8bb1
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> A
+2017-12-26 13:43:02 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] subId:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 22050
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] return_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] request_id:
+	expect is : <type 'str'> 5a41df646971945797000071
+	fact   is : <type 'str'> 5a41df696971940f20c8bb27
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] logId:
+	expect is : <type 'str'> 5a41df646971945797000071
+	fact   is : <type 'str'> 5a41df696971940f20c8bb27
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] ext_rv_template:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] created:
+	expect is : <type 'str'> 1514266467
+	fact   is : <type 'str'> 1514266473
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'str'> [[144877710,457,0,0,0]]
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 128
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] server_ip:
+	expect is : <type 'str'> 52.76.190.24
+	fact   is : <type 'str'> 54.169.74.166
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] useragent:
+	expect is : <type 'str'> Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4
+	fact   is : <type 'str'> 2
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] remoteIp:
+	expect is : <type 'str'> 192.168.1.75
+	fact   is : <type 'str'> 39.109.124.93
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'str'> 144877710
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] time:
+	expect is : <type 'str'> 133427
+	fact   is : <type 'str'> 133433
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] parentSessionId:
+	expect is : <type 'str'> 5a41df638f01c31238086331
+	fact   is : <type 'str'> 5a41df696971940f206c8bb1
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> A
+2017-12-26 13:45:12 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] subId:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 22050
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] return_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] request_id:
+	expect is : <type 'str'> 5a41df646971945797000071
+	fact   is : <type 'str'> 5a41df696971940f20c8bb27
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] logId:
+	expect is : <type 'str'> 5a41df646971945797000071
+	fact   is : <type 'str'> 5a41df696971940f20c8bb27
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] ext_rv_template:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] created:
+	expect is : <type 'str'> 1514266467
+	fact   is : <type 'str'> 1514266473
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'str'> [[144877710,457,0,0,0]]
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 128
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] server_ip:
+	expect is : <type 'str'> 52.76.190.24
+	fact   is : <type 'str'> 54.169.74.166
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] useragent:
+	expect is : <type 'str'> Mozilla%2F5.0%2520%28iPhone%253B%2520CPU%2520iPhone%2520OS%252010_2_1%2520like%2520Mac%2520OS%2520X%29%2520AppleWebKit%2F602.4.6%2520%28KHTML%252C%2520like%2520Gecko%29%2520Mobile%2F14D27%2520Camera360%2F8.3.4
+	fact   is : <type 'str'> 2
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] remoteIp:
+	expect is : <type 'str'> 192.168.1.75
+	fact   is : <type 'str'> 39.109.124.93
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'str'> 144877710
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] time:
+	expect is : <type 'str'> 133427
+	fact   is : <type 'str'> 133433
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] parentSessionId:
+	expect is : <type 'str'> 5a41df638f01c31238086331
+	fact   is : <type 'str'> 5a41df696971940f206c8bb1
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> A
+2017-12-26 13:45:31 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] subId:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 22050
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] return_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] ext_rv_template:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'str'> [[144877710,457,0,0,0]]
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 128
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;497
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'str'> 144877710
+	fact   is : <type 'str'> 0
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> A
+2017-12-26 13:45:50 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] subId:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 22050
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] return_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] ext_rv_template:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] template:
+	expect is : <type 'str'> 2
+	fact   is : <type 'str'> 9
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'str'> [[144877710,457,0,0,0]]
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 128
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_old_1.6.1.0;10;497
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] return_campaignIds:
+	expect is : <type 'str'> 144877710
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> A
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] imageSize:
+	expect is : <type 'str'> 1200x627
+	fact   is : <type 'str'> 0
+2017-12-26 13:57:15 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0

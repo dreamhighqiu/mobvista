@@ -1,0 +1,42 @@
+2017-12-26 16:30:34 [DEBUG] [file_utils.py:135] date:
+	expect is : <type 'str'> 2017-12-26 16:28:42
+	fact   is : <type 'str'> 2017-12-26 16:28:45
+2017-12-26 16:30:34 [DEBUG] [file_utils.py:135] ad_backend_config:
+	expect is : <type 'str'> 1:0:0
+	fact   is : <type 'str'> 0
+2017-12-26 16:30:34 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> Array
+2017-12-26 16:30:34 [DEBUG] [file_utils.py:135] true_num:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 16:30:34 [DEBUG] [file_utils.py:135] request_num:
+	expect is : <type 'str'> 30
+	fact   is : <type 'str'> 0
+2017-12-26 16:42:45 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 16:42:45 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_old_1.6.1.0;10;691
+	fact   is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;691
+2017-12-26 16:42:45 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 30
+	fact   is : <type 'str'> 0
+2017-12-26 16:42:45 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0
+2017-12-26 16:42:45 [DEBUG] [file_utils.py:135] sessionId:
+	expect is : <type 'str'> 5a4209688f01c312186ec457
+	fact   is : <type 'str'> 5a42096d69719433ca4bdaf1
+2017-12-26 16:43:00 [DEBUG] [file_utils.py:135] flow_tag_id:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 0
+2017-12-26 16:43:00 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MsysSplitGoodRanker_old_1.6.1.0;10;691
+	fact   is : <type 'str'> MsysSplitGoodRanker_new_1.6.1.0;10;691
+2017-12-26 16:43:00 [DEBUG] [file_utils.py:135] ad_num_or_jump:
+	expect is : <type 'str'> 30
+	fact   is : <type 'str'> 0
+2017-12-26 16:43:00 [DEBUG] [file_utils.py:135] algorithm:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> 0

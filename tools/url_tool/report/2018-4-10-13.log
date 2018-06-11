@@ -1,0 +1,102 @@
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 7
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] url: build p, the size of key 95 is diff to size of value 97
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] url: build r, the size of key 1 is diff to size of value 7
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] url: the value param csp is empty
+2018-04-10 13:46:08 [DEBUG] [file_utils.py:154] ========================p=========================
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] deviceBrand:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] extra17:
+	expect is : <type 'str'> 0,0
+	fact   is : <type 'str'> ,
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] screenSize:
+	expect is : <type 'str'> 0x0
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] sdkVersion:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] remoteIp:
+	expect is : <type 'str'> 39.109.124.93
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] deviceModel:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] extra3:
+	expect is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;33;18;0;18;9;1_vta_cpe_board-3_fr2_test
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;11;33;18;0;18;2;1_base-3_fr2_base
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] extra4:
+	expect is : <type 'str'> 5acc3ad0c6c1e20822533737
+	fact   is : <type 'str'> 5acc3ad0c6c1e2178095388d
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] parentSessionId:
+	expect is : <type 'str'> 5acc3ad0c6c1e20822353372
+	fact   is : <type 'str'> 5acc3ad0c6c1e2178095388f
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] sessionId:
+	expect is : <type 'str'> 5acc3ad0c6c1e20822353371
+	fact   is : <type 'str'> 5acc3ad0c6c1e2178095388e
+2018-04-10 13:46:08 [DEBUG] [file_utils.py:154] ========================mp========================
+2018-04-10 13:46:08 [DEBUG] [file_utils.py:154] ========================q=========================
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_adstacking:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] extra:
+	expect is : <type 'str'> ad_server
+	fact   is : <type 'str'> adnet_adserver
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_endcard:
+	expect is : <type 'str'> 3
+	fact   is : <type 'str'> 4
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_installFrom:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_dspRealAppid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] requestId:
+	expect is : <type 'str'> 5acc3ad0c6c1e208225337a7
+	fact   is : <type 'str'> 5acc3ad1c6c1e21780538935
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] extra5:
+	expect is : <type 'str'> 5acc3ad0c6c1e20822533737
+	fact   is : <type 'str'> 5acc3ad0c6c1e2178095388d
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] priceOut:
+	expect is : <type 'str'> 0.2
+	fact   is : <type 'str'> 0.20
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_abtest1:
+	expect is : <type 'str'> 1
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_bp:
+	expect is : <type 'str'> ["0.2","0.2",1,1]
+	fact   is : <type 'str'> ["0.20","0.20","1","1"]
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_btclass:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_deleteDevid:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_rv_template:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] priceIn:
+	expect is : <type 'str'> 0.2
+	fact   is : <type 'str'> 0.20
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_channel:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] extra7:
+	expect is : <type 'str'> A2
+	fact   is : <type 'str'> 40
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_playable:
+	expect is : <type 'str'> 
+	fact   is : <type 'str'> 0
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_cdnType:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] ext_rushNoPre:
+	expect is : <type 'str'> 0
+	fact   is : <type 'str'> 
+2018-04-10 13:46:08 [DEBUG] [file_utils.py:154] =======================csp========================
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] one side data is illegal, 
+	expect: <type 'NoneType'>	None
+	fact:<type 'dict'>	{'csp': ''}
+2018-04-10 13:46:08 [DEBUG] [file_utils.py:154] ========================r=========================
+2018-04-10 13:46:08 [INFO] [file_utils.py:152] r:
+	expect is : <type 'str'> {"gid":"dcdae75d2f70616802971a5c0f620758","tpid":402,"crat":3,"adv_crid":0,"icc":1,"glist":"404,2312343198,0,0
+	fact   is : <type 'str'> {"gid":"dcdae75d2f70616802971a5c0f620758","tpid":402,"crat":7,"adv_crid":0,"icc":1,"glist":"106,2331206822,0,1200x627

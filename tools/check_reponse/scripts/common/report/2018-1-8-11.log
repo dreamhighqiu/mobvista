@@ -1,0 +1,243 @@
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] requestType:
+	expect is : <type 'str'> OPENAPI_V3
+	fact   is : <type 'int'> 7
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] testMode:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] platform:
+	expect is : <type 'str'> IOS
+	fact   is : <type 'int'> 2
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] requestId:
+	expect is : <type 'str'> 5a52de984e52424885b36421
+	fact   is : <type 'str'> 5a52ded24e5242466a000006
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] timestamp:
+	expect is : <type 'int'> 1515380376
+	fact   is : <type 'int'> 1515380434
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] DEPRECATED_publisherType:
+	expect is : <type 'str'> M
+	fact   is : <type 'int'> 0
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] nativeInfoList:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> []
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] orientation:
+	expect is : <type 'str'> VERTICAL
+	fact   is : <type 'int'> 1
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'str'> UNKNOWN
+	fact   is : <type 'int'> 0
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] category:
+	expect is : <type 'str'> UNKNOWN
+	fact   is : <type 'int'> 0
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] powerPackList:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> []
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] cleverPackList:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> []
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] smartPVList:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> []
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] prePid:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'list'> []
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] DEPRECATED_campaignType:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 0
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] networkType:
+	expect is : <type 'str'> NET_WIFI
+	fact   is : <type 'int'> 9
+2018-01-08 11:02:06 [DEBUG] [file_utils.py:135] adSourceList:
+	expect is : <type 'list'> ['APIOFFER']
+	fact   is : <type 'list'> [1]
+2018-01-08 11:05:19 [DEBUG] [file_utils.py:135] strategy:
+	expect is : <type 'str'> MNormalAlphaModelRanker_new_1.0.0;10;497
+	fact   is : <type 'str'> MNormalAlphaModelRanker_old_1.0.0;10;497
+2018-01-08 11:05:19 [DEBUG] [file_utils.py:135] campaign_list:
+	expect is : <type 'list'> [{'adSource': 'APIOFFER', 'creativeTypeIdMap': {'APP_RATE': 115429, 'SIZE_1200x627': 115438, 'APP_DESC': 115428, 'VIDEO': 115436, 'CTA_BUTTON': 115432, 'ICON': 115434, 'APP_NAME': 115424}, 'adTemplate': 'REWARDED_VIDEO', 'btType': 'NORMALFFER', 'adElementTemplate': 'REWARDED_VIDEO', 'campaignId': 94365507, 'imageSizeId': 'SIZE_REWARDED_VIDEO', 'preclick': 0, 'creativeId': '5968aafc569ccf657c8b8db6', 'offerType': 0}]
+	fact   is : <type 'list'> [{'adSource': 1, 'creativeTypeIdMap': {'201': 115436, '405': 115434, '404': 115432, '403': 115429, '402': 115428, '401': 115424, '106': 115438}, 'adTemplate': 9, 'btType': 0, 'adElementTemplate': 501, 'campaignId': 94365507, 'imageSizeId': 8, 'preclick': 0, 'creativeId': '5968aafc569ccf657c8b8db6', 'offerType': 0}]
+2018-01-08 11:05:19 [DEBUG] [file_utils.py:135] adTemplate:
+	expect is : <type 'str'> REWARDED_VIDEO
+	fact   is : <type 'int'> 9
+2018-01-08 11:10:01 [DEBUG] [file_utils.py:135] campaign_list:
+	expect is : <type 'list'> [{'adSource': 1, 'creativeTypeIdMap': {'201': 115436, '405': 115434, '404': 115432, '403': 115429, '402': 115428, '401': 115424, '106': 115438}, 'adTemplate': 9, 'btType': 0, 'adElementTemplate': 501, 'campaignId': 94365507, 'imageSizeId': 8, 'preclick': 0, 'creativeId': '5968aafc569ccf657c8b8db6', 'offerType': 0}]
+	fact   is : <type 'list'> [{'adSource': 'APIOFFER', 'creativeTypeIdMap': {'APP_RATE': 115429, 'SIZE_1200x627': 115438, 'APP_DESC': 115428, 'VIDEO': 115436, 'CTA_BUTTON': 115432, 'ICON': 115434, 'APP_NAME': 115424}, 'adTemplate': 'REWARDED_VIDEO', 'btType': 'NORMALFFER', 'adElementTemplate': 'REWARDED_VIDEO', 'campaignId': 94365507, 'imageSizeId': 'SIZE_REWARDED_VIDEO', 'preclick': 0, 'creativeId': '5968aafc569ccf657c8b8db6', 'offerType': 0}]
+2018-01-08 11:10:01 [DEBUG] [file_utils.py:135] adTemplate:
+	expect is : <type 'int'> 9
+	fact   is : <type 'str'> REWARDED_VIDEO
+2018-01-08 11:10:01 [DEBUG] [file_utils.py:135] noneResultReason:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:01 [DEBUG] [file_utils.py:135] algoFeatInfo:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:01 [DEBUG] [file_utils.py:135] filterReason:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:01 [DEBUG] [file_utils.py:135] runTimeVariables:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] btType:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> NORMALFFER
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'int'> 8
+	fact   is : <type 'str'> SIZE_REWARDED_VIDEO
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.201:
+	expect is : <type 'int'> 115436
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.APP_RATE:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115429
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.SIZE_1200x627:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115438
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.APP_NAME:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115424
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.APP_DESC:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115428
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.405:
+	expect is : <type 'int'> 115434
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.404:
+	expect is : <type 'int'> 115432
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.403:
+	expect is : <type 'int'> 115429
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.402:
+	expect is : <type 'int'> 115428
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.401:
+	expect is : <type 'int'> 115424
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.CTA_BUTTON:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115432
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.VIDEO:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115436
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.106:
+	expect is : <type 'int'> 115438
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] creativeTypeIdMap.ICON:
+	expect is : <type 'NoneType'> None
+	fact   is : <type 'int'> 115434
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] adSource:
+	expect is : <type 'int'> 1
+	fact   is : <type 'str'> APIOFFER
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] adTemplate:
+	expect is : <type 'int'> 9
+	fact   is : <type 'str'> REWARDED_VIDEO
+2018-01-08 11:10:37 [DEBUG] [file_utils.py:135] adElementTemplate:
+	expect is : <type 'int'> 501
+	fact   is : <type 'str'> REWARDED_VIDEO
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] showedCampaignIdList:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] preclickCampaignIds:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] testMode:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] DEPRECATED_whiteCampaignIdSet:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] platform:
+	expect is : <type 'int'> 2
+	fact   is : <type 'str'> IOS
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] DEPRECATED_publisherId:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] requestId:
+	expect is : <type 'str'> 5a52e27e4e524248a6ee6c20
+	fact   is : <type 'str'> 5a52e2884e524248a761e420
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] campaignKind:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] rankerName:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] priceFloor:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] excludeIdSet:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] timestamp:
+	expect is : <type 'int'> 1515381374
+	fact   is : <type 'int'> 1515381384
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] includePackageNameSet:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] DEPRECATED_publisherType:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> M
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] requestType:
+	expect is : <type 'int'> 7
+	fact   is : <type 'str'> OPENAPI_V3
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] frameNum:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] nativeInfoList:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] DEPRECATED_excludePackageNameSet:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] videow:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] orientation:
+	expect is : <type 'int'> 1
+	fact   is : <type 'str'> VERTICAL
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> UNKNOWN
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] advertiserId:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] videoh:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] category:
+	expect is : <type 'int'> 0
+	fact   is : <type 'str'> UNKNOWN
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] powerPackList:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] cleverPackList:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] smartPVList:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] prePid:
+	expect is : <type 'list'> []
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] idCheck:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] DEPRECATED_campaignType:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] offset:
+	expect is : <type 'int'> 0
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] networkType:
+	expect is : <type 'int'> 9
+	fact   is : <type 'str'> NET_WIFI
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] installIdSet:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] DEPRECATED_excludeAdvertiserIdSet:
+	expect is : <type 'str'> null
+	fact   is : <type 'NoneType'> None
+2018-01-08 11:20:04 [DEBUG] [file_utils.py:135] adSourceList:
+	expect is : <type 'list'> [1]
+	fact   is : <type 'list'> ['APIOFFER']

@@ -1,0 +1,3 @@
+2017-12-20 10:26:09 [DEBUG] [file_utils.py:135] imageSizeId:
+	expect is : <type 'list'> [7, 8, 2, 9, 3, 6, 5, 10, 4, 11, 12]
+	fact   is : <type 'list'> [6, 8, 2, 9, 3, 6, 5, 10, 4, 11, 12]

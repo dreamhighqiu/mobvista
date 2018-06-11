@@ -1,0 +1,23 @@
+{
+  "status": 1,
+  "msg": "success",
+  "data": {
+    "ads": [
+      {
+        "id": 148160252,
+        "title": "Music Pedometer",
+        "desc": "Time for a new app? Install me now.",
+        "package_name": "com.listen.music.pedometer",
+        "icon_url": "http://cdn-adn.rayjump.com/cdn-adn/offersync/17/03/13/16/09/58c653c16c565.png",
+        "image_url": "http://cdn-adn.rayjump.com/cdn-adn/creativesync/17/07/13/00/10/596649e174843.jpg",
+        "impression_url": "http://test-net.rayjump.com/impression?k=5a151a87fe1f65302e4a989b&p=fHx8fHx8fG5hdGl2ZXwzMjB4NTB8fGFuZHJvaWR8Ni4wLjF8fHNtLWo3MDBmfHwwfHx8d2lmaXx8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTE7NTQyfDVhMTUxYTg3ZmUxZjY1MzAyZTRhOTg5Ynx8fHx8fHx8ODguMjQxLjcyLjE5MXx8fHx8fHx8MTY3Y2YzZmYtZjhkYi00ZmQ5LTliZjctNDhiZjU3YzFlMDQxfHx8fDE5Mi4xNjguMS4xNzZ8NWExNTFhODdmZTFmNjUzMDJlNDRhOTg3fDVhMTUxYTg3ZmUxZjY1MzAyZTQ0YTk4OHx8fHx8MXx8MCwwfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tinVeDnlbHrVeHUD2iAvBHnxtGnt0DgM2Dnj2ikj9fFHQikDFfniMirVTDn39GkzIfnhAi%2BMBfaR9igMTGnzIfaVb6ajTGajFiaR2igMMWUzIio9B67c3%2BbfQhgHQhgMeideVVgMwi%2BMe6acIiUNBGazIinR2inQI67KMHkPth7QIideIW%2BeSigeIiUNBGazI6dMM6aSIidMM6aSI6dMB6aRMialbfaj2iASIidMM6acI6aSI6v%3D%3D&x=0",
+        "ctype": 1,
+        "click_url": "http://tracking.whatsappbgr.com/click?mb_pl=android&mb_nt=cb441&mb_campid=ft_musicpedometer_tier3&mb_package=&aff_sub=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tinVeDnlbHrVeHUD2iAvBHnxtGnt0DgM2Dnj2ikj9fFHQikDFfniMirVTDn39GkzIfnhAi%2BMBfaR9igMTGnzIfaVb6ajTGajFiaR2igMMWUzIio9B67c3%2BbfQhgHQhgMeideVVgMwi%2BMe6acIiUNBGazIinR2inQI67KMHkPth7QIideIW%2BeSigeIiUNBGazI6dMM6aSIidMM6aSI6dMB6aRMialbfaj2iASIidMM6acI6aSI6v%3D%3D&mb_subid=24282&mb_devid=&mb_gaid=167cf3ff-f8db-4fd9-9bf7-48bf57c1e041",
+        "notice_url": "http://test-net.rayjump.com/click?k=5a151a87fe1f65302e4a98bb&p=fHx8fHx8fG5hdGl2ZXwzMjB4NTB8fGFuZHJvaWR8Ni4wLjF8fHNtLWo3MDBmfHwwfHx8d2lmaXx8fHxNTm9ybWFsQWxwaGFNb2RlbFJhbmtlcl9vbGRfMS4wLjA7MTE7NTQyfDVhMTUxYTg3ZmUxZjY1MzAyZTRhOTg5Ynx8fHx8fHx8ODguMjQxLjcyLjE5MXx8fHx8fHx8MTY3Y2YzZmYtZjhkYi00ZmQ5LTliZjctNDhiZjU3YzFlMDQxfHx8fDE5Mi4xNjguMS4xNzZ8NWExNTFhODdmZTFmNjUzMDJlNDRhOTg3fDVhMTUxYTg3ZmUxZjY1MzAyZTQ0YTk4OHx8fHx8MXx8MCwwfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHw%3D&q=a_i09M6dxQhbNwYr5TWgzt4ku2Y%2Bv%2FDFKw6a5tinVeDnlbHrVeHUD2iAvBHnxtGnt0DgM2Dnj2ikj9fFHQikDFfniMirVTDn39GkzIfnhAi%2BMBfaR9igMTGnzIfaVb6ajTGajFiaR2igMMWUzIio9B67c3%2BbfQhgHQhgMeideVVgMwi%2BMe6acIiUNBGazIinR2inQI67KMHkPth7QIideIW%2BeSigeIiUNBGazI6dMM6aSIidMM6aSI6dMB6aRMialbfaj2iASIidMM6acI6aSI6v%3D%3D&notice=1",
+        "rating": 3.8,
+        "ctatext": "Learn More",
+        "sub_category_name": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+2017-12-29 21:02:28 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-29 21:02:28 [DEBUG] [file_utils.py:135] ad_backend_data:
+	expect is : <type 'unicode'> 8:10895195759:1
+	fact   is : <type 'unicode'> 8:10895195759:1;1:160451909:0;1:132096887:0
+2017-12-29 21:02:28 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-29 21:02:28 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-29 21:05:27 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'unicode'> [[132096887,457,0,0,0],[160451909,457,0,0,0]]
+	fact   is : <type 'unicode'> [[132096887,457,99,0,0],[160451909,457,99,0,0]]
+2017-12-29 21:05:59 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:06:21 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> 2
+2017-12-29 21:07:52 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:09:00 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:10:19 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:10:19 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'unicode'> 8
+	fact   is : <type 'unicode'> 8,1
+2017-12-29 21:10:19 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-29 21:10:19 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.9.7
+	fact   is : <type 'unicode'> mi_2.9.7
+2017-12-29 21:10:19 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-29 21:32:15 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-29 21:32:15 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.8.9
+	fact   is : <type 'unicode'> mi_2.8.9
+2017-12-29 21:32:15 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1
+2017-12-29 21:33:07 [DEBUG] [file_utils.py:135] normal_campaignIds_advertiserids:
+	expect is : <type 'unicode'> [[132096887,457,0,0,0],[160451909,457,0,0,0]]
+	fact   is : <type 'unicode'> [[132096887,457,99,0,0],[160451909,457,99,0,0]]
+2017-12-29 21:33:32 [DEBUG] [file_utils.py:135] ext_priceOut:
+	expect is : <type 'unicode'> 0.9
+	fact   is : <type 'unicode'> 3
+2017-12-29 21:33:32 [DEBUG] [file_utils.py:135] ext_priceIn:
+	expect is : <type 'unicode'> 0.9
+	fact   is : <type 'unicode'> 3
+2017-12-29 21:33:32 [DEBUG] [file_utils.py:135] campaignId:
+	expect is : <type 'unicode'> 132096887
+	fact   is : <type 'unicode'> 160451909
+2017-12-29 21:33:32 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:33:32 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 1
+2017-12-29 21:33:32 [DEBUG] [file_utils.py:135] creativeId:
+	expect is : <type 'unicode'> 2178892868
+	fact   is : <type 'unicode'> 2217319231
+2017-12-29 21:34:11 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:34:11 [DEBUG] [file_utils.py:135] creativeId:
+	expect is : <type 'unicode'> 2178892868
+	fact   is : <type 'unicode'> 2178893462
+2017-12-29 21:35:41 [DEBUG] [file_utils.py:135] ext_priceOut:
+	expect is : <type 'unicode'> 0.9
+	fact   is : <type 'unicode'> 3
+2017-12-29 21:35:41 [DEBUG] [file_utils.py:135] ext_priceIn:
+	expect is : <type 'unicode'> 0.9
+	fact   is : <type 'unicode'> 3
+2017-12-29 21:35:41 [DEBUG] [file_utils.py:135] campaignId:
+	expect is : <type 'unicode'> 132096887
+	fact   is : <type 'unicode'> 160451909
+2017-12-29 21:35:41 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:35:41 [DEBUG] [file_utils.py:135] creativeId:
+	expect is : <type 'unicode'> 2178892868
+	fact   is : <type 'unicode'> 2217319231
+2017-12-29 21:36:04 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:36:04 [DEBUG] [file_utils.py:135] ext_abtest2:
+	expect is : <type 'unicode'> 1
+	fact   is : <type 'unicode'> 1
+2017-12-29 21:36:38 [DEBUG] [file_utils.py:135] ext_abtest1:
+	expect is : <type 'unicode'> 2
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:37:14 [DEBUG] [file_utils.py:135] mcc_mnc:
+	expect is : <type 'unicode'> 44050
+	fact   is : <type 'unicode'> 0
+2017-12-29 21:37:14 [DEBUG] [file_utils.py:135] ad_backend:
+	expect is : <type 'unicode'> 8
+	fact   is : <type 'unicode'> 1
+2017-12-29 21:37:14 [DEBUG] [file_utils.py:135] deviceBrand:
+	expect is : <type 'unicode'> 0
+	fact   is : <type 'unicode'> apple
+2017-12-29 21:37:14 [DEBUG] [file_utils.py:135] sdkVersion:
+	expect is : <type 'unicode'> MI_2.8.9
+	fact   is : <type 'unicode'> mi_2.8.9
+2017-12-29 21:37:14 [DEBUG] [file_utils.py:135] deviceModel:
+	expect is : <type 'unicode'> iPhone8%2C1
+	fact   is : <type 'unicode'> iphone82c1

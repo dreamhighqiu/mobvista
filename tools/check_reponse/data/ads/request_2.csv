@@ -1,0 +1,16 @@
+#name, ios ads
+http_req,2
+sign,f9036fd79119bc9fc3bd5929370122ea
+app_id,32706
+unit_id,6076
+client_ip,42.199.59.153
+platform,2
+os_version,11.0.3
+package_name,com.cybergate.secretlove2
+network_type,9
+language,ja-JP
+image_size,7
+useragent,Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+11_0_3+like+Mac+OS+X%29+AppleWebKit%2F604.1.38+%28KHTML%2C+like+Gecko%29+Mobile%2F15A432
+ad_num,5
+tnum,1
+#idfa,2587A58D-AE89-4B58-A1E5-941231971BC9

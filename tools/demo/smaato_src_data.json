@@ -1,0 +1,11 @@
+{
+    "sessionid": "ed52dae6-bcd4-4e6e-a3b5-853b665e3b5d",
+    "status": "SUCCESS",
+    "type": "RICHMEDIA",
+    "link": "",
+    "mediadata":"",
+    "target": "",
+    "width": 320,
+    "height": 480,
+    "beacons": ["http://ets-us-east-1.smaato.net/v1/view?sessionId=ed52dae6-bcd4-4e6e-a3b5-853b665e3b5d&adSourceId=559ae796-3f33-4459-b344-e9f4ce5ab8e7&originalRequestTime=1530085821115&expires=1530086061115"]
+}

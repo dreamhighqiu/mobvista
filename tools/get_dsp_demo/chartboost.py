@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 '''
-Created on ：2018/7/5:21:19
+Created on ：2018/7/5:19:15
 
 @author: yunxia.qiu
 '''
 
 import requests
+import base64
 import json
+import re
 
 def get_basic_data(url):
     download_url ="https://us01.rayjump.com/click?k=5b3acd162eada967aa40d67b&p" \
@@ -24,34 +26,44 @@ def get_basic_data(url):
     web_content = web_content.replace("swiper.js", absolute_url + "swiper.js")
     web_content = web_content.replace("这是需要集成的下载链接", download_url)
     return web_content
-
-def get_mock_json(src_path,url,des_json):
-    with open(src_path) as rf:
+def get_template_date(url, src_json, des_json):
+    with open(src_json) as rf:
         json_content_str = rf.read()
-        json_content_dict = json.loads(json_content_str)
-        #print(json_content_dict)
-
-        base_data = get_basic_data(url)
-        #print(base_data)
-        json_content_dict["mediadata"]=base_data
-        print(json_content_dict)
-
-        with open(des_json, "w") as wf:
-            wf.write(json.dumps(json_content_dict))
-
-def run(list_urls, src_path,dest_path):
+    json_content_dict = json.loads(json_content_str)
+    template_content_list = json_content_dict.get("webview").get("elements")
+ 
+    for i in template_content_list:
+        #通过adm.js找到对应的value
+        if i.get("name") == "adm.js":
+            src_template_content = i.get("value")
+            template_content = base64.b64decode(src_template_content)
+            #data_src = "<HTMLResource><![CDATA[]]>"
+            reg = r"<HTMLResource>[\s|\S]*</HTMLResource>"
+            data_src = re.findall(reg,template_content)
+            data_src=data_src[0]
+            basic_data = get_basic_data(url)
+            data_dec = "<HTMLResource><![CDATA[%s]]></HTMLResource>"%basic_data
+            print data_dec
+            template_content = template_content.replace(data_src, data_dec)
+            encode_template_data = base64.b64encode(template_content)
+            des_template_content = encode_template_data
+            json_content_str = json_content_str.replace(src_template_content, des_template_content)
+            with open(des_json, "w") as wf:
+                wf.write(json_content_str)
+            break
+def run_chartboost(list_urls, src_json, dest_path):
     for i in range(len(list_urls)):
         url = list_urls[i]
+        get_template_date(url,src_json, dest_path%str(i+1))
 
-        get_mock_json(src_path,url,dest_path%str(i+1))
 if __name__ == "__main__":
     list_url = []
-    des_json = "C:/Users/M/Desktop/dsp/newdsp/smaato/smaato_%s.json"
+    des_json = "H:/dsp/chartboost/chartboost_%s.json"
     url_1 = 'http://interactive.mintegral.com/qa_task/t176/v7/0620dspslider01_e02ec4/0620dspslider01_e02ec4.html'
     url_2 = 'http://interactive.mintegral.com/qa_task/t177/v9/0620dspslider02_6814a4/0620dspslider02_6814a4.html'
     url_3 = 'http://interactive.mintegral.com/qa_task/t178/v9/0620dspslider03_e009ac/0620dspslider03_e009ac.html'
     url_4 = 'http://interactive.mintegral.com/qa_task/t179/v9/0620dspslider04_efe90a/0620dspslider04_efe90a.html'
-    url_5="http://interactive.mintegral.com/qa_task/t180/v11/0620dspfullscreen01_762a5f/0620dspfullscreen01_762a5f.html"
+    url_5 = "http://interactive.mintegral.com/qa_task/t180/v11/0620dspfullscreen01_762a5f/0620dspfullscreen01_762a5f.html"
     url_6 = "http://interactive.mintegral.com/qa_task/t181/v13/0620dspfullscreen02_069ee7/0620dspfullscreen02_069ee7.html"
     url_7 = "http://interactive.mintegral.com/qa_task/t182/v12/0620dspfullscreen03_e68af5/0620dspfullscreen03_e68af5.html"
     url_8 = "http://interactive.mintegral.com/qa_task/t183/v12/0620dspfullscreen04_d7fcc0/0620dspfullscreen04_d7fcc0.html"
@@ -69,4 +81,5 @@ if __name__ == "__main__":
     list_url.append(url_9)
     list_url.append(url_10)
     list_url.append(url_11)
-    run(list_url, "smaato_src_data.json", des_json)
+    run_chartboost(list_url, "chartboost_basic_data.json", des_json)
+

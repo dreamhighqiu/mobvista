@@ -41,4 +41,7 @@ def get_log_info(server_type, log_type="", check_time=""):
         with open(log_param_path) as rf:
             list_param_name = rf.readlines()
         list_param_name = [_.replace('\n', '')[:-1] for _ in list_param_name if not _.startswith('#')]
+        print(root_path, log_path, list_param_name, log_time)
     return root_path, log_path, list_param_name, log_time
+
+get_log_info("1","adn_net")

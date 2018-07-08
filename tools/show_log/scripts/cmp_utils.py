@@ -177,4 +177,7 @@ def lower_dict_key(odict):
 
 
 if __name__ == "__main__":
-    pass
+    list1=[1,2,3,4,5]
+    list2=[2,4,5,67,7]
+    cmp_dict_list(list1,list2)
+    

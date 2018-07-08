@@ -1,8 +1,8 @@
 # coding=UTF-8
 
 import json
-import keyword
-print(dir(keyword))
+import keyword1
+print(dir(keyword1))
 
 dict_camp = {}
 from format_url import params2dict

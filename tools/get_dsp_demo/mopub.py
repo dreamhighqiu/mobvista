@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
 '''
-Created on ：2018/7/5:19:15
+Created on ：2018/7/6:9:39
 
 @author: yunxia.qiu
 '''
-
 import requests
-import base64
 import json
-import re
 
 def get_basic_data(url):
     download_url ="https://us01.rayjump.com/click?k=5b3acd162eada967aa40d67b&p" \
@@ -27,52 +24,18 @@ def get_basic_data(url):
     web_content = web_content.replace("这是需要集成的下载链接", download_url)
     return web_content
 
+def write_data(url,dest_path):
+    base_data=get_basic_data(url)
+    with open(dest_path,"w") as wf:
+        wf.write(base_data)
 
-def get_decode_template():
-    pass
+def run_mopub(list_data,dest_path):
+    for i in range(len(list_data)):
+        url = list_data[i]
 
-def get_template_date(url, src_json, des_json ):
-    with open(src_json) as rf:
-        json_content_str = rf.read()
-        print(json_content_str)
-    json_content_dict = json.loads(json_content_str)
-    print(json_content_dict)
-    template_content_list = json_content_dict.get("webview").get("elements")
-    for i in template_content_list:
-        if i.get("name") == "adm.js":
-            src_template_content = i.get("value")
-            template_content = base64.b64decode(src_template_content)
-            #print(template_content)
-
-            data_src = "<HTMLResource><![CDATA[]]>"
-            basic_data = get_basic_data(url)
-            data_dec = "<HTMLResource><![CDATA[%s]]>"%basic_data
-            #print(data_dec)
-            template_content = template_content.replace(data_src, data_dec)
-            #print(template_content)
-            encode_template_data = base64.b64encode(template_content)
-            #print(encode_template_data)
-            des_template_content = encode_template_data
-            json_content_str = json_content_str.replace(src_template_content, des_template_content)
-
-            print(json_content_str)
-            with open(des_json, "w") as wf:
-                wf.write(json_content_str)
-            break
-
-
-def run(list_urls, src_json, dest_path):
-    for i in range(len(list_urls)):
-        url = list_urls[i]
-
-        get_template_date(url,src_json, dest_path%str(i+1))
-
-
-
-
+        write_data(url,dest_path%str(i+1))
 if __name__ == "__main__":
     list_url = []
-    des_json = "C:/Users/M/Desktop/dsp/newdsp/chartboost/chartboost_%s.json"
     url_1 = 'http://interactive.mintegral.com/qa_task/t176/v7/0620dspslider01_e02ec4/0620dspslider01_e02ec4.html'
     url_2 = 'http://interactive.mintegral.com/qa_task/t177/v9/0620dspslider02_6814a4/0620dspslider02_6814a4.html'
     url_3 = 'http://interactive.mintegral.com/qa_task/t178/v9/0620dspslider03_e009ac/0620dspslider03_e009ac.html'
@@ -84,6 +47,7 @@ if __name__ == "__main__":
     url_9 = 'http://interactive.mintegral.com/qa_task/t184/v12/0620banner01_1faf97/0620banner01_1faf97.html'
     url_10 = 'http://interactive.mintegral.com/qa_task/t185/v19/0620banner02_7bfc5c/0620banner02_7bfc5c.html'
     url_11 = 'http://interactive.mintegral.com/qa_task/t186/v16/0620banner03_ccc1e2/0620banner03_ccc1e2.html'
+
     list_url.append(url_1)
     list_url.append(url_2)
     list_url.append(url_3)
@@ -95,5 +59,11 @@ if __name__ == "__main__":
     list_url.append(url_9)
     list_url.append(url_10)
     list_url.append(url_11)
-    run(list_url, "chartboost_basic_data.json", des_json)
+    des_path = "H:/dsp/mopub/mopub_%s.html"
+    run_mopub(list_url,des_path)
+
+
+
+
+
 

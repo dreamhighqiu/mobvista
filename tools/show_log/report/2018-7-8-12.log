@@ -1,0 +1,66 @@
+2018-07-08 12:49:15 [INFO] [file_utils.py:152] the log type provided as below:
+	{
+    "11": [
+        "/data/adn_logs/midway_tracking/click", 
+        "midway"
+    ], 
+    "10": [
+        "/data/adn_logs/midway_tracking/impression", 
+        "midway"
+    ], 
+    "13": [
+        "/data/adn_logs/stat_v3/impression", 
+        "adn"
+    ], 
+    "12": [
+        "/data/adn_logs/midway_tracking/only_impression", 
+        "midway"
+    ], 
+    "15": [
+        "/data/adn_logs/stat_v3/only_impression", 
+        "adn"
+    ], 
+    "14": [
+        "/data/adn_logs/stat_v3/click", 
+        "adn"
+    ], 
+    "1": [
+        "/data/adn_logs/adnet/corsairreq", 
+        "midway"
+    ], 
+    "3": [
+        "/data/adn_logs/adnet/request", 
+        "adn"
+    ], 
+    "2": [
+        "/data/adn_logs/corsair/request", 
+        "midway"
+    ], 
+    "5": [
+        "/data/adn_logs/adnet/request", 
+        "adn"
+    ], 
+    "4": [
+        "/data/adn_logs/stat_v3/request", 
+        "adn"
+    ], 
+    "7": [
+        "/data/adn_logs/midway_tracking/play", 
+        "midway"
+    ], 
+    "6": [
+        "/data/adn_logs/stat_v3/request", 
+        "adn"
+    ], 
+    "9": [
+        "/data/adn_logs/stat_v3/tracking_no_report", 
+        "adn"
+    ], 
+    "8": [
+        "/data/adn_logs/stat_v3/tracking", 
+        "adn"
+    ]
+}
+2018-07-08 12:49:22 [DEBUG] [file_utils.py:156] get the latest file failed: list index out of range
+2018-07-08 12:49:22 [INFO] [file_utils.py:154] The file folder is empty or no file updated in 1 minute: /data/adn_logs/stat_v3/tracking_no_report
+2018-07-08 12:49:22 [DEBUG] [file_utils.py:156] continue search current log_type

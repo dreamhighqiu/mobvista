@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 '''
-Created on ：2018/7/6:9:39
+Created on ：2018/7/5:21:19
 
 @author: yunxia.qiu
 '''
+
 import requests
 import json
 
@@ -24,18 +25,22 @@ def get_basic_data(url):
     web_content = web_content.replace("这是需要集成的下载链接", download_url)
     return web_content
 
-def write_data(url,dest_path):
-    base_data=get_basic_data(url)
-    with open(dest_path,"w") as wf:
-        wf.write(base_data)
+def get_mock_json(src_path,url,des_json):
+    with open(src_path) as rf:
+        json_content_str = rf.read()
+        json_content_dict = json.loads(json_content_str)
+        base_data = get_basic_data(url)
+        json_content_dict["mediadata"]=base_data
+        with open(des_json, "w") as wf:
+            wf.write(json.dumps(json_content_dict))
 
-def run(list_data,dest_path):
-    for i in range(len(list_data)):
-        url = list_data[i]
-
-        write_data(url,dest_path%str(i+1))
+def run_smaato(list_urls, src_path,dest_path):
+    for i in range(len(list_urls)):
+        url = list_urls[i]
+        get_mock_json(src_path,url,dest_path%str(i+1))
 if __name__ == "__main__":
     list_url = []
+    des_json = "H:/dsp/smaato/smaato_%s.json"
     url_1 = 'http://interactive.mintegral.com/qa_task/t176/v7/0620dspslider01_e02ec4/0620dspslider01_e02ec4.html'
     url_2 = 'http://interactive.mintegral.com/qa_task/t177/v9/0620dspslider02_6814a4/0620dspslider02_6814a4.html'
     url_3 = 'http://interactive.mintegral.com/qa_task/t178/v9/0620dspslider03_e009ac/0620dspslider03_e009ac.html'
@@ -47,7 +52,6 @@ if __name__ == "__main__":
     url_9 = 'http://interactive.mintegral.com/qa_task/t184/v12/0620banner01_1faf97/0620banner01_1faf97.html'
     url_10 = 'http://interactive.mintegral.com/qa_task/t185/v19/0620banner02_7bfc5c/0620banner02_7bfc5c.html'
     url_11 = 'http://interactive.mintegral.com/qa_task/t186/v16/0620banner03_ccc1e2/0620banner03_ccc1e2.html'
-
     list_url.append(url_1)
     list_url.append(url_2)
     list_url.append(url_3)
@@ -59,11 +63,4 @@ if __name__ == "__main__":
     list_url.append(url_9)
     list_url.append(url_10)
     list_url.append(url_11)
-    des_path = "C:/Users/M/Desktop/dsp/newdsp/mopub/mopub_%s.html"
-    run(list_url,des_path)
-
-
-
-
-
-
+    run_smaato(list_url, "smaato_src_data.json", des_json)
